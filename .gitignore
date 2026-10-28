@@ -1,0 +1,46 @@
+# Operating system / editor files
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+
+# Local credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.ssh/
+configs/local.*
+
+# Python caches / environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Build output
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.dylib
+
+# Downloaded upstream code and datasets
+external/*
+!external/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.hyp
+*.tar.gz
+*.zip
+
+# Generated results are opt-in for publication
+results/*
+!results/README.md
