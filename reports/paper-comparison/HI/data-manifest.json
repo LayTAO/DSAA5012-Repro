@@ -1,0 +1,72 @@
+{
+  "candidate_paper_id": "HI",
+  "source": {
+    "name": "coauth-MAG-History-full",
+    "drive_id": "1KBSQyz6BVO1HM6tjCGh8aLcugNW9pDjA",
+    "source_page": "https://www.cs.cornell.edu/~arb/data/coauth-MAG-History/"
+  },
+  "archive_sha256": "920e44df69e2a908f2dad68692b0cae04f36ff22aea467ac490478a7503de07e",
+  "archive_bytes": 106174172,
+  "temporal": {
+    "timestamped_simplices": 1813147,
+    "incidences_before_edge_dedup": 2398702,
+    "duplicate_members_removed": 0
+  },
+  "unique": {
+    "unique_vertices": 1034876,
+    "max_vertex_id": 1034876,
+    "min_vertex_id": 1,
+    "unique_edges": 896291,
+    "incidences": 1406388,
+    "singleton_edges": 643356,
+    "vertices_after_singleton_removal": 503868,
+    "edges_after_singleton_removal": 252935,
+    "max_edge_size": 925,
+    "upstream_array_nodes": 1034877,
+    "upstream_array_edges": 896293
+  },
+  "paper_table4": {
+    "id": "HI",
+    "name": "Coauth-MAG-History",
+    "reported_n": 1034877,
+    "reported_m": 896293,
+    "degree_mean": 1.4,
+    "edge_size_mean": 1.6,
+    "neighbors_mean": 5.2,
+    "raw_size_GB": 0.02
+  },
+  "paper_count_match": {
+    "true_counts_match": false,
+    "upstream_array_counts_match": true
+  },
+  "preprocessing": "deduplicate ordered timestamped vertex lists; author org (sort members, drop singleton edges, map IDs before dropping); author sortEV desc asc; preserve resulting ID gaps",
+  "processed": {
+    "vertices": 503868,
+    "edges": 252935,
+    "incidences": 763032,
+    "max_edge_size": 925,
+    "max_vertex_id": 1034875,
+    "dense_vertex_ids": false,
+    "sha256": "ab3b8a00895e60d782388ddcdac831d9e07d3be82d691eb9deb92b4e03e2a4ae",
+    "bytes": 5463450
+  },
+  "commands": [
+    [
+      "${PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${PROJECT_ROOT}/data/processed/cornell-HI-ordered/author-input.hyp",
+      "org"
+    ],
+    [
+      "${PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${PROJECT_ROOT}/data/processed/cornell-HI-ordered/author-input.hyp",
+      "sortEV",
+      "desc",
+      "asc"
+    ]
+  ],
+  "bundled_equivalence": {
+    "canonical_text_equal_without_graph_isomorphism_test": false,
+    "bundled_canonical_sha256": "40477faea424fc9f6f4b3281345be516b11686861029d86b3954ce0aca1c0531",
+    "converted_canonical_sha256": "ad56b16add673fb4ecc26b03edf57457f4e4e1f24871ec3a84585bfed4c4d0f2"
+  }
+}

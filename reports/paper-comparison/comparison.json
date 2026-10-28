@@ -1,0 +1,66 @@
+[
+  {
+    "dataset": "HI",
+    "measured_total_speedup": 6.99043293379281,
+    "paper_total_speedup_estimate": 7.142857142857142,
+    "measured_execution_speedup": 3.0926661214109106,
+    "paper_execution_speedup_estimate": 2.7777777777777777,
+    "measured_memory_ratio": 11.27922403372741,
+    "paper_memory_ratio_estimate": 10.833333333333334,
+    "measured_total_before_export_wall_speedup": 6.041094696397722,
+    "execution_ablation_s": {
+      "sigmod_3": 0.30639466666666665,
+      "sigmod_2": 0.04658093333333333,
+      "sigmod_1": 0.05226906666666667,
+      "sigmod_0": 0.0353351
+    }
+  },
+  {
+    "dataset": "CO",
+    "measured_total_speedup": 4.647219483477218,
+    "paper_total_speedup_estimate": 5.306122448979592,
+    "measured_execution_speedup": 4.549995622743077,
+    "paper_execution_speedup_estimate": 5.88235294117647,
+    "measured_memory_ratio": 5.27962308598351,
+    "paper_memory_ratio_estimate": 5.882352941176471,
+    "measured_total_before_export_wall_speedup": 4.454507954313861,
+    "execution_ablation_s": {
+      "sigmod_3": 1.0592933333333334,
+      "sigmod_2": 1.05731,
+      "sigmod_1": 0.5251056666666667,
+      "sigmod_0": 0.5216356666666667
+    }
+  },
+  {
+    "dataset": "DB",
+    "measured_total_speedup": 8.248279379432503,
+    "paper_total_speedup_estimate": 6.666666666666666,
+    "measured_execution_speedup": 10.800497638128364,
+    "paper_execution_speedup_estimate": 9.294117647058824,
+    "measured_memory_ratio": 9.500558896444918,
+    "paper_memory_ratio_estimate": 10.476190476190476,
+    "measured_total_before_export_wall_speedup": 7.0731837620355416,
+    "execution_ablation_s": {
+      "sigmod_3": 13.5153,
+      "sigmod_2": 7.5851766666666665,
+      "sigmod_1": 1.21611,
+      "sigmod_0": 1.1346933333333333
+    }
+  },
+  {
+    "dataset": "AM",
+    "measured_total_speedup": 5.921852805706547,
+    "paper_total_speedup_estimate": 5.705882352941177,
+    "measured_execution_speedup": 6.335558841818866,
+    "paper_execution_speedup_estimate": 6.222222222222222,
+    "measured_memory_ratio": 13.470467910139993,
+    "paper_memory_ratio_estimate": 13.5,
+    "measured_total_before_export_wall_speedup": 6.179722794441868,
+    "execution_ablation_s": {
+      "sigmod_3": 57.89383333333333,
+      "sigmod_2": 14.793800000000001,
+      "sigmod_1": 6.2124500000000005,
+      "sigmod_0": 5.783896666666667
+    }
+  }
+]

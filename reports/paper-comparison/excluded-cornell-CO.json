@@ -1,0 +1,67 @@
+{
+  "candidate_paper_id": "CO",
+  "source": {
+    "name": "congress-bills-full",
+    "drive_id": "1FYu5367ijQLDjyGigbf709YpbjocYxif",
+    "source_page": "https://www.cs.cornell.edu/~arb/data/congress-bills/"
+  },
+  "archive_sha256": "a82d5ab1365542efc2094c444a4f0b6e5b5d3cc822d04a6ae8fc74a2673b470a",
+  "archive_bytes": 3142525,
+  "temporal": {
+    "timestamped_simplices": 282049,
+    "incidences_before_edge_dedup": 2441799,
+    "duplicate_members_removed": 0
+  },
+  "unique": {
+    "unique_vertices": 1718,
+    "max_vertex_id": 1718,
+    "min_vertex_id": 1,
+    "unique_edges": 106034,
+    "incidences": 2211135,
+    "singleton_edges": 1694,
+    "vertices_after_singleton_removal": 1718,
+    "edges_after_singleton_removal": 104340,
+    "max_edge_size": 400,
+    "upstream_array_nodes": 1719,
+    "upstream_array_edges": 106036
+  },
+  "paper_table4": {
+    "id": "CO",
+    "name": "Congress-bills",
+    "reported_n": 3286,
+    "reported_m": 83107,
+    "degree_mean": 222.9,
+    "edge_size_mean": 8.8,
+    "neighbors_mean": 333.0,
+    "raw_size_GB": 0.01
+  },
+  "paper_count_match": {
+    "true_counts_match": false,
+    "upstream_array_counts_match": false
+  },
+  "preprocessing": "deduplicate ordered timestamped vertex lists; author org (sort members, drop singleton edges, map IDs before dropping); author sortEV desc asc; preserve resulting ID gaps",
+  "processed": {
+    "vertices": 1718,
+    "edges": 104340,
+    "incidences": 2209441,
+    "max_edge_size": 400,
+    "max_vertex_id": 1718,
+    "dense_vertex_ids": true,
+    "sha256": "abd7b0532e2423da23d470a261e3e6e82afb35c4007488494a37f6a91a6b8ad4",
+    "bytes": 10284214
+  },
+  "commands": [
+    [
+      "${PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${PROJECT_ROOT}/data/processed/cornell-CO-ordered/author-input.hyp",
+      "org"
+    ],
+    [
+      "${PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${PROJECT_ROOT}/data/processed/cornell-CO-ordered/author-input.hyp",
+      "sortEV",
+      "desc",
+      "asc"
+    ]
+  ]
+}

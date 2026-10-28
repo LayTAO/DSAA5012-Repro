@@ -1,0 +1,14 @@
+{
+  "scripts/benchmark.py": "905aa8557d8634378a972fc9389a5397f4ac03dab54e2466e0b32298b71cf059",
+  "scripts/prepare_cornell.py": "0621d716e916ed78b0727e12bc4b69c1f580193cee45143ae14603b9f70c4b8d",
+  "scripts/prepare_author_data.py": "b0902624f9d0889c479dd7015fe34ae21edb84ee74419238b4f711c2014c239f",
+  "scripts/run_paper_batch.py": "99e63e0c254c7277a25c6e0778d3b7a2a43f498cccc356129d45d9948a076504",
+  "scripts/fetch_data.py": "c0229845648adeb49ae9bdf90b7ba0e55f1a97421e9528844a6c549a9de81d1c",
+  "scripts/build_drivers.sh": "87792274f656744b87322ca7efecefb0bc843c2878efbb5bfc2ca457378b4d7e",
+  "scripts/build_native.sh": "70ad6a9128a2164c22a8ab7854b3ced62f546eda39e349f4db9704171b79277b",
+  "scripts/digitize_paper.py": "76ee0940dd6b881b2ee7c05fd8f7ebff620ac2b494aa1e9e4d6dc15b0297f9b6",
+  "scripts/report_paper_results.py": "fdfda86046d595b1275a1fa20d3ce4849e9b719090676f1788b2ad2c109ba439",
+  "src/drivers/vldb.cpp": "dceaec54d21f581230dd03260806f450631217b4ff11b9c4d3273de1cf80b6ba",
+  "src/drivers/metrics.h": "e44075d006efe273b8317f4e15586b51cd36bf8901c7a36419c4a818a309cca1",
+  "src/drivers/sigmod.cpp": "5e95119aba78d54bd2c0ed152f746a3483d124cb6b2b3f8f748ce7895f102eac"
+}

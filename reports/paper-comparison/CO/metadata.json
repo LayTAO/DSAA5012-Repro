@@ -1,0 +1,77 @@
+{
+  "recorded_at_utc": "2026-10-28T06:50:23.427635+00:00",
+  "input": "${PROJECT_ROOT}/data/processed/author-CO/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+  "data": {
+    "vertices": 1718,
+    "edges": 83105,
+    "incidences": 732300,
+    "max_edge_size": 25,
+    "max_vertex_id": 1718,
+    "dense_vertex_ids": true,
+    "sha256": "bd245b80cf262b2ec6f2daa4044954da5dfe6b8d350e8a6c7cdf35bd385da918",
+    "bytes": 3358867
+  },
+  "methods": [
+    {
+      "id": "sigmod_0",
+      "label": "HyperCD*",
+      "binary": "sigmod",
+      "argument": "0"
+    },
+    {
+      "id": "sigmod_1",
+      "label": "HyperCD+ with RUC",
+      "binary": "sigmod",
+      "argument": "1"
+    },
+    {
+      "id": "sigmod_2",
+      "label": "HyperCD+ with lower bound",
+      "binary": "sigmod",
+      "argument": "2"
+    },
+    {
+      "id": "sigmod_3",
+      "label": "HyperCD+",
+      "binary": "sigmod",
+      "argument": "3"
+    },
+    {
+      "id": "sigmod_4",
+      "label": "HyperCD (SIGMOD implementation)",
+      "binary": "sigmod",
+      "argument": "4"
+    },
+    {
+      "id": "sigmod_5",
+      "label": "HyperCD++ (SIGMOD implementation)",
+      "binary": "sigmod",
+      "argument": "5"
+    },
+    {
+      "id": "vldb_OPTIV",
+      "label": "VLDB Local-core-OPTIV",
+      "binary": "vldb",
+      "argument": "OPTIV"
+    }
+  ],
+  "profile": "paper",
+  "primary_aggregate": "mean",
+  "timing_note": "Reported total = author init + iteration timers; CPU/wall clock labeled separately. Driver wall timings retained.",
+  "paper_profile_sha256": "77423dc471b37be765681e75db94e3d32b3d632f9ef75c6032c39815e77cb43a",
+  "repetitions": 3,
+  "cpu": 0,
+  "seed": 5012,
+  "timeout_s": 21600,
+  "memory_limit_gib": 32,
+  "load_average_start": [
+    16.462890625,
+    9.25830078125,
+    10.27783203125
+  ],
+  "threads": 1,
+  "binary_sha256": {
+    "sigmod": "0d0c558d01db77b45bf3cc1bbb0eb1231316a0945c675bdb7c3d081e42c19b1a",
+    "vldb": "87bbd5527834740854e8429f89da2722208ae30084f01d1d7c97c4ff019cbc8c"
+  }
+}

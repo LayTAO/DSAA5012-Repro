@@ -1,0 +1,1657 @@
+{
+  "doi": "10.1145/3709656",
+  "source_pdf_sha256": "7197f042ee1a3384705fceda4c4dbf4b454e01615e14256c9a239cc9a00d1268",
+  "pdf_page": 21,
+  "kind": "estimates_from_published_vector_graphics",
+  "precision_note": "Values are rounded to two significant figures. They are not author-supplied raw observations.",
+  "method": "Deduplicate stroked bar rectangles; sort by x; use the visually checked legend/group order; calibrate log10 y from major tick coordinates; mask OOM/OOT placeholders.",
+  "panels": [
+    {
+      "figure": 4,
+      "unit": "seconds",
+      "major_ticks_top_pt": [
+        151.63833,
+        142.41956,
+        133.20057,
+        123.98158,
+        114.76283,
+        105.54384
+      ],
+      "bottom_tick_log10": -1,
+      "points_per_decade": 9.218898,
+      "values": [
+        {
+          "dataset": "HI",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 1.0,
+          "bar_left_pt": 81.44412094,
+          "bar_top_pt": 142.37123599999995
+        },
+        {
+          "dataset": "HI",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 2.0,
+          "bar_left_pt": 82.8943219,
+          "bar_top_pt": 139.59201799999994
+        },
+        {
+          "dataset": "HI",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 0.53,
+          "bar_left_pt": 84.34427248,
+          "bar_top_pt": 144.95015
+        },
+        {
+          "dataset": "HI",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 0.36,
+          "bar_left_pt": 85.79447344,
+          "bar_top_pt": 146.50250600000004
+        },
+        {
+          "dataset": "HI",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 0.14,
+          "bar_left_pt": 87.24467440000001,
+          "bar_top_pt": 150.23316799999998
+        },
+        {
+          "dataset": "CO",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 2.6,
+          "bar_left_pt": 90.50762656,
+          "bar_top_pt": 138.59049800000003
+        },
+        {
+          "dataset": "CO",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 2.9,
+          "bar_left_pt": 91.95782752,
+          "bar_top_pt": 138.214928
+        },
+        {
+          "dataset": "CO",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 0.68,
+          "bar_left_pt": 93.4077781,
+          "bar_top_pt": 143.94862999999998
+        },
+        {
+          "dataset": "CO",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 27.0,
+          "bar_left_pt": 94.85797905999999,
+          "bar_top_pt": 129.22628599999996
+        },
+        {
+          "dataset": "CO",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 0.49,
+          "bar_left_pt": 96.30818002000001,
+          "bar_top_pt": 145.25060599999995
+        },
+        {
+          "dataset": "GE",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 6.8,
+          "bar_left_pt": 99.57113218,
+          "bar_top_pt": 134.734646
+        },
+        {
+          "dataset": "GE",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 11.0,
+          "bar_left_pt": 101.02108276,
+          "bar_top_pt": 132.75664399999994
+        },
+        {
+          "dataset": "GE",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 2.7,
+          "bar_left_pt": 102.47128372,
+          "bar_top_pt": 138.44026999999994
+        },
+        {
+          "dataset": "GE",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 1.7,
+          "bar_left_pt": 103.92148468,
+          "bar_top_pt": 140.31812000000002
+        },
+        {
+          "dataset": "GE",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 1.1,
+          "bar_left_pt": 105.37168564000001,
+          "bar_top_pt": 142.19597
+        },
+        {
+          "dataset": "DB",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 14.0,
+          "bar_left_pt": 108.63463780000001,
+          "bar_top_pt": 131.78016200000002
+        },
+        {
+          "dataset": "DB",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 21.0,
+          "bar_left_pt": 110.08483876,
+          "bar_top_pt": 130.202768
+        },
+        {
+          "dataset": "DB",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 8.5,
+          "bar_left_pt": 111.53478934,
+          "bar_top_pt": 133.83327799999995
+        },
+        {
+          "dataset": "DB",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 3.5,
+          "bar_left_pt": 112.98499029999999,
+          "bar_top_pt": 137.38867400000004
+        },
+        {
+          "dataset": "DB",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 2.1,
+          "bar_left_pt": 114.43519126000001,
+          "bar_top_pt": 139.49186599999996
+        },
+        {
+          "dataset": "DF",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 33.0,
+          "bar_left_pt": 117.69814342000001,
+          "bar_top_pt": 128.42507
+        },
+        {
+          "dataset": "DF",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 39.0,
+          "bar_left_pt": 119.148094,
+          "bar_top_pt": 127.72400600000003
+        },
+        {
+          "dataset": "DF",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 20.0,
+          "bar_left_pt": 120.59829496,
+          "bar_top_pt": 130.47818599999994
+        },
+        {
+          "dataset": "DF",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 5.6,
+          "bar_left_pt": 122.04849592000001,
+          "bar_top_pt": 135.53586199999995
+        },
+        {
+          "dataset": "DF",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 3.4,
+          "bar_left_pt": 123.49869688000001,
+          "bar_top_pt": 137.48882600000002
+        },
+        {
+          "dataset": "THS",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 100.0,
+          "bar_left_pt": 126.76139866000001,
+          "bar_top_pt": 123.79304000000002
+        },
+        {
+          "dataset": "THS",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 120.0,
+          "bar_left_pt": 128.21159962000002,
+          "bar_top_pt": 123.24220400000002
+        },
+        {
+          "dataset": "THS",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 53.0,
+          "bar_left_pt": 129.66180058,
+          "bar_top_pt": 126.54721999999992
+        },
+        {
+          "dataset": "THS",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 17.0,
+          "bar_left_pt": 131.11200154,
+          "bar_top_pt": 131.05405999999994
+        },
+        {
+          "dataset": "THS",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 10.0,
+          "bar_left_pt": 132.5622025,
+          "bar_top_pt": 133.032062
+        },
+        {
+          "dataset": "AM",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 97.0,
+          "bar_left_pt": 135.82515466,
+          "bar_top_pt": 124.11853399999995
+        },
+        {
+          "dataset": "AM",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 220.0,
+          "bar_left_pt": 137.27510524000002,
+          "bar_top_pt": 120.73840399999995
+        },
+        {
+          "dataset": "AM",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 54.0,
+          "bar_left_pt": 138.7253062,
+          "bar_top_pt": 126.44706799999994
+        },
+        {
+          "dataset": "AM",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 30.0,
+          "bar_left_pt": 140.17550716,
+          "bar_top_pt": 128.77560199999994
+        },
+        {
+          "dataset": "AM",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 17.0,
+          "bar_left_pt": 141.62570812,
+          "bar_top_pt": 131.00398399999995
+        },
+        {
+          "dataset": "TAS",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 140.0,
+          "bar_left_pt": 144.8884099,
+          "bar_top_pt": 122.54114000000004
+        },
+        {
+          "dataset": "TAS",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 620.0,
+          "bar_left_pt": 146.33861086000002,
+          "bar_top_pt": 116.68224799999996
+        },
+        {
+          "dataset": "TAS",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 76.0,
+          "bar_left_pt": 147.78881182,
+          "bar_top_pt": 125.09501599999999
+        },
+        {
+          "dataset": "TAS",
+          "method": "sigmod_5",
+          "status": "OOT",
+          "estimate": null,
+          "bar_left_pt": 149.23901278,
+          "bar_top_pt": 98.52969799999994
+        },
+        {
+          "dataset": "TAS",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 36.0,
+          "bar_left_pt": 150.68921374,
+          "bar_top_pt": 128.09957599999996
+        },
+        {
+          "dataset": "AMZ",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 2100.0,
+          "bar_left_pt": 153.95191552,
+          "bar_top_pt": 111.72472399999992
+        },
+        {
+          "dataset": "AMZ",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 13000.0,
+          "bar_left_pt": 155.40211648000002,
+          "bar_top_pt": 104.41362800000002
+        },
+        {
+          "dataset": "AMZ",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 630.0,
+          "bar_left_pt": 156.85231744,
+          "bar_top_pt": 116.60713399999997
+        },
+        {
+          "dataset": "AMZ",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 620.0,
+          "bar_left_pt": 158.3025184,
+          "bar_top_pt": 116.70728599999995
+        },
+        {
+          "dataset": "AMZ",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 470.0,
+          "bar_left_pt": 159.75271936000001,
+          "bar_top_pt": 117.75888199999997
+        },
+        {
+          "dataset": "SOA",
+          "method": "vldb_OPTIV",
+          "status": "OOM",
+          "estimate": null,
+          "bar_left_pt": 163.01567152,
+          "bar_top_pt": 96.32635400000004
+        },
+        {
+          "dataset": "SOA",
+          "method": "sigmod_4",
+          "status": "OOM",
+          "estimate": null,
+          "bar_left_pt": 164.46562210000002,
+          "bar_top_pt": 96.32635400000004
+        },
+        {
+          "dataset": "SOA",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 490.0,
+          "bar_left_pt": 165.91582306,
+          "bar_top_pt": 117.583616
+        },
+        {
+          "dataset": "SOA",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 1700.0,
+          "bar_left_pt": 167.36602402,
+          "bar_top_pt": 112.57601599999998
+        },
+        {
+          "dataset": "SOA",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 500.0,
+          "bar_left_pt": 168.81622498000002,
+          "bar_top_pt": 117.55857800000001
+        }
+      ]
+    },
+    {
+      "figure": 5,
+      "unit": "seconds",
+      "major_ticks_top_pt": [
+        147.95834,
+        139.42927,
+        130.90033,
+        122.37138,
+        113.84219,
+        105.31324
+      ],
+      "bottom_tick_log10": -1,
+      "points_per_decade": 8.52902,
+      "values": [
+        {
+          "dataset": "HI",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 0.15,
+          "bar_left_pt": 210.13062474,
+          "bar_top_pt": 146.45242999999994
+        },
+        {
+          "dataset": "HI",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 1.1,
+          "bar_left_pt": 211.5808257,
+          "bar_top_pt": 139.14133400000003
+        },
+        {
+          "dataset": "HI",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 0.45,
+          "bar_left_pt": 213.03102666,
+          "bar_top_pt": 142.39627399999995
+        },
+        {
+          "dataset": "HI",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 0.28,
+          "bar_left_pt": 214.48097724000002,
+          "bar_top_pt": 144.14893399999994
+        },
+        {
+          "dataset": "HI",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 0.054,
+          "bar_left_pt": 215.9311782,
+          "bar_top_pt": 150.25820599999997
+        },
+        {
+          "dataset": "CO",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 2.0,
+          "bar_left_pt": 219.19387998,
+          "bar_top_pt": 136.78776199999993
+        },
+        {
+          "dataset": "CO",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 2.5,
+          "bar_left_pt": 220.64408094,
+          "bar_top_pt": 136.08669799999996
+        },
+        {
+          "dataset": "CO",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 0.53,
+          "bar_left_pt": 222.0942819,
+          "bar_top_pt": 141.79536199999995
+        },
+        {
+          "dataset": "CO",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 27.0,
+          "bar_left_pt": 223.54423248,
+          "bar_top_pt": 127.24828400000001
+        },
+        {
+          "dataset": "CO",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 0.34,
+          "bar_left_pt": 224.99443344,
+          "bar_top_pt": 143.44786999999997
+        },
+        {
+          "dataset": "GE",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 2.4,
+          "bar_left_pt": 228.25713522,
+          "bar_top_pt": 136.26196400000003
+        },
+        {
+          "dataset": "GE",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 6.0,
+          "bar_left_pt": 229.70733618,
+          "bar_top_pt": 132.78168199999993
+        },
+        {
+          "dataset": "GE",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 2.0,
+          "bar_left_pt": 231.15753714,
+          "bar_top_pt": 136.86287600000003
+        },
+        {
+          "dataset": "GE",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 0.96,
+          "bar_left_pt": 232.60748772,
+          "bar_top_pt": 139.56697999999994
+        },
+        {
+          "dataset": "GE",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 0.34,
+          "bar_left_pt": 234.05768868,
+          "bar_top_pt": 143.42283199999997
+        },
+        {
+          "dataset": "DB",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 7.9,
+          "bar_left_pt": 237.32039046,
+          "bar_top_pt": 131.78016200000002
+        },
+        {
+          "dataset": "DB",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 14.0,
+          "bar_left_pt": 238.77059142000002,
+          "bar_top_pt": 129.576818
+        },
+        {
+          "dataset": "DB",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 7.4,
+          "bar_left_pt": 240.220542,
+          "bar_top_pt": 132.00550399999997
+        },
+        {
+          "dataset": "DB",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 2.4,
+          "bar_left_pt": 241.67074295999998,
+          "bar_top_pt": 136.11173599999995
+        },
+        {
+          "dataset": "DB",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 0.85,
+          "bar_left_pt": 243.12094392,
+          "bar_top_pt": 140.04270199999996
+        },
+        {
+          "dataset": "DF",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 24.0,
+          "bar_left_pt": 246.3836457,
+          "bar_top_pt": 127.72400600000003
+        },
+        {
+          "dataset": "DF",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 29.0,
+          "bar_left_pt": 247.83384666,
+          "bar_top_pt": 126.92278999999996
+        },
+        {
+          "dataset": "DF",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 18.0,
+          "bar_left_pt": 249.28379724,
+          "bar_top_pt": 128.72552599999995
+        },
+        {
+          "dataset": "DF",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 3.9,
+          "bar_left_pt": 250.7339982,
+          "bar_top_pt": 134.40915199999995
+        },
+        {
+          "dataset": "DF",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 1.6,
+          "bar_left_pt": 252.18419916,
+          "bar_top_pt": 137.614016
+        },
+        {
+          "dataset": "THS",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 80.0,
+          "bar_left_pt": 255.44690094,
+          "bar_top_pt": 123.21716600000002
+        },
+        {
+          "dataset": "THS",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 96.0,
+          "bar_left_pt": 256.8971019,
+          "bar_top_pt": 122.51610199999993
+        },
+        {
+          "dataset": "THS",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 48.0,
+          "bar_left_pt": 258.34705248,
+          "bar_top_pt": 125.06997799999999
+        },
+        {
+          "dataset": "THS",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 12.0,
+          "bar_left_pt": 259.79725344,
+          "bar_top_pt": 130.102616
+        },
+        {
+          "dataset": "THS",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 5.6,
+          "bar_left_pt": 261.24745440000004,
+          "bar_top_pt": 133.032062
+        },
+        {
+          "dataset": "AM",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 28.0,
+          "bar_left_pt": 264.51015618,
+          "bar_top_pt": 127.09805600000004
+        },
+        {
+          "dataset": "AM",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 140.0,
+          "bar_left_pt": 265.96035714,
+          "bar_top_pt": 121.08893599999999
+        },
+        {
+          "dataset": "AM",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 42.0,
+          "bar_left_pt": 267.41030772,
+          "bar_top_pt": 125.595776
+        },
+        {
+          "dataset": "AM",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 18.0,
+          "bar_left_pt": 268.86050868,
+          "bar_top_pt": 128.72552599999995
+        },
+        {
+          "dataset": "AM",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 4.5,
+          "bar_left_pt": 270.31070964,
+          "bar_top_pt": 133.83327799999995
+        },
+        {
+          "dataset": "TAS",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 120.0,
+          "bar_left_pt": 273.57341142,
+          "bar_top_pt": 121.56465800000001
+        },
+        {
+          "dataset": "TAS",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 600.0,
+          "bar_left_pt": 275.023362,
+          "bar_top_pt": 115.73080400000003
+        },
+        {
+          "dataset": "TAS",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 72.0,
+          "bar_left_pt": 276.47356296,
+          "bar_top_pt": 123.59273599999995
+        },
+        {
+          "dataset": "TAS",
+          "method": "sigmod_5",
+          "status": "OOT",
+          "estimate": null,
+          "bar_left_pt": 277.92376392,
+          "bar_top_pt": 101.40906799999993
+        },
+        {
+          "dataset": "TAS",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 31.0,
+          "bar_left_pt": 279.3737145,
+          "bar_top_pt": 126.67241000000001
+        },
+        {
+          "dataset": "AMZ",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 440.0,
+          "bar_left_pt": 282.63666666,
+          "bar_top_pt": 116.90759000000003
+        },
+        {
+          "dataset": "AMZ",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 11000.0,
+          "bar_left_pt": 284.08661724,
+          "bar_top_pt": 104.96446400000002
+        },
+        {
+          "dataset": "AMZ",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 190.0,
+          "bar_left_pt": 285.53681819999997,
+          "bar_top_pt": 119.93718799999999
+        },
+        {
+          "dataset": "AMZ",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 170.0,
+          "bar_left_pt": 286.98701916,
+          "bar_top_pt": 120.36283400000002
+        },
+        {
+          "dataset": "AMZ",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 23.0,
+          "bar_left_pt": 288.43696974,
+          "bar_top_pt": 127.849196
+        },
+        {
+          "dataset": "SOA",
+          "method": "vldb_OPTIV",
+          "status": "OOM",
+          "estimate": null,
+          "bar_left_pt": 291.6999219,
+          "bar_top_pt": 96.80207599999994
+        },
+        {
+          "dataset": "SOA",
+          "method": "sigmod_4",
+          "status": "OOM",
+          "estimate": null,
+          "bar_left_pt": 293.14987248,
+          "bar_top_pt": 96.80207599999994
+        },
+        {
+          "dataset": "SOA",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 18.0,
+          "bar_left_pt": 294.60007344,
+          "bar_top_pt": 128.77560199999994
+        },
+        {
+          "dataset": "SOA",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 1200.0,
+          "bar_left_pt": 296.05027440000003,
+          "bar_top_pt": 113.051738
+        },
+        {
+          "dataset": "SOA",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 4.5,
+          "bar_left_pt": 297.50022498,
+          "bar_top_pt": 133.88335399999994
+        }
+      ]
+    },
+    {
+      "figure": 6,
+      "unit": "MB as labeled in paper",
+      "major_ticks_top_pt": [
+        151.75393,
+        141.26381,
+        130.77338,
+        120.28321,
+        109.79304
+      ],
+      "bottom_tick_log10": 1,
+      "points_per_decade": 10.490222499999998,
+      "values": [
+        {
+          "dataset": "HI",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 780.0,
+          "bar_left_pt": 338.72323756,
+          "bar_top_pt": 131.93039
+        },
+        {
+          "dataset": "HI",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 530.0,
+          "bar_left_pt": 340.17469042,
+          "bar_top_pt": 133.632974
+        },
+        {
+          "dataset": "HI",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 64.0,
+          "bar_left_pt": 341.62639365999996,
+          "bar_top_pt": 143.272604
+        },
+        {
+          "dataset": "HI",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 72.0,
+          "bar_left_pt": 343.07784652,
+          "bar_top_pt": 142.746806
+        },
+        {
+          "dataset": "HI",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 72.0,
+          "bar_left_pt": 344.52929938,
+          "bar_top_pt": 142.746806
+        },
+        {
+          "dataset": "CO",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 100.0,
+          "bar_left_pt": 347.79525609999996,
+          "bar_top_pt": 141.14437399999997
+        },
+        {
+          "dataset": "CO",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 170.0,
+          "bar_left_pt": 349.24695934,
+          "bar_top_pt": 138.81583999999998
+        },
+        {
+          "dataset": "CO",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 17.0,
+          "bar_left_pt": 350.6984122,
+          "bar_top_pt": 149.38187600000003
+        },
+        {
+          "dataset": "CO",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 17.0,
+          "bar_left_pt": 352.14986505999997,
+          "bar_top_pt": 149.35683800000004
+        },
+        {
+          "dataset": "CO",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 17.0,
+          "bar_left_pt": 353.60131792,
+          "bar_top_pt": 149.38187600000003
+        },
+        {
+          "dataset": "GE",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 1500.0,
+          "bar_left_pt": 356.86727464,
+          "bar_top_pt": 128.92583000000002
+        },
+        {
+          "dataset": "GE",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 1300.0,
+          "bar_left_pt": 358.3187275,
+          "bar_top_pt": 129.526742
+        },
+        {
+          "dataset": "GE",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 130.0,
+          "bar_left_pt": 359.77043074,
+          "bar_top_pt": 140.11781599999995
+        },
+        {
+          "dataset": "GE",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 130.0,
+          "bar_left_pt": 361.22188359999996,
+          "bar_top_pt": 140.11781599999995
+        },
+        {
+          "dataset": "GE",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 130.0,
+          "bar_left_pt": 362.67333646,
+          "bar_top_pt": 140.11781599999995
+        },
+        {
+          "dataset": "DB",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 2200.0,
+          "bar_left_pt": 365.93929318,
+          "bar_top_pt": 127.17317000000003
+        },
+        {
+          "dataset": "DB",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 1700.0,
+          "bar_left_pt": 367.39099641999996,
+          "bar_top_pt": 128.29988000000003
+        },
+        {
+          "dataset": "DB",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 210.0,
+          "bar_left_pt": 368.84244928,
+          "bar_top_pt": 137.96454800000004
+        },
+        {
+          "dataset": "DB",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 210.0,
+          "bar_left_pt": 370.29390214,
+          "bar_top_pt": 137.96454800000004
+        },
+        {
+          "dataset": "DB",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 210.0,
+          "bar_left_pt": 371.745355,
+          "bar_top_pt": 137.96454800000004
+        },
+        {
+          "dataset": "DF",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 2900.0,
+          "bar_left_pt": 375.01131172,
+          "bar_top_pt": 125.89623199999994
+        },
+        {
+          "dataset": "DF",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 2300.0,
+          "bar_left_pt": 376.46276458,
+          "bar_top_pt": 126.97286599999995
+        },
+        {
+          "dataset": "DF",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 270.0,
+          "bar_left_pt": 377.91446781999997,
+          "bar_top_pt": 136.73768599999994
+        },
+        {
+          "dataset": "DF",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 270.0,
+          "bar_left_pt": 379.36592068,
+          "bar_top_pt": 136.73768599999994
+        },
+        {
+          "dataset": "DF",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 270.0,
+          "bar_left_pt": 380.81762392,
+          "bar_top_pt": 136.71264799999994
+        },
+        {
+          "dataset": "THS",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 5800.0,
+          "bar_left_pt": 384.08333026,
+          "bar_top_pt": 122.79151999999999
+        },
+        {
+          "dataset": "THS",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 4200.0,
+          "bar_left_pt": 385.5350335,
+          "bar_top_pt": 124.21868599999993
+        },
+        {
+          "dataset": "THS",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 610.0,
+          "bar_left_pt": 386.98648635999996,
+          "bar_top_pt": 133.007024
+        },
+        {
+          "dataset": "THS",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 610.0,
+          "bar_left_pt": 388.43793922,
+          "bar_top_pt": 133.007024
+        },
+        {
+          "dataset": "THS",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 620.0,
+          "bar_left_pt": 389.88939208,
+          "bar_top_pt": 132.981986
+        },
+        {
+          "dataset": "AM",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 27000.0,
+          "bar_left_pt": 393.15534879999996,
+          "bar_top_pt": 115.68072799999993
+        },
+        {
+          "dataset": "AM",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 22000.0,
+          "bar_left_pt": 394.60705204,
+          "bar_top_pt": 116.75736199999994
+        },
+        {
+          "dataset": "AM",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 2000.0,
+          "bar_left_pt": 396.0585049,
+          "bar_top_pt": 127.59881599999994
+        },
+        {
+          "dataset": "AM",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 2000.0,
+          "bar_left_pt": 397.50995776,
+          "bar_top_pt": 127.59881599999994
+        },
+        {
+          "dataset": "AM",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 2000.0,
+          "bar_left_pt": 398.961661,
+          "bar_top_pt": 127.57377799999995
+        },
+        {
+          "dataset": "TAS",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 3100.0,
+          "bar_left_pt": 402.22736734,
+          "bar_top_pt": 125.64585199999999
+        },
+        {
+          "dataset": "TAS",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 2300.0,
+          "bar_left_pt": 403.67907058,
+          "bar_top_pt": 126.92278999999996
+        },
+        {
+          "dataset": "TAS",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 580.0,
+          "bar_left_pt": 405.13052344,
+          "bar_top_pt": 133.25740399999995
+        },
+        {
+          "dataset": "TAS",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 580.0,
+          "bar_left_pt": 406.5819763,
+          "bar_top_pt": 133.25740399999995
+        },
+        {
+          "dataset": "TAS",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 580.0,
+          "bar_left_pt": 408.03342915999997,
+          "bar_top_pt": 133.25740399999995
+        },
+        {
+          "dataset": "AMZ",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 310000.0,
+          "bar_left_pt": 411.29963626,
+          "bar_top_pt": 104.61393199999998
+        },
+        {
+          "dataset": "AMZ",
+          "method": "sigmod_4",
+          "status": "ok",
+          "estimate": 450000.0,
+          "bar_left_pt": 412.75108911999996,
+          "bar_top_pt": 102.93638599999997
+        },
+        {
+          "dataset": "AMZ",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 1300.0,
+          "bar_left_pt": 414.20254198,
+          "bar_top_pt": 129.651932
+        },
+        {
+          "dataset": "AMZ",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 1300.0,
+          "bar_left_pt": 415.65399484,
+          "bar_top_pt": 129.601856
+        },
+        {
+          "dataset": "AMZ",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 1300.0,
+          "bar_left_pt": 417.10569808,
+          "bar_top_pt": 129.601856
+        },
+        {
+          "dataset": "SOA",
+          "method": "vldb_OPTIV",
+          "status": "OOM",
+          "estimate": null,
+          "bar_left_pt": 420.37140442,
+          "bar_top_pt": 78.32403199999999
+        },
+        {
+          "dataset": "SOA",
+          "method": "sigmod_4",
+          "status": "OOM",
+          "estimate": null,
+          "bar_left_pt": 421.82310766,
+          "bar_top_pt": 78.32403199999999
+        },
+        {
+          "dataset": "SOA",
+          "method": "sigmod_3",
+          "status": "ok",
+          "estimate": 810.0,
+          "bar_left_pt": 423.27456052,
+          "bar_top_pt": 131.75512400000002
+        },
+        {
+          "dataset": "SOA",
+          "method": "sigmod_5",
+          "status": "ok",
+          "estimate": 810.0,
+          "bar_left_pt": 424.72601338,
+          "bar_top_pt": 131.75512400000002
+        },
+        {
+          "dataset": "SOA",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 810.0,
+          "bar_left_pt": 426.17746624,
+          "bar_top_pt": 131.75512400000002
+        }
+      ]
+    },
+    {
+      "figure": 8,
+      "unit": "seconds",
+      "major_ticks_top_pt": [
+        385.32851,
+        376.9764,
+        368.62419,
+        360.27198,
+        351.92004,
+        343.56783
+      ],
+      "bottom_tick_log10": -1,
+      "points_per_decade": 8.352135999999996,
+      "values": [
+        {
+          "dataset": "HI",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 0.15,
+          "bar_left_pt": 76.95006379,
+          "bar_top_pt": 383.847749
+        },
+        {
+          "dataset": "HI",
+          "method": "sigmod_2",
+          "status": "ok",
+          "estimate": 0.056,
+          "bar_left_pt": 79.51997491,
+          "bar_top_pt": 387.41707
+        },
+        {
+          "dataset": "HI",
+          "method": "sigmod_1",
+          "status": "ok",
+          "estimate": 0.043,
+          "bar_left_pt": 82.08988603,
+          "bar_top_pt": 388.41003900000004
+        },
+        {
+          "dataset": "HI",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 0.043,
+          "bar_left_pt": 84.65979715,
+          "bar_top_pt": 388.41003900000004
+        },
+        {
+          "dataset": "CO",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 2.0,
+          "bar_left_pt": 89.79961939,
+          "bar_top_pt": 374.40112500000004
+        },
+        {
+          "dataset": "CO",
+          "method": "sigmod_2",
+          "status": "ok",
+          "estimate": 0.53,
+          "bar_left_pt": 92.36953051,
+          "bar_top_pt": 379.258622
+        },
+        {
+          "dataset": "CO",
+          "method": "sigmod_1",
+          "status": "ok",
+          "estimate": 0.34,
+          "bar_left_pt": 94.93944163,
+          "bar_top_pt": 380.84200500000003
+        },
+        {
+          "dataset": "CO",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 0.34,
+          "bar_left_pt": 97.50935275,
+          "bar_top_pt": 380.89567900000003
+        },
+        {
+          "dataset": "GE",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 2.4,
+          "bar_left_pt": 102.64917499,
+          "bar_top_pt": 373.864385
+        },
+        {
+          "dataset": "GE",
+          "method": "sigmod_2",
+          "status": "ok",
+          "estimate": 0.71,
+          "bar_left_pt": 105.21908611,
+          "bar_top_pt": 378.21197900000004
+        },
+        {
+          "dataset": "GE",
+          "method": "sigmod_1",
+          "status": "ok",
+          "estimate": 0.39,
+          "bar_left_pt": 107.78899723,
+          "bar_top_pt": 380.385776
+        },
+        {
+          "dataset": "GE",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 0.34,
+          "bar_left_pt": 110.35890835000001,
+          "bar_top_pt": 380.92251600000003
+        },
+        {
+          "dataset": "DB",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 7.9,
+          "bar_left_pt": 115.49873059000001,
+          "bar_top_pt": 369.463117
+        },
+        {
+          "dataset": "DB",
+          "method": "sigmod_2",
+          "status": "ok",
+          "estimate": 4.1,
+          "bar_left_pt": 118.06864171,
+          "bar_top_pt": 371.82477300000005
+        },
+        {
+          "dataset": "DB",
+          "method": "sigmod_1",
+          "status": "ok",
+          "estimate": 0.89,
+          "bar_left_pt": 120.63855283000001,
+          "bar_top_pt": 377.380032
+        },
+        {
+          "dataset": "DB",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 0.85,
+          "bar_left_pt": 123.20846395,
+          "bar_top_pt": 377.56789100000003
+        },
+        {
+          "dataset": "DF",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 24.0,
+          "bar_left_pt": 128.34828619,
+          "bar_top_pt": 365.518078
+        },
+        {
+          "dataset": "DF",
+          "method": "sigmod_2",
+          "status": "ok",
+          "estimate": 12.0,
+          "bar_left_pt": 130.91819731,
+          "bar_top_pt": 368.01391900000004
+        },
+        {
+          "dataset": "DF",
+          "method": "sigmod_1",
+          "status": "ok",
+          "estimate": 1.7,
+          "bar_left_pt": 133.48810843,
+          "bar_top_pt": 374.99153900000005
+        },
+        {
+          "dataset": "DF",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 1.6,
+          "bar_left_pt": 136.05801955,
+          "bar_top_pt": 375.179398
+        },
+        {
+          "dataset": "THS",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 80.0,
+          "bar_left_pt": 141.19784178999998,
+          "bar_top_pt": 361.08997300000004
+        },
+        {
+          "dataset": "THS",
+          "method": "sigmod_2",
+          "status": "ok",
+          "estimate": 41.0,
+          "bar_left_pt": 143.76775291,
+          "bar_top_pt": 363.53214
+        },
+        {
+          "dataset": "THS",
+          "method": "sigmod_1",
+          "status": "ok",
+          "estimate": 5.7,
+          "bar_left_pt": 146.33766402999998,
+          "bar_top_pt": 370.67078200000003
+        },
+        {
+          "dataset": "THS",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 5.6,
+          "bar_left_pt": 148.90757515,
+          "bar_top_pt": 370.72445600000003
+        },
+        {
+          "dataset": "AM",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 28.0,
+          "bar_left_pt": 154.04739739000001,
+          "bar_top_pt": 364.90082700000005
+        },
+        {
+          "dataset": "AM",
+          "method": "sigmod_2",
+          "status": "ok",
+          "estimate": 9.5,
+          "bar_left_pt": 156.61730851,
+          "bar_top_pt": 368.819029
+        },
+        {
+          "dataset": "AM",
+          "method": "sigmod_1",
+          "status": "ok",
+          "estimate": 4.6,
+          "bar_left_pt": 159.18721963000002,
+          "bar_top_pt": 371.42221800000004
+        },
+        {
+          "dataset": "AM",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 4.4,
+          "bar_left_pt": 161.75713075,
+          "bar_top_pt": 371.58324000000005
+        },
+        {
+          "dataset": "TAS",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 120.0,
+          "bar_left_pt": 166.89695299000002,
+          "bar_top_pt": 359.479753
+        },
+        {
+          "dataset": "TAS",
+          "method": "sigmod_2",
+          "status": "ok",
+          "estimate": 71.0,
+          "bar_left_pt": 169.46686411,
+          "bar_top_pt": 361.492528
+        },
+        {
+          "dataset": "TAS",
+          "method": "sigmod_1",
+          "status": "ok",
+          "estimate": 32.0,
+          "bar_left_pt": 172.03677523,
+          "bar_top_pt": 364.44459800000004
+        },
+        {
+          "dataset": "TAS",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 31.0,
+          "bar_left_pt": 174.60668635000002,
+          "bar_top_pt": 364.47143500000004
+        },
+        {
+          "dataset": "AMZ",
+          "method": "vldb_OPTIV",
+          "status": "ok",
+          "estimate": 440.0,
+          "bar_left_pt": 179.74650859,
+          "bar_top_pt": 354.917463
+        },
+        {
+          "dataset": "AMZ",
+          "method": "sigmod_2",
+          "status": "ok",
+          "estimate": 79.0,
+          "bar_left_pt": 182.31641971,
+          "bar_top_pt": 361.14364700000004
+        },
+        {
+          "dataset": "AMZ",
+          "method": "sigmod_1",
+          "status": "ok",
+          "estimate": 26.0,
+          "bar_left_pt": 184.88633083,
+          "bar_top_pt": 365.169197
+        },
+        {
+          "dataset": "AMZ",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 23.0,
+          "bar_left_pt": 187.45624195000002,
+          "bar_top_pt": 365.625426
+        },
+        {
+          "dataset": "SOA",
+          "method": "vldb_OPTIV",
+          "status": "OOM",
+          "estimate": null,
+          "bar_left_pt": 192.59606419,
+          "bar_top_pt": 338.922611
+        },
+        {
+          "dataset": "SOA",
+          "method": "sigmod_2",
+          "status": "ok",
+          "estimate": 4.0,
+          "bar_left_pt": 195.16597531,
+          "bar_top_pt": 371.98579500000005
+        },
+        {
+          "dataset": "SOA",
+          "method": "sigmod_1",
+          "status": "ok",
+          "estimate": 4.0,
+          "bar_left_pt": 197.73588643000002,
+          "bar_top_pt": 371.95895800000005
+        },
+        {
+          "dataset": "SOA",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 4.0,
+          "bar_left_pt": 200.30579755,
+          "bar_top_pt": 371.98579500000005
+        },
+        {
+          "dataset": "POW-S",
+          "method": "vldb_OPTIV",
+          "status": "OOM",
+          "estimate": null,
+          "bar_left_pt": 205.44561979,
+          "bar_top_pt": 338.922611
+        },
+        {
+          "dataset": "POW-S",
+          "method": "sigmod_2",
+          "status": "ok",
+          "estimate": 180.0,
+          "bar_left_pt": 208.01553091,
+          "bar_top_pt": 358.16474000000005
+        },
+        {
+          "dataset": "POW-S",
+          "method": "sigmod_1",
+          "status": "ok",
+          "estimate": 89.0,
+          "bar_left_pt": 210.58544203,
+          "bar_top_pt": 360.68741800000004
+        },
+        {
+          "dataset": "POW-S",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 72.0,
+          "bar_left_pt": 213.15535315,
+          "bar_top_pt": 361.465691
+        },
+        {
+          "dataset": "POW-L",
+          "method": "vldb_OPTIV",
+          "status": "OOM",
+          "estimate": null,
+          "bar_left_pt": 218.29517539,
+          "bar_top_pt": 338.922611
+        },
+        {
+          "dataset": "POW-L",
+          "method": "sigmod_2",
+          "status": "OOT",
+          "estimate": null,
+          "bar_left_pt": 220.86508651,
+          "bar_top_pt": 339.72772100000003
+        },
+        {
+          "dataset": "POW-L",
+          "method": "sigmod_1",
+          "status": "ok",
+          "estimate": 2900.0,
+          "bar_left_pt": 223.43499763,
+          "bar_top_pt": 348.100865
+        },
+        {
+          "dataset": "POW-L",
+          "method": "sigmod_0",
+          "status": "ok",
+          "estimate": 2100.0,
+          "bar_left_pt": 226.00490875,
+          "bar_top_pt": 349.147508
+        }
+      ]
+    }
+  ]
+}

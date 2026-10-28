@@ -1,0 +1,22 @@
+{
+  "HI": {
+    "directory": "cornell-HI-ordered",
+    "alignment": "table4_array_counts_match",
+    "memory_gib": 32
+  },
+  "CO": {
+    "directory": "author-CO",
+    "alignment": "original_baseline_release_edges_match_vertex_layout_differs",
+    "memory_gib": 32
+  },
+  "DB": {
+    "directory": "author-DB",
+    "alignment": "original_baseline_release_edges_match_vertex_layout_differs",
+    "memory_gib": 32
+  },
+  "AM": {
+    "directory": "author-AM",
+    "alignment": "original_baseline_release_edges_match_vertex_layout_differs",
+    "memory_gib": 128
+  }
+}

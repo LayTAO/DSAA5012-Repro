@@ -1,0 +1,60 @@
+{
+  "candidate_paper_id": "AM",
+  "source": {
+    "page": "https://github.com/toggled/vldbsubmission/tree/ea540958c176058b44830960753d854017719be2",
+    "archive_url": "https://drive.google.com/file/d/12cvz-XtfQUbmj-gqlT9z4DKGMuhqLGjs/view",
+    "member": "data/datasets/real/aminer.hyp"
+  },
+  "archive_sha256": "22f00bd5b80738e3ef05c9ff2ce512dbb51f0061b78edfb1fa5dcf893bf45ffe",
+  "raw": {
+    "vertices": 27850748,
+    "edges": 17120546,
+    "incidences": 64555978,
+    "max_edge_size": 611,
+    "max_vertex_id": 31797691,
+    "dense_vertex_ids": false,
+    "sha256": "42b117921fcacf9d51949d4d84e104e0ac9f8e5685750174ee979afe36a7a01e",
+    "bytes": 536376714
+  },
+  "raw_upstream_array_nodes": 31797692,
+  "raw_upstream_array_edges": 17120548,
+  "paper_table4": {
+    "id": "AM",
+    "name": "Aminer",
+    "reported_n": 31177865,
+    "reported_m": 17120548,
+    "degree_mean": 2.1,
+    "edge_size_mean": 3.8,
+    "neighbors_mean": 7.7,
+    "raw_size_GB": 0.97
+  },
+  "paper_count_match": {
+    "true_counts_match": false,
+    "upstream_array_counts_match": false
+  },
+  "commands": [
+    [
+      "${PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${PROJECT_ROOT}/data/processed/author-AM/author-input.hyp",
+      "org"
+    ],
+    [
+      "${PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${PROJECT_ROOT}/data/processed/author-AM/author-input.hyp",
+      "sortEV",
+      "desc",
+      "asc"
+    ]
+  ],
+  "preprocessing": "Preserve provided hyperedges; author org and sortEV desc asc; preserve ID gaps",
+  "processed": {
+    "vertices": 27850748,
+    "edges": 17120546,
+    "incidences": 64555978,
+    "max_edge_size": 611,
+    "max_vertex_id": 27850748,
+    "dense_vertex_ids": true,
+    "sha256": "9f6fdd4b0375c7907d9794f1a1a7206bc13c7abe1f8118533aaf02c14ffb7600",
+    "bytes": 568826468
+  }
+}

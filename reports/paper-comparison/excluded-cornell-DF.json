@@ -1,0 +1,67 @@
+{
+  "candidate_paper_id": "DF",
+  "source": {
+    "name": "coauth-DBLP-full",
+    "drive_id": "1tC0TdzV_IMTzhkIN_4P8y9M1a3lH-ScK",
+    "source_page": "https://www.cs.cornell.edu/~arb/data/coauth-DBLP/"
+  },
+  "archive_sha256": "feb4bed6d3c79a9ba16142e71405b7eff1515504741281b8edfe13dc0f960433",
+  "archive_bytes": 53289065,
+  "temporal": {
+    "timestamped_simplices": 3700681,
+    "incidences_before_edge_dedup": 10326773,
+    "duplicate_members_removed": 68
+  },
+  "unique": {
+    "unique_vertices": 1930378,
+    "max_vertex_id": 1930378,
+    "min_vertex_id": 1,
+    "unique_edges": 2599683,
+    "incidences": 8175008,
+    "singleton_edges": 297129,
+    "vertices_after_singleton_removal": 1836596,
+    "edges_after_singleton_removal": 2302554,
+    "max_edge_size": 280,
+    "upstream_array_nodes": 1930379,
+    "upstream_array_edges": 2599685
+  },
+  "paper_table4": {
+    "id": "DF",
+    "name": "Coauth-DBLP-FULL",
+    "reported_n": 2580030,
+    "reported_m": 3305642,
+    "degree_mean": 3.8,
+    "edge_size_mean": 3.0,
+    "neighbors_mean": 9.8,
+    "raw_size_GB": 0.15
+  },
+  "paper_count_match": {
+    "true_counts_match": false,
+    "upstream_array_counts_match": false
+  },
+  "preprocessing": "deduplicate ordered timestamped vertex lists; author org (sort members, drop singleton edges, map IDs before dropping); author sortEV desc asc; preserve resulting ID gaps",
+  "processed": {
+    "vertices": 1836596,
+    "edges": 2302554,
+    "incidences": 7877879,
+    "max_edge_size": 280,
+    "max_vertex_id": 1930378,
+    "dense_vertex_ids": false,
+    "sha256": "8d86b7b94625d19307e7f0fc25ddc76d05ca62e121b5f3e7aa088a4a90aa4404",
+    "bytes": 61889510
+  },
+  "commands": [
+    [
+      "${PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${PROJECT_ROOT}/data/processed/cornell-DF-ordered/author-input.hyp",
+      "org"
+    ],
+    [
+      "${PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${PROJECT_ROOT}/data/processed/cornell-DF-ordered/author-input.hyp",
+      "sortEV",
+      "desc",
+      "asc"
+    ]
+  ]
+}

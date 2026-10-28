@@ -1,0 +1,60 @@
+{
+  "candidate_paper_id": "DB",
+  "source": {
+    "page": "https://github.com/toggled/vldbsubmission/tree/ea540958c176058b44830960753d854017719be2",
+    "archive_url": "https://drive.google.com/file/d/12cvz-XtfQUbmj-gqlT9z4DKGMuhqLGjs/view",
+    "member": "data/datasets/real/DBLP.hyp"
+  },
+  "archive_sha256": "22f00bd5b80738e3ef05c9ff2ce512dbb51f0061b78edfb1fa5dcf893bf45ffe",
+  "raw": {
+    "vertices": 1836596,
+    "edges": 2170260,
+    "incidences": 7451608,
+    "max_edge_size": 280,
+    "max_vertex_id": 1930378,
+    "dense_vertex_ids": false,
+    "sha256": "da66aaf655752ac3e1ee5ed416ee550bb4c5b47dc39257a55833a17303a53895",
+    "bytes": 51327396
+  },
+  "raw_upstream_array_nodes": 1930379,
+  "raw_upstream_array_edges": 2170262,
+  "paper_table4": {
+    "id": "DB",
+    "name": "Coauth-DBLP",
+    "reported_n": 2215933,
+    "reported_m": 2170262,
+    "degree_mean": 3.4,
+    "edge_size_mean": 3.4,
+    "neighbors_mean": 8.1,
+    "raw_size_GB": 0.11
+  },
+  "paper_count_match": {
+    "true_counts_match": false,
+    "upstream_array_counts_match": false
+  },
+  "commands": [
+    [
+      "${PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${PROJECT_ROOT}/data/processed/author-DB/author-input.hyp",
+      "org"
+    ],
+    [
+      "${PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${PROJECT_ROOT}/data/processed/author-DB/author-input.hyp",
+      "sortEV",
+      "desc",
+      "asc"
+    ]
+  ],
+  "preprocessing": "Preserve provided hyperedges; author org and sortEV desc asc; preserve ID gaps",
+  "processed": {
+    "vertices": 1836596,
+    "edges": 2170260,
+    "incidences": 7451608,
+    "max_edge_size": 280,
+    "max_vertex_id": 1836596,
+    "dense_vertex_ids": true,
+    "sha256": "962f5424644089e9233eef6fc3f9dd340faeacd67ce5070f2541e88e332325c3",
+    "bytes": 58258135
+  }
+}
