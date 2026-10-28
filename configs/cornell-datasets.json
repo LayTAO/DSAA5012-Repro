@@ -1,0 +1,22 @@
+{
+  "HI": {
+    "name": "coauth-MAG-History-full",
+    "drive_id": "1KBSQyz6BVO1HM6tjCGh8aLcugNW9pDjA",
+    "source_page": "https://www.cs.cornell.edu/~arb/data/coauth-MAG-History/"
+  },
+  "GE": {
+    "name": "coauth-MAG-Geology-full",
+    "drive_id": "1bk5uTnuijgHEAOi5sA-sM8Cxyg3Ejr43",
+    "source_page": "https://www.cs.cornell.edu/~arb/data/coauth-MAG-Geology/"
+  },
+  "CO": {
+    "name": "congress-bills-full",
+    "drive_id": "1FYu5367ijQLDjyGigbf709YpbjocYxif",
+    "source_page": "https://www.cs.cornell.edu/~arb/data/congress-bills/"
+  },
+  "DF": {
+    "name": "coauth-DBLP-full",
+    "drive_id": "1tC0TdzV_IMTzhkIN_4P8y9M1a3lH-ScK",
+    "source_page": "https://www.cs.cornell.edu/~arb/data/coauth-DBLP/"
+  }
+}

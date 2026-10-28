@@ -1,0 +1,16 @@
+{
+  "HI": {
+    "url": "https://drive.usercontent.google.com/download?id=1KBSQyz6BVO1HM6tjCGh8aLcugNW9pDjA&export=download&confirm=t",
+    "relative_path": "data/raw/cornell/coauth-MAG-History-full.tar.gz",
+    "bytes": 106174172,
+    "sha256": "920e44df69e2a908f2dad68692b0cae04f36ff22aea467ac490478a7503de07e",
+    "format": "gzip"
+  },
+  "baseline": {
+    "url": "https://drive.usercontent.google.com/download?id=12cvz-XtfQUbmj-gqlT9z4DKGMuhqLGjs&export=download&confirm=t",
+    "relative_path": "data/raw/vldb-author/datasets.archive",
+    "bytes": 211827877,
+    "sha256": "22f00bd5b80738e3ef05c9ff2ce512dbb51f0061b78edfb1fa5dcf893bf45ffe",
+    "format": "zip"
+  }
+}
