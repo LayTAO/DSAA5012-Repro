@@ -1,0 +1,194 @@
+[
+  {
+    "algorithm": 0,
+    "repeats_in_one_process": 5,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": {
+      "values": [
+        0.0601799,
+        0.0601125,
+        0.0582174,
+        0.0590262,
+        0.0629097
+      ],
+      "mean": 0.06008914,
+      "median": 0.0601125,
+      "min": 0.0582174,
+      "max": 0.0629097
+    },
+    "iteration_s": {
+      "values": [
+        0.0265722,
+        0.0264137,
+        0.027306,
+        0.0260722,
+        0.0260953
+      ],
+      "mean": 0.02649188,
+      "median": 0.0264137,
+      "min": 0.0260722,
+      "max": 0.027306
+    },
+    "peak_rss_kib": 34688
+  },
+  {
+    "algorithm": 1,
+    "repeats_in_one_process": 5,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": {
+      "values": [
+        0.06155,
+        0.0588694,
+        0.0642656,
+        0.0594044,
+        0.0606637
+      ],
+      "mean": 0.060950620000000004,
+      "median": 0.0606637,
+      "min": 0.0588694,
+      "max": 0.0642656
+    },
+    "iteration_s": {
+      "values": [
+        0.0273212,
+        0.0256089,
+        0.0262818,
+        0.0258347,
+        0.0321366
+      ],
+      "mean": 0.02743664,
+      "median": 0.0262818,
+      "min": 0.0256089,
+      "max": 0.0321366
+    },
+    "peak_rss_kib": 34736
+  },
+  {
+    "algorithm": 2,
+    "repeats_in_one_process": 5,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": {
+      "values": [
+        0.218061,
+        0.202652,
+        0.204124,
+        0.202934,
+        0.203002
+      ],
+      "mean": 0.2061546,
+      "median": 0.203002,
+      "min": 0.202652,
+      "max": 0.218061
+    },
+    "iteration_s": {
+      "values": [
+        0.0374686,
+        0.0356102,
+        0.0361259,
+        0.0359069,
+        0.0397136
+      ],
+      "mean": 0.03696504,
+      "median": 0.0361259,
+      "min": 0.0356102,
+      "max": 0.0397136
+    },
+    "peak_rss_kib": 34688
+  },
+  {
+    "algorithm": 3,
+    "repeats_in_one_process": 5,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": {
+      "values": [
+        0.0567123,
+        0.0560201,
+        0.0559307,
+        0.0618774,
+        0.0561762
+      ],
+      "mean": 0.05734334,
+      "median": 0.0561762,
+      "min": 0.0559307,
+      "max": 0.0618774
+    },
+    "iteration_s": {
+      "values": [
+        0.214328,
+        0.212707,
+        0.215213,
+        0.209636,
+        0.216097
+      ],
+      "mean": 0.21359619999999999,
+      "median": 0.214328,
+      "min": 0.209636,
+      "max": 0.216097
+    },
+    "peak_rss_kib": 34740
+  },
+  {
+    "algorithm": 4,
+    "repeats_in_one_process": 5,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": {
+      "values": [
+        1.0831,
+        1.16938,
+        1.09612,
+        1.01092,
+        1.23373
+      ],
+      "mean": 1.11865,
+      "median": 1.09612,
+      "min": 1.01092,
+      "max": 1.23373
+    },
+    "iteration_s": {
+      "values": [
+        1.18467,
+        1.03076,
+        1.02465,
+        0.990146,
+        1.00687
+      ],
+      "mean": 1.0474192,
+      "median": 1.02465,
+      "min": 0.990146,
+      "max": 1.18467
+    },
+    "peak_rss_kib": 1897440
+  },
+  {
+    "algorithm": 5,
+    "repeats_in_one_process": 5,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": {
+      "values": [
+        0.0626798,
+        0.0597223,
+        0.059753,
+        0.059401,
+        0.0655766
+      ],
+      "mean": 0.06142654,
+      "median": 0.059753,
+      "min": 0.059401,
+      "max": 0.0655766
+    },
+    "iteration_s": {
+      "values": [
+        0.215106,
+        0.209988,
+        0.215919,
+        0.20793,
+        0.207779
+      ],
+      "mean": 0.2113444,
+      "median": 0.209988,
+      "min": 0.207779,
+      "max": 0.215919
+    },
+    "peak_rss_kib": 34684
+  }
+]

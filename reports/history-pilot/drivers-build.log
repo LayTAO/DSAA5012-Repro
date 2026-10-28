@@ -1,0 +1,11 @@
+g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Common compiler flags: -O3 -DNDEBUG -std=c++20 -fopenmp -fstack-protector-strong
++ g++ -O3 -DNDEBUG -std=c++20 -fopenmp -fstack-protector-strong -Iexternal/hyper-k-core/src src/drivers/sigmod.cpp external/hyper-k-core/src/Hypergraph.cpp external/hyper-k-core/src/Algorithm/Final_nbrCoreDecomposition.cpp external/hyper-k-core/src/Algorithm/Final_nbrCoreDecomposition_lowerBound.cpp external/hyper-k-core/src/Algorithm/Final_nbrCoreDecomposition_no_filter.cpp external/hyper-k-core/src/Algorithm/Final_nbrCoreDecomposition_onlyChanegd.cpp external/hyper-k-core/src/Algorithm/Final_nbrCoreDecomposition_withNbrs.cpp external/hyper-k-core/src/Algorithm/ParNbrCoreDecomposition.cpp external/hyper-k-core/src/Algorithm/baseNbrCoreDecomposition.cpp external/hyper-k-core/src/Algorithm/baseNbrCoreDecomposition_withNbrs.cpp external/hyper-k-core/src/Algorithm/fullNbrCoreDecomposition.cpp external/hyper-k-core/src/Algorithm/fullNbrCoreDecomposition_withNbrs.cpp -o build/drivers/sigmod
++ g++ -O3 -DNDEBUG -std=c++20 -fopenmp -fstack-protector-strong -Iexternal/vldbsubmission/cpp_src src/drivers/vldb.cpp external/vldbsubmission/cpp_src/hypergraph.cpp external/vldbsubmission/cpp_src/algorithms.cpp -o build/drivers/vldb
++ set +x
+96a8eda0a882bea5481b27a95f339e0193b0e4cf57456e52702e36332aef0cb0  build/drivers/sigmod
+87bbd5527834740854e8429f89da2722208ae30084f01d1d7c97c4ff019cbc8c  build/drivers/vldb

@@ -1,0 +1,91 @@
+{
+  "recorded_at_utc": "2026-10-28T04:09:29.362810+00:00",
+  "system": "Linux",
+  "release": "5.15.0-181-generic",
+  "architecture": "x86_64",
+  "logical_cpu_count": 128,
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "upstream_lock": {
+    "schema_version": 1,
+    "resolved_on": "2026-10-28",
+    "repositories": [
+      {
+        "name": "hyper-k-core",
+        "role": "sigmod2025",
+        "url": "https://github.com/unswdb/hyper-k-core.git",
+        "commit": "db709d81c3da8fff410c6b4f4aa2932883a227ee"
+      },
+      {
+        "name": "vldbsubmission",
+        "role": "vldb2023_baseline",
+        "url": "https://github.com/toggled/vldbsubmission.git",
+        "commit": "ea540958c176058b44830960753d854017719be2"
+      }
+    ]
+  },
+  "tools": {
+    "git": {
+      "available": true,
+      "returncode": 0,
+      "stdout": "git version 2.34.1",
+      "stderr": ""
+    },
+    "g++": {
+      "available": true,
+      "returncode": 0,
+      "stdout": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0\nCopyright (C) 2021 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+      "stderr": ""
+    },
+    "cmake": {
+      "available": false
+    }
+  },
+  "project_commit": {
+    "available": true,
+    "returncode": 128,
+    "stdout": "",
+    "stderr": "fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set)."
+  },
+  "upstream_checkouts": {
+    "hyper-k-core": {
+      "commit": {
+        "available": true,
+        "returncode": 0,
+        "stdout": "db709d81c3da8fff410c6b4f4aa2932883a227ee",
+        "stderr": ""
+      },
+      "status": {
+        "available": true,
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    "vldbsubmission": {
+      "commit": {
+        "available": true,
+        "returncode": 0,
+        "stdout": "ea540958c176058b44830960753d854017719be2",
+        "stderr": ""
+      },
+      "status": {
+        "available": true,
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    }
+  },
+  "cpu": {
+    "available": true,
+    "returncode": 0,
+    "stdout": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           48 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  128\nOn-line CPU(s) list:                     0-127\nVendor ID:                               AuthenticAMD\nModel name:                              AMD EPYC 7543 32-Core Processor\nCPU family:                              25\nModel:                                   1\nThread(s) per core:                      2\nCore(s) per socket:                      32\nSocket(s):                               2\nStepping:                                1\nFrequency boost:                         enabled\nCPU max MHz:                             3739.2251\nCPU min MHz:                             1500.0000\nBogoMIPS:                                5600.09\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm ibpb_exit_to_user\nVirtualization:                          AMD-V\nL1d cache:                               2 MiB (64 instances)\nL1i cache:                               2 MiB (64 instances)\nL2 cache:                                32 MiB (64 instances)\nL3 cache:                                512 MiB (16 instances)\nNUMA node(s):                            2\nNUMA node0 CPU(s):                       0-31,64-95\nNUMA node1 CPU(s):                       32-63,96-127\nVulnerability Gather data sampling:      Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Mitigation; safe RET\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl and seccomp\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Vulnerable: Clear CPU buffers attempted, no microcode\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Mitigation; IBPB before exit to userspace",
+    "stderr": ""
+  },
+  "memory": {
+    "available": true,
+    "returncode": 0,
+    "stdout": "total        used        free      shared  buff/cache   available\nMem:     1082011529216 121326252032 719064465408  5920333824 241620811776 943673303040\nSwap:              0           0           0",
+    "stderr": ""
+  }
+}

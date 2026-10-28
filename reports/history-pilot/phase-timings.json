@@ -1,0 +1,247 @@
+[
+  {
+    "method": "sigmod_4",
+    "repeat": 5,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 1.07423,
+    "iteration_s": 1.20551
+  },
+  {
+    "method": "vldb_OPTIV",
+    "repeat": 3,
+    "clock": "upstream clock() CPU time",
+    "init_cpu_s": 0.735826,
+    "iteration_cpu_s": 0.100872
+  },
+  {
+    "method": "sigmod_1",
+    "repeat": 2,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.0588853,
+    "iteration_s": 0.0257599
+  },
+  {
+    "method": "sigmod_5",
+    "repeat": 2,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.0563329,
+    "iteration_s": 0.211253
+  },
+  {
+    "method": "vldb_OPTIV",
+    "repeat": 5,
+    "clock": "upstream clock() CPU time",
+    "init_cpu_s": 0.727156,
+    "iteration_cpu_s": 0.093598
+  },
+  {
+    "method": "sigmod_3",
+    "repeat": 4,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.0567218,
+    "iteration_s": 0.208427
+  },
+  {
+    "method": "sigmod_0",
+    "repeat": 4,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.0602811,
+    "iteration_s": 0.0250796
+  },
+  {
+    "method": "vldb_OPTIV",
+    "repeat": 2,
+    "clock": "upstream clock() CPU time",
+    "init_cpu_s": 0.743456,
+    "iteration_cpu_s": 0.100119
+  },
+  {
+    "method": "sigmod_2",
+    "repeat": 2,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.20772,
+    "iteration_s": 0.0383817
+  },
+  {
+    "method": "vldb_OPTIV",
+    "repeat": 1,
+    "clock": "upstream clock() CPU time",
+    "init_cpu_s": 0.73678,
+    "iteration_cpu_s": 0.097124
+  },
+  {
+    "method": "sigmod_2",
+    "repeat": 4,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.208454,
+    "iteration_s": 0.0400765
+  },
+  {
+    "method": "sigmod_0",
+    "repeat": 3,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.0617676,
+    "iteration_s": 0.0252645
+  },
+  {
+    "method": "sigmod_1",
+    "repeat": 1,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.0674059,
+    "iteration_s": 0.0271599
+  },
+  {
+    "method": "sigmod_2",
+    "repeat": 3,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.205725,
+    "iteration_s": 0.0391473
+  },
+  {
+    "method": "sigmod_3",
+    "repeat": 5,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.0561479,
+    "iteration_s": 0.210001
+  },
+  {
+    "method": "sigmod_4",
+    "repeat": 3,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 1.06725,
+    "iteration_s": 1.22648
+  },
+  {
+    "method": "vldb_OPTIV",
+    "repeat": 4,
+    "clock": "upstream clock() CPU time",
+    "init_cpu_s": 0.734082,
+    "iteration_cpu_s": 0.09725
+  },
+  {
+    "method": "sigmod_3",
+    "repeat": 2,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.0574413,
+    "iteration_s": 0.20887
+  },
+  {
+    "method": "sigmod_5",
+    "repeat": 3,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.0577829,
+    "iteration_s": 0.219057
+  },
+  {
+    "method": "sigmod_1",
+    "repeat": 3,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.0608175,
+    "iteration_s": 0.0268641
+  },
+  {
+    "method": "sigmod_2",
+    "repeat": 1,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.211447,
+    "iteration_s": 0.0379006
+  },
+  {
+    "method": "sigmod_4",
+    "repeat": 2,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 1.05816,
+    "iteration_s": 1.21103
+  },
+  {
+    "method": "sigmod_4",
+    "repeat": 4,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 1.05595,
+    "iteration_s": 1.20051
+  },
+  {
+    "method": "sigmod_2",
+    "repeat": 5,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.205212,
+    "iteration_s": 0.0378079
+  },
+  {
+    "method": "sigmod_0",
+    "repeat": 5,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.0592042,
+    "iteration_s": 0.0249888
+  },
+  {
+    "method": "sigmod_5",
+    "repeat": 4,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.0567671,
+    "iteration_s": 0.211677
+  },
+  {
+    "method": "sigmod_5",
+    "repeat": 5,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.0577947,
+    "iteration_s": 0.212054
+  },
+  {
+    "method": "sigmod_1",
+    "repeat": 5,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.0616379,
+    "iteration_s": 0.0261432
+  },
+  {
+    "method": "sigmod_0",
+    "repeat": 2,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.0586937,
+    "iteration_s": 0.0253971
+  },
+  {
+    "method": "sigmod_3",
+    "repeat": 3,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.055416,
+    "iteration_s": 0.209305
+  },
+  {
+    "method": "sigmod_3",
+    "repeat": 1,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.056657,
+    "iteration_s": 0.209174
+  },
+  {
+    "method": "sigmod_0",
+    "repeat": 1,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.0594191,
+    "iteration_s": 0.0283109
+  },
+  {
+    "method": "sigmod_1",
+    "repeat": 4,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.0625193,
+    "iteration_s": 0.0266674
+  },
+  {
+    "method": "sigmod_5",
+    "repeat": 1,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 0.0582888,
+    "iteration_s": 0.215666
+  },
+  {
+    "method": "sigmod_4",
+    "repeat": 1,
+    "clock": "upstream high_resolution_clock wall time",
+    "init_s": 1.07791,
+    "iteration_s": 1.20159
+  }
+]

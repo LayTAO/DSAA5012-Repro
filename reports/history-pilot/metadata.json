@@ -1,0 +1,71 @@
+{
+  "recorded_at_utc": "2026-10-28T04:05:23.348390+00:00",
+  "input": "${PROJECT_ROOT}/data/processed/history-author/history.hyp_sorted_by_edge_desc_node_asc.txt",
+  "data": {
+    "vertices": 503868,
+    "edges": 252935,
+    "incidences": 763032,
+    "max_edge_size": 925,
+    "sha256": "aadde9b3ba4059f8d0f5fe94944de3fe491e8118bd9ebb0eee9a473ea662544b",
+    "bytes": 5230079
+  },
+  "methods": [
+    {
+      "id": "sigmod_0",
+      "label": "HyperCD*",
+      "binary": "sigmod",
+      "argument": "0"
+    },
+    {
+      "id": "sigmod_1",
+      "label": "HyperCD+ with RUC",
+      "binary": "sigmod",
+      "argument": "1"
+    },
+    {
+      "id": "sigmod_2",
+      "label": "HyperCD+ with lower bound",
+      "binary": "sigmod",
+      "argument": "2"
+    },
+    {
+      "id": "sigmod_3",
+      "label": "HyperCD+",
+      "binary": "sigmod",
+      "argument": "3"
+    },
+    {
+      "id": "sigmod_4",
+      "label": "HyperCD (SIGMOD implementation)",
+      "binary": "sigmod",
+      "argument": "4"
+    },
+    {
+      "id": "sigmod_5",
+      "label": "HyperCD++ (SIGMOD implementation)",
+      "binary": "sigmod",
+      "argument": "5"
+    },
+    {
+      "id": "vldb_OPTIV",
+      "label": "VLDB Local-core-OPTIV",
+      "binary": "vldb",
+      "argument": "OPTIV"
+    }
+  ],
+  "repetitions": 5,
+  "cpu": 0,
+  "seed": 5012,
+  "timeout_s": 900,
+  "memory_limit_gib": 32,
+  "load_average_start": [
+    3.24853515625,
+    3.419921875,
+    3.89697265625
+  ],
+  "threads": 1,
+  "binary_sha256": {
+    "sigmod": "96a8eda0a882bea5481b27a95f339e0193b0e4cf57456e52702e36332aef0cb0",
+    "vldb": "87bbd5527834740854e8429f89da2722208ae30084f01d1d7c97c4ff019cbc8c"
+  }
+}

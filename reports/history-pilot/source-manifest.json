@@ -1,0 +1,29 @@
+{
+  "project_base_commit": "84215442ca0a89a68b47d162d4be31307108ed95",
+  "working_tree_changes_included": true,
+  "sha256": {
+    "configs/methods.json": "c6f07920745f93e3b798547ea690aa5f1df81f9450b49197b40860e55ee164e5",
+    "configs/upstream.lock.json": "2ad938057c351deff84a79f9de72c296e781f2b95ae9e59bd270feeb83e468fa",
+    "scripts/benchmark.py": "093be28757a7e6d0c1950eb9c32d0e5f427ac682374675682db7eb803ef9da41",
+    "scripts/build_drivers.sh": "87792274f656744b87322ca7efecefb0bc843c2878efbb5bfc2ca457378b4d7e",
+    "scripts/build_native.sh": "70ad6a9128a2164c22a8ab7854b3ced62f546eda39e349f4db9704171b79277b",
+    "scripts/build_sigmod.sh": "13d2e6977a4a09125544b254d1c009100c6cbb0cee3cdc9a34aac5af6794f936",
+    "scripts/capture_environment.py": "bdacafee203c90aba1a7a93fa3166ab59ae1566bede045484412252daea0753e",
+    "scripts/check_upstream.py": "6f59bb08c992e5885a71f33049e958c429308b6b7757ba49c5b5bc224dac398d",
+    "scripts/export_summary.py": "ee776398121febeafa396cf73fb4cf8bb910e14d270ae38f10442720caee05d3",
+    "scripts/fetch_upstream.py": "c3e7e2b898d76bc198355fed6d967ca0878711c09825f1303d0709a51a95ae6a",
+    "scripts/plot_pilot.py": "41e1927921a9fb5e60844bd394986ac93b24f5838a0a7232ada985003338d693",
+    "scripts/prepare_history.py": "e625f5e9e0b5c32922bfdba3b503dc2eff5045d4b244e83160dd8a72f6796dcd",
+    "scripts/run_author_history.sh": "badfe1fe78aad2dc461e5fb45223d5ba574278c02caba54cfe2dd3fae7235820",
+    "scripts/run_on_server.sh": "d9293533912ba059e6895f7931e56d1f1f90c48845ab7795398bb2375856854f",
+    "scripts/server_env.sh": "9add3e25958f31ecfa8c7bfd5275a7d7745efcdfdf7da4402e8ff842b684c9ef",
+    "scripts/validate_cores.py": "ec1d3d41ac909dba98d0ac0c15c47e27a66f36b9eb9645f0a5359491c604718c",
+    "src/README.md": "c70a7ee1db762b6d7aa835b929d7b7182dd42ea7b724998d5ad27690d9951095",
+    "src/drivers/metrics.h": "e44075d006efe273b8317f4e15586b51cd36bf8901c7a36419c4a818a309cca1",
+    "src/drivers/sigmod.cpp": "d162a025b3202ec826e7ed745a63f9cccb8e9e8bcbaabb3e1ada70ab80873f88",
+    "src/drivers/vldb.cpp": "dceaec54d21f581230dd03260806f450631217b4ff11b9c4d3273de1cf80b6ba",
+    "src/repro/__init__.py": "1be563e40647a2534097f638e3b0c040caf0a2538cca09d912248ac6a9a7d74a",
+    "src/repro/oracle.py": "3d07811c26fc0fad833c87773d2f6201825779940853be7938382a52eab66c81",
+    "tests/test_oracle.py": "720f7f30e4317709a26e51a1d176bc7d350b5b1b8984936e7ea07873dc0ff465"
+  }
+}

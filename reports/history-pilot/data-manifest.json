@@ -1,0 +1,30 @@
+{
+  "source": "https://github.com/unswdb/hyper-k-core",
+  "source_commit": "db709d81c3da8fff410c6b4f4aa2932883a227ee",
+  "source_file": "datasets/coauth-MAG-History-full.hyp",
+  "raw_sha256": "b434da314b215da3db9bcc5a9fd5351122fc80f38e88ea8807afe6a93e707800",
+  "raw_bytes": 5033658,
+  "commands": [
+    [
+      "${PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${PROJECT_ROOT}/data/processed/history-author/history.hyp",
+      "org"
+    ],
+    [
+      "${PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${PROJECT_ROOT}/data/processed/history-author/history.hyp",
+      "sortEV",
+      "desc",
+      "asc"
+    ]
+  ],
+  "processed": {
+    "vertices": 503868,
+    "edges": 252935,
+    "incidences": 763032,
+    "max_edge_size": 925,
+    "sha256": "aadde9b3ba4059f8d0f5fe94944de3fe491e8118bd9ebb0eee9a473ea662544b",
+    "bytes": 5230079
+  },
+  "note": "Author org deduplicates members within each edge and drops edges of size <2; sortEV reorders vertices and edges. Duplicate hyperedges remain."
+}
