@@ -1,0 +1,45 @@
+{
+  "label": "core-POW-L-approx-OPTIV-r2",
+  "dataset": "POW-L-approx",
+  "paper_id": "POW-L",
+  "kind": "core",
+  "argument": "OPTIV",
+  "repeat": 2,
+  "status": "memory_limit",
+  "exit_code": 2,
+  "recorded_at_utc": "2026-11-01T10:15:59.622687+00:00",
+  "process_wall_s": 3978.956177195534,
+  "command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "${PROJECT_ROOT}/results/full-synthetic-large001/core-POW-L-approx-OPTIV-r2.time.txt",
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "21600s",
+    "taskset",
+    "-c",
+    "0",
+    "${PROJECT_ROOT}/build/drivers/vldb",
+    "${PROJECT_ROOT}/data/processed/synthetic-POW-L-approx/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+    "OPTIV",
+    "-"
+  ],
+  "input_sha256": "cf059caa708a0b42f7b5d8e74a565de570b1bbbfdca0417aa2ac15771c25fabd",
+  "binary_sha256": "87bbd5527834740854e8429f89da2722208ae30084f01d1d7c97c4ff019cbc8c",
+  "threads": 1,
+  "physical_cpus": [
+    0
+  ],
+  "memory_limit_kind": "RLIMIT_AS virtual address space; not identical to paper physical RAM limit",
+  "memory_limit_bytes": 536870912000,
+  "timeout_s": 21600,
+  "exported_cores": false,
+  "load_average_end": [
+    4.9111328125,
+    6.23828125,
+    6.0390625
+  ],
+  "peak_rss_kib": 510160496
+}

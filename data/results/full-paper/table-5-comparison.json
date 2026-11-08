@@ -1,0 +1,130 @@
+[
+  {
+    "dataset": "POW-S-approx",
+    "paper": {
+      "dataset": "POW-S",
+      "init_s": 600,
+      "execution_s": 78,
+      "total_s": 720,
+      "memory_GB": 10.9,
+      "baseline_status": "OOM"
+    },
+    "measured_status": "complete",
+    "baseline_status": "completed_with_failures",
+    "baseline_trial_status_counts": {
+      "failed": 3
+    },
+    "actual_processed_input": {
+      "vertices": 59769610,
+      "edges": 45476589,
+      "incidences": 555634937,
+      "max_edge_size": 117,
+      "max_vertex_id": 59769610,
+      "dense_vertex_ids": true,
+      "strictly_sorted_members": true,
+      "sha256": "0191f9f37d68b3d21efc5be53f7980c0c236b2156646f9af0050a3b07871da24",
+      "bytes": 4989299069
+    },
+    "paper_table4": {
+      "id": "POW-S",
+      "name": "Synthetic power law",
+      "reported_n": 56785943,
+      "reported_m": 56898102,
+      "degree_mean": 10.4,
+      "edge_size_mean": 10.4,
+      "neighbors_mean": 157.2,
+      "raw_size_GB": 8.8
+    },
+    "input_claim": "Same-scale approximation authorized by user; original paper inputs and seeds unavailable.",
+    "measured": {
+      "reported_init_s": {
+        "mean": 1210.8826666666666,
+        "min": 956.978,
+        "max": 1580.7,
+        "n": 3
+      },
+      "reported_execution_s": {
+        "mean": 132.32273333333333,
+        "min": 94.9582,
+        "max": 156.832,
+        "n": 3
+      },
+      "reported_total_s": {
+        "mean": 1343.2054,
+        "min": 1113.81,
+        "max": 1725.8780000000002,
+        "n": 3
+      },
+      "peak_rss_kib": {
+        "mean": 10804898.666666666,
+        "min": 10804880,
+        "max": 10804912,
+        "n": 3
+      }
+    }
+  },
+  {
+    "dataset": "POW-L-approx",
+    "paper": {
+      "dataset": "POW-L",
+      "init_s": 18000,
+      "execution_s": 1920,
+      "total_s": 19800,
+      "memory_GB": 227,
+      "baseline_status": "OOM"
+    },
+    "measured_status": "complete",
+    "baseline_status": "completed_with_failures",
+    "baseline_trial_status_counts": {
+      "memory_limit": 3
+    },
+    "actual_processed_input": {
+      "vertices": 1096436298,
+      "edges": 821411625,
+      "incidences": 11304925605,
+      "max_edge_size": 160,
+      "max_vertex_id": 1096436298,
+      "dense_vertex_ids": true,
+      "strictly_sorted_members": true,
+      "sha256": "cf059caa708a0b42f7b5d8e74a565de570b1bbbfdca0417aa2ac15771c25fabd",
+      "bytes": 121857265636
+    },
+    "paper_table4": {
+      "id": "POW-L",
+      "name": "Synthetic power law",
+      "reported_n": 1094321853,
+      "reported_m": 1054252694,
+      "degree_mean": 11.5,
+      "edge_size_mean": 11.9,
+      "neighbors_mean": 202.3,
+      "raw_size_GB": 187
+    },
+    "input_claim": "Same-scale approximation authorized by user; original paper inputs and seeds unavailable.",
+    "measured": {
+      "reported_init_s": {
+        "mean": 17206.13333333333,
+        "min": 17051.1,
+        "max": 17344.6,
+        "n": 3
+      },
+      "reported_execution_s": {
+        "mean": 1486.6633333333334,
+        "min": 1453.7,
+        "max": 1504.4,
+        "n": 3
+      },
+      "reported_total_s": {
+        "mean": 18692.796666666665,
+        "min": 18504.8,
+        "max": 18846.489999999998,
+        "n": 3
+      },
+      "peak_rss_kib": {
+        "mean": 215310389.33333334,
+        "min": 215310332,
+        "max": 215310436,
+        "n": 3
+      }
+    }
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "label": "stats-SOA-0-r1",
+  "dataset": "SOA",
+  "paper_id": "SOA",
+  "kind": "stats",
+  "argument": "0",
+  "repeat": 1,
+  "status": "ok",
+  "exit_code": 0,
+  "recorded_at_utc": "2026-10-29T12:51:46.461445+00:00",
+  "process_wall_s": 573.3847693298012,
+  "command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "${PROJECT_ROOT}/results/full-real-001/stats-SOA-0-r1.time.txt",
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "21600s",
+    "taskset",
+    "-c",
+    "0",
+    "${PROJECT_ROOT}/build/extended/sigmod_extended",
+    "${PROJECT_ROOT}/data/processed/extended-SOA/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+    "stats",
+    "0",
+    "3000",
+    "${PROJECT_ROOT}/results/full-real-001/stats-SOA-0-r1.cores.csv"
+  ],
+  "input_sha256": "e2c1b6802962c1528f4a50c01d14c1acf32d9070079a7ac1eee2a8e36eabb04d",
+  "binary_sha256": "9788b5649d1c58b346605db271292484addac166409a863edcf21924e757ae56",
+  "threads": 1,
+  "physical_cpus": [
+    0
+  ],
+  "memory_limit_kind": "RLIMIT_AS virtual address space; not identical to paper physical RAM limit",
+  "memory_limit_bytes": 536870912000,
+  "timeout_s": 21600,
+  "exported_cores": true,
+  "load_average_end": [
+    4.90283203125,
+    5.4775390625,
+    5.56884765625
+  ],
+  "peak_rss_kib": 810156,
+  "load_wall_s": 2.964148304,
+  "setup_wall_s": 0,
+  "compute_wall_s": 568.853204284,
+  "total_before_export_wall_s": 571.817352588,
+  "vertices": 15211989,
+  "reported_init_s": 522.177,
+  "reported_execution_s": 46.6649,
+  "reported_total_s": 568.8419,
+  "reported_clock": "wall high_resolution_clock",
+  "core_sha256": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+  "iteration_trace": [
+    {
+      "iteration": 1,
+      "computed": 6230301,
+      "changed": 6223526
+    },
+    {
+      "iteration": 2,
+      "computed": 1075,
+      "changed": 1075
+    },
+    {
+      "iteration": 3,
+      "computed": 7,
+      "changed": 7
+    },
+    {
+      "iteration": 4,
+      "computed": 2,
+      "changed": 2
+    }
+  ],
+  "decide_time_s": 9.74576,
+  "compute_time_s": 17.2857,
+  "exc_Time_s": 46.6649,
+  "ruc_fraction_of_execution": 0.20884562058420783
+}

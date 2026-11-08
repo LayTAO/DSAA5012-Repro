@@ -1,0 +1,45 @@
+{
+  "label": "core-POW-S-approx-OPTIV-validation",
+  "dataset": "POW-S-approx",
+  "paper_id": "POW-S",
+  "kind": "core",
+  "argument": "OPTIV",
+  "repeat": 0,
+  "status": "failed",
+  "exit_code": 139,
+  "recorded_at_utc": "2026-10-31T09:00:14.740393+00:00",
+  "process_wall_s": 4023.552758205682,
+  "command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "${PROJECT_ROOT}/results/full-synthetic-small001/core-POW-S-approx-OPTIV-validation.time.txt",
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "21600s",
+    "taskset",
+    "-c",
+    "0",
+    "${PROJECT_ROOT}/build/drivers/vldb",
+    "${PROJECT_ROOT}/data/processed/synthetic-POW-S-approx/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+    "OPTIV",
+    "${PROJECT_ROOT}/results/full-synthetic-small001/core-POW-S-approx-OPTIV-validation.cores.csv"
+  ],
+  "input_sha256": "0191f9f37d68b3d21efc5be53f7980c0c236b2156646f9af0050a3b07871da24",
+  "binary_sha256": "87bbd5527834740854e8429f89da2722208ae30084f01d1d7c97c4ff019cbc8c",
+  "threads": 1,
+  "physical_cpus": [
+    0
+  ],
+  "memory_limit_kind": "RLIMIT_AS virtual address space; not identical to paper physical RAM limit",
+  "memory_limit_bytes": 536870912000,
+  "timeout_s": 21600,
+  "exported_cores": true,
+  "load_average_end": [
+    4.52587890625,
+    4.66357421875,
+    4.7822265625
+  ],
+  "peak_rss_kib": 456219044
+}

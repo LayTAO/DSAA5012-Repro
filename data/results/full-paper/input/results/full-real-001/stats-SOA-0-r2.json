@@ -1,0 +1,82 @@
+{
+  "label": "stats-SOA-0-r2",
+  "dataset": "SOA",
+  "paper_id": "SOA",
+  "kind": "stats",
+  "argument": "0",
+  "repeat": 2,
+  "status": "ok",
+  "exit_code": 0,
+  "recorded_at_utc": "2026-10-29T13:01:19.974519+00:00",
+  "process_wall_s": 571.5300078988075,
+  "command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "${PROJECT_ROOT}/results/full-real-001/stats-SOA-0-r2.time.txt",
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "21600s",
+    "taskset",
+    "-c",
+    "0",
+    "${PROJECT_ROOT}/build/extended/sigmod_extended",
+    "${PROJECT_ROOT}/data/processed/extended-SOA/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+    "stats",
+    "0",
+    "3000",
+    "-"
+  ],
+  "input_sha256": "e2c1b6802962c1528f4a50c01d14c1acf32d9070079a7ac1eee2a8e36eabb04d",
+  "binary_sha256": "9788b5649d1c58b346605db271292484addac166409a863edcf21924e757ae56",
+  "threads": 1,
+  "physical_cpus": [
+    0
+  ],
+  "memory_limit_kind": "RLIMIT_AS virtual address space; not identical to paper physical RAM limit",
+  "memory_limit_bytes": 536870912000,
+  "timeout_s": 21600,
+  "exported_cores": false,
+  "load_average_end": [
+    5.5712890625,
+    6.775390625,
+    6.22265625
+  ],
+  "peak_rss_kib": 810068,
+  "load_wall_s": 3.009282639,
+  "setup_wall_s": 0,
+  "compute_wall_s": 568.44749912,
+  "total_before_export_wall_s": 571.456781759,
+  "vertices": 15211989,
+  "reported_init_s": 521.659,
+  "reported_execution_s": 46.7766,
+  "reported_total_s": 568.4356,
+  "reported_clock": "wall high_resolution_clock",
+  "iteration_trace": [
+    {
+      "iteration": 1,
+      "computed": 6230301,
+      "changed": 6223526
+    },
+    {
+      "iteration": 2,
+      "computed": 1075,
+      "changed": 1075
+    },
+    {
+      "iteration": 3,
+      "computed": 7,
+      "changed": 7
+    },
+    {
+      "iteration": 4,
+      "computed": 2,
+      "changed": 2
+    }
+  ],
+  "decide_time_s": 9.7577,
+  "compute_time_s": 17.2954,
+  "exc_Time_s": 46.7766,
+  "ruc_fraction_of_execution": 0.20860216433002826
+}

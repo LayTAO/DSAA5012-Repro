@@ -1,0 +1,67 @@
+{
+  "dataset": "SOA",
+  "source": {
+    "name": "stackoverflow-answers",
+    "drive_id": "1CQpYlCoENcTXflwvFiKE-PrDS9f0yFKO",
+    "format": "zip",
+    "source_page": "https://www.cs.cornell.edu/~arb/data/stackoverflow-answers/",
+    "url": "https://drive.usercontent.google.com/download?id=1CQpYlCoENcTXflwvFiKE-PrDS9f0yFKO&export=download&confirm=t",
+    "bytes": 346501510,
+    "sha256": "0cd105cfb88ad636a18908f8dd3ebc4fe12d6b235fec9c5729e3b7e7fc17f2ac",
+    "retrieved_at_utc": "2026-10-29T04:15:13.572238+00:00"
+  },
+  "raw": {
+    "vertices": 15211989,
+    "edges": 1103243,
+    "incidences": 26109177,
+    "max_edge_size": 61315,
+    "max_vertex_id": 15211989,
+    "dense_vertex_ids": true,
+    "sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c",
+    "bytes": 213566177
+  },
+  "processed": {
+    "vertices": 15211989,
+    "edges": 1103243,
+    "incidences": 26109177,
+    "max_edge_size": 61315,
+    "max_vertex_id": 15211989,
+    "dense_vertex_ids": true,
+    "sha256": "e2c1b6802962c1528f4a50c01d14c1acf32d9070079a7ac1eee2a8e36eabb04d",
+    "bytes": 219330812
+  },
+  "details": {
+    "zip_member": "stackoverflow-answers/hyperedges-stackoverflow-answers.txt"
+  },
+  "preprocessing": "Preserve original hyperedge records, then author org and sortEV desc asc",
+  "commands": [
+    [
+      "${PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${PROJECT_ROOT}/data/processed/extended-SOA/author-input.hyp",
+      "org"
+    ],
+    [
+      "${PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${PROJECT_ROOT}/data/processed/extended-SOA/author-input.hyp",
+      "sortEV",
+      "desc",
+      "asc"
+    ]
+  ],
+  "paper_table4": {
+    "id": "SOA",
+    "name": "Stack-overflow-answers",
+    "reported_n": 15721061,
+    "reported_m": 722119,
+    "degree_mean": 1.6,
+    "edge_size_mean": 34.9,
+    "neighbors_mean": 1864.1,
+    "raw_size_GB": 0.38
+  },
+  "paper_count_match": {
+    "raw_true_counts": false,
+    "raw_array_counts": false,
+    "processed_array_counts": false,
+    "processed_edges_array_match": false
+  }
+}

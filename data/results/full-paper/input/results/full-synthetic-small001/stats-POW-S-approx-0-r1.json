@@ -1,0 +1,108 @@
+{
+  "label": "stats-POW-S-approx-0-r1",
+  "dataset": "POW-S-approx",
+  "paper_id": "POW-S",
+  "kind": "stats",
+  "argument": "0",
+  "repeat": 1,
+  "status": "ok",
+  "exit_code": 0,
+  "recorded_at_utc": "2026-10-31T13:17:18.913468+00:00",
+  "process_wall_s": 1102.763885654509,
+  "command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "${PROJECT_ROOT}/results/full-synthetic-small001/stats-POW-S-approx-0-r1.time.txt",
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "21600s",
+    "taskset",
+    "-c",
+    "0",
+    "${PROJECT_ROOT}/build/extended/sigmod_extended",
+    "${PROJECT_ROOT}/data/processed/synthetic-POW-S-approx/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+    "stats",
+    "0",
+    "3000",
+    "${PROJECT_ROOT}/results/full-synthetic-small001/stats-POW-S-approx-0-r1.cores.csv"
+  ],
+  "input_sha256": "0191f9f37d68b3d21efc5be53f7980c0c236b2156646f9af0050a3b07871da24",
+  "binary_sha256": "9788b5649d1c58b346605db271292484addac166409a863edcf21924e757ae56",
+  "threads": 1,
+  "physical_cpus": [
+    0
+  ],
+  "memory_limit_kind": "RLIMIT_AS virtual address space; not identical to paper physical RAM limit",
+  "memory_limit_bytes": 536870912000,
+  "timeout_s": 21600,
+  "exported_cores": true,
+  "load_average_end": [
+    73.44580078125,
+    64.70703125,
+    57.3095703125
+  ],
+  "peak_rss_kib": 10804952,
+  "load_wall_s": 82.723997242,
+  "setup_wall_s": 0,
+  "compute_wall_s": 1012.055113962,
+  "total_before_export_wall_s": 1094.779111204,
+  "vertices": 59769610,
+  "reported_init_s": 724.058,
+  "reported_execution_s": 287.952,
+  "reported_total_s": 1012.01,
+  "reported_clock": "wall high_resolution_clock",
+  "core_sha256": "26efbb77e1ff57833977b7195046b7d41e63bd8785d57c0145eed89312af2894",
+  "iteration_trace": [
+    {
+      "iteration": 1,
+      "computed": 25260903,
+      "changed": 24138177
+    },
+    {
+      "iteration": 2,
+      "computed": 1674983,
+      "changed": 1602097
+    },
+    {
+      "iteration": 3,
+      "computed": 253170,
+      "changed": 226574
+    },
+    {
+      "iteration": 4,
+      "computed": 37787,
+      "changed": 33369
+    },
+    {
+      "iteration": 5,
+      "computed": 5417,
+      "changed": 4770
+    },
+    {
+      "iteration": 6,
+      "computed": 711,
+      "changed": 620
+    },
+    {
+      "iteration": 7,
+      "computed": 128,
+      "changed": 114
+    },
+    {
+      "iteration": 8,
+      "computed": 17,
+      "changed": 15
+    },
+    {
+      "iteration": 9,
+      "computed": 1,
+      "changed": 1
+    }
+  ],
+  "decide_time_s": 56.442,
+  "compute_time_s": 117.042,
+  "exc_Time_s": 287.952,
+  "ruc_fraction_of_execution": 0.1960118353058843
+}

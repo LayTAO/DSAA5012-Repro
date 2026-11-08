@@ -1,0 +1,1131 @@
+{
+  "created_at_utc": "2026-10-29T07:40:01.564218+00:00",
+  "phase": "real",
+  "datasets": {
+    "HI": {
+      "directory": "cornell-HI-ordered",
+      "paper_id": "HI",
+      "existing_result": "paper-HI-001",
+      "alignment_note": "Use the audited data manifest; do not assume identical paper input.",
+      "dataset": "HI",
+      "path": "${PROJECT_ROOT}/data/processed/cornell-HI-ordered/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 503868,
+        "edges": 252935,
+        "incidences": 763032,
+        "max_edge_size": 925,
+        "max_vertex_id": 1034875,
+        "dense_vertex_ids": false,
+        "sha256": "ab3b8a00895e60d782388ddcdac831d9e07d3be82d691eb9deb92b4e03e2a4ae",
+        "bytes": 5463450
+      },
+      "data_manifest": "${PROJECT_ROOT}/data/processed/cornell-HI-ordered/manifest.json"
+    },
+    "CO": {
+      "directory": "author-CO",
+      "paper_id": "CO",
+      "existing_result": "paper-CO-001",
+      "alignment_note": "Use the audited data manifest; do not assume identical paper input.",
+      "dataset": "CO",
+      "path": "${PROJECT_ROOT}/data/processed/author-CO/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 1718,
+        "edges": 83105,
+        "incidences": 732300,
+        "max_edge_size": 25,
+        "max_vertex_id": 1718,
+        "dense_vertex_ids": true,
+        "sha256": "bd245b80cf262b2ec6f2daa4044954da5dfe6b8d350e8a6c7cdf35bd385da918",
+        "bytes": 3358867
+      },
+      "data_manifest": "${PROJECT_ROOT}/data/processed/author-CO/manifest.json"
+    },
+    "GE": {
+      "directory": "cornell-GE-ordered",
+      "paper_id": "GE",
+      "existing_result": null,
+      "alignment_note": "Current Cornell release differs from paper Table 4; report as public-version replication.",
+      "dataset": "GE",
+      "path": "${PROJECT_ROOT}/data/processed/cornell-GE-ordered/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 1091979,
+        "edges": 912822,
+        "incidences": 3535749,
+        "max_edge_size": 284,
+        "max_vertex_id": 1261129,
+        "dense_vertex_ids": false,
+        "sha256": "7bdcada7eb8577bab19d03637b12677a6b4c9cc60a97d8ae1ccabc266a335865",
+        "bytes": 27168203
+      },
+      "data_manifest": "${PROJECT_ROOT}/data/processed/cornell-GE-ordered/manifest.json"
+    },
+    "DB": {
+      "directory": "author-DB",
+      "paper_id": "DB",
+      "existing_result": "paper-DB-001",
+      "alignment_note": "Use the audited data manifest; do not assume identical paper input.",
+      "dataset": "DB",
+      "path": "${PROJECT_ROOT}/data/processed/author-DB/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 1836596,
+        "edges": 2170260,
+        "incidences": 7451608,
+        "max_edge_size": 280,
+        "max_vertex_id": 1836596,
+        "dense_vertex_ids": true,
+        "sha256": "962f5424644089e9233eef6fc3f9dd340faeacd67ce5070f2541e88e332325c3",
+        "bytes": 58258135
+      },
+      "data_manifest": "${PROJECT_ROOT}/data/processed/author-DB/manifest.json"
+    },
+    "DF": {
+      "directory": "cornell-DF-ordered",
+      "paper_id": "DF",
+      "existing_result": null,
+      "alignment_note": "Current Cornell release differs from paper Table 4; report as public-version replication.",
+      "dataset": "DF",
+      "path": "${PROJECT_ROOT}/data/processed/cornell-DF-ordered/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 1836596,
+        "edges": 2302554,
+        "incidences": 7877879,
+        "max_edge_size": 280,
+        "max_vertex_id": 1930378,
+        "dense_vertex_ids": false,
+        "sha256": "8d86b7b94625d19307e7f0fc25ddc76d05ca62e121b5f3e7aa088a4a90aa4404",
+        "bytes": 61889510
+      },
+      "data_manifest": "${PROJECT_ROOT}/data/processed/cornell-DF-ordered/manifest.json"
+    },
+    "THS": {
+      "directory": "extended-THS",
+      "paper_id": "THS",
+      "existing_result": null,
+      "alignment_note": "Use the audited data manifest; do not assume identical paper input.",
+      "dataset": "THS",
+      "path": "${PROJECT_ROOT}/data/processed/extended-THS/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 2321767,
+        "edges": 8589580,
+        "incidences": 22645694,
+        "max_edge_size": 67,
+        "max_vertex_id": 2675966,
+        "dense_vertex_ids": false,
+        "sha256": "b719a410c9eb07d08feaa7c3ff029692779f03b0f8c979148f92964559b65305",
+        "bytes": 180519742
+      },
+      "data_manifest": "${PROJECT_ROOT}/data/processed/extended-THS/manifest.json"
+    },
+    "TAS": {
+      "directory": "extended-TAS",
+      "paper_id": "TAS",
+      "existing_result": null,
+      "alignment_note": "Use the audited data manifest; do not assume identical paper input.",
+      "dataset": "TAS",
+      "path": "${PROJECT_ROOT}/data/processed/extended-TAS/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 49945,
+        "edges": 5654914,
+        "incidences": 21867061,
+        "max_edge_size": 5,
+        "max_vertex_id": 49998,
+        "dense_vertex_ids": false,
+        "sha256": "99807b30d2ea59f02042a3cd6beeae2aba21978623cefb6bf82e080067032ec3",
+        "bytes": 131168120
+      },
+      "data_manifest": "${PROJECT_ROOT}/data/processed/extended-TAS/manifest.json"
+    },
+    "SOA": {
+      "directory": "extended-SOA",
+      "paper_id": "SOA",
+      "existing_result": null,
+      "alignment_note": "Use the audited data manifest; do not assume identical paper input.",
+      "dataset": "SOA",
+      "path": "${PROJECT_ROOT}/data/processed/extended-SOA/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 15211989,
+        "edges": 1103243,
+        "incidences": 26109177,
+        "max_edge_size": 61315,
+        "max_vertex_id": 15211989,
+        "dense_vertex_ids": true,
+        "sha256": "e2c1b6802962c1528f4a50c01d14c1acf32d9070079a7ac1eee2a8e36eabb04d",
+        "bytes": 219330812
+      },
+      "data_manifest": "${PROJECT_ROOT}/data/processed/extended-SOA/manifest.json"
+    },
+    "AM": {
+      "directory": "author-AM",
+      "paper_id": "AM",
+      "existing_result": "paper-AM-001",
+      "alignment_note": "Use the audited data manifest; do not assume identical paper input.",
+      "dataset": "AM",
+      "path": "${PROJECT_ROOT}/data/processed/author-AM/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 27850748,
+        "edges": 17120546,
+        "incidences": 64555978,
+        "max_edge_size": 611,
+        "max_vertex_id": 27850748,
+        "dense_vertex_ids": true,
+        "sha256": "9f6fdd4b0375c7907d9794f1a1a7206bc13c7abe1f8118533aaf02c14ffb7600",
+        "bytes": 568826468
+      },
+      "data_manifest": "${PROJECT_ROOT}/data/processed/author-AM/manifest.json"
+    },
+    "AMZ": {
+      "directory": "extended-AMZ",
+      "paper_id": "AMZ",
+      "existing_result": null,
+      "alignment_note": "Use the audited data manifest; do not assume identical paper input.",
+      "dataset": "AMZ",
+      "path": "${PROJECT_ROOT}/data/processed/extended-AMZ/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 2268231,
+        "edges": 4285363,
+        "incidences": 73141425,
+        "max_edge_size": 9350,
+        "max_vertex_id": 2268231,
+        "dense_vertex_ids": true,
+        "sha256": "051b06d2b20ba24f76d4f68eb4d9408e6b42ddb5251bf8a69075dfc92c8a08a7",
+        "bytes": 576273554
+      },
+      "data_manifest": "${PROJECT_ROOT}/data/processed/extended-AMZ/manifest.json"
+    },
+    "TAS-E0p2": {
+      "dataset": "TAS-E0p2",
+      "paper_id": "TAS",
+      "path": "${PROJECT_ROOT}/data/processed/scales-TAS/0.2/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 43568,
+        "edges": 1130983,
+        "incidences": 4371788,
+        "max_edge_size": 5,
+        "max_vertex_id": 43568,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "0891ae6dcb4e0837abec29001772bdbb509e30e944e7cde865796d0ee9c23f40",
+        "bytes": 26214085
+      },
+      "scale": "0.2"
+    },
+    "TAS-E0p4": {
+      "dataset": "TAS-E0p4",
+      "paper_id": "TAS",
+      "path": "${PROJECT_ROOT}/data/processed/scales-TAS/0.4/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 46989,
+        "edges": 2261966,
+        "incidences": 8746981,
+        "max_edge_size": 5,
+        "max_vertex_id": 46989,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "e2b389b91bd9dd2f25680d6ec70b85506ef6260c03ed54751084f453bea1fd09",
+        "bytes": 52460553
+      },
+      "scale": "0.4"
+    },
+    "TAS-E0p6": {
+      "dataset": "TAS-E0p6",
+      "paper_id": "TAS",
+      "path": "${PROJECT_ROOT}/data/processed/scales-TAS/0.6/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 48489,
+        "edges": 3392948,
+        "incidences": 13119638,
+        "max_edge_size": 5,
+        "max_vertex_id": 48489,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "5979d67a914448242c8f6af5725ca84c59be0112d49f316369049007c3c66d2d",
+        "bytes": 78691999
+      },
+      "scale": "0.6"
+    },
+    "TAS-E0p8": {
+      "dataset": "TAS-E0p8",
+      "paper_id": "TAS",
+      "path": "${PROJECT_ROOT}/data/processed/scales-TAS/0.8/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 49372,
+        "edges": 4523931,
+        "incidences": 17492599,
+        "max_edge_size": 5,
+        "max_vertex_id": 49372,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "2c9b007b364c29af3d499ba31400bf3d3109b217b4665f1d931fda1f7ba6b173",
+        "bytes": 104925358
+      },
+      "scale": "0.8"
+    },
+    "TAS-E1p0": {
+      "dataset": "TAS-E1p0",
+      "paper_id": "TAS",
+      "path": "${PROJECT_ROOT}/data/processed/extended-TAS/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 49945,
+        "edges": 5654914,
+        "incidences": 21867061,
+        "max_edge_size": 5,
+        "max_vertex_id": 49998,
+        "dense_vertex_ids": false,
+        "sha256": "99807b30d2ea59f02042a3cd6beeae2aba21978623cefb6bf82e080067032ec3",
+        "bytes": 131168120
+      },
+      "scale": "1.0"
+    },
+    "SOA-E0p2": {
+      "dataset": "SOA-E0p2",
+      "paper_id": "SOA",
+      "path": "${PROJECT_ROOT}/data/processed/scales-SOA/0.2/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 4556804,
+        "edges": 220648,
+        "incidences": 5256229,
+        "max_edge_size": 33777,
+        "max_vertex_id": 4556804,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "a1248c1414c40ec737588cce80c5c4b8733742e815488b5eb711598864b35b99",
+        "bytes": 40906686
+      },
+      "scale": "0.2"
+    },
+    "SOA-E0p4": {
+      "dataset": "SOA-E0p4",
+      "paper_id": "SOA",
+      "path": "${PROJECT_ROOT}/data/processed/scales-SOA/0.4/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 8137346,
+        "edges": 441296,
+        "incidences": 10566340,
+        "max_edge_size": 61315,
+        "max_vertex_id": 8137346,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "1a78b23d304be399cc592365eeba12f34698392feb35e66e862ea74875015405",
+        "bytes": 83386989
+      },
+      "scale": "0.4"
+    },
+    "SOA-E0p6": {
+      "dataset": "SOA-E0p6",
+      "paper_id": "SOA",
+      "path": "${PROJECT_ROOT}/data/processed/scales-SOA/0.6/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 10935088,
+        "edges": 661945,
+        "incidences": 15719139,
+        "max_edge_size": 61315,
+        "max_vertex_id": 10935088,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "ced2d566da1530795442d1cd33d79cf03c77252ada30a4754ec2300a670e575c",
+        "bytes": 126392401
+      },
+      "scale": "0.6"
+    },
+    "SOA-E0p8": {
+      "dataset": "SOA-E0p8",
+      "paper_id": "SOA",
+      "path": "${PROJECT_ROOT}/data/processed/scales-SOA/0.8/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 13233114,
+        "edges": 882594,
+        "incidences": 20867845,
+        "max_edge_size": 61315,
+        "max_vertex_id": 13233114,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "cd623c8a3703c450288043c0360e3fd8099e8ea8d672a1a3535220558f0358c5",
+        "bytes": 172480227
+      },
+      "scale": "0.8"
+    },
+    "SOA-E1p0": {
+      "dataset": "SOA-E1p0",
+      "paper_id": "SOA",
+      "path": "${PROJECT_ROOT}/data/processed/extended-SOA/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 15211989,
+        "edges": 1103243,
+        "incidences": 26109177,
+        "max_edge_size": 61315,
+        "max_vertex_id": 15211989,
+        "dense_vertex_ids": true,
+        "sha256": "e2c1b6802962c1528f4a50c01d14c1acf32d9070079a7ac1eee2a8e36eabb04d",
+        "bytes": 219330812
+      },
+      "scale": "1.0"
+    },
+    "AM-E0p2": {
+      "dataset": "AM-E0p2",
+      "paper_id": "AM",
+      "path": "${PROJECT_ROOT}/data/processed/scales-AM/0.2/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 8541739,
+        "edges": 3424108,
+        "incidences": 12912901,
+        "max_edge_size": 443,
+        "max_vertex_id": 8541739,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "31e53e3fa196daa4bd97fbd5953d11f00ac6cc33a5159c948f1ebcb5d001d285",
+        "bytes": 102161609
+      },
+      "scale": "0.2"
+    },
+    "AM-E0p4": {
+      "dataset": "AM-E0p4",
+      "paper_id": "AM",
+      "path": "${PROJECT_ROOT}/data/processed/scales-AM/0.4/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 14438490,
+        "edges": 6848217,
+        "incidences": 25827788,
+        "max_edge_size": 458,
+        "max_vertex_id": 14438490,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "925c48426bcae3d925fa012035269ddaf685a6245d02eb34b2f9247b3854c4d1",
+        "bytes": 219695946
+      },
+      "scale": "0.4"
+    },
+    "AM-E0p6": {
+      "dataset": "AM-E0p6",
+      "paper_id": "AM",
+      "path": "${PROJECT_ROOT}/data/processed/scales-AM/0.6/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 19385853,
+        "edges": 10272327,
+        "incidences": 38735607,
+        "max_edge_size": 458,
+        "max_vertex_id": 19385853,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "b2ebf5dbdc5c313803c08073045aa6c0bc4297e16d7a340245e1366aebe43352",
+        "bytes": 336156931
+      },
+      "scale": "0.6"
+    },
+    "AM-E0p8": {
+      "dataset": "AM-E0p8",
+      "paper_id": "AM",
+      "path": "${PROJECT_ROOT}/data/processed/scales-AM/0.8/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 23797989,
+        "edges": 13696436,
+        "incidences": 51643695,
+        "max_edge_size": 611,
+        "max_vertex_id": 23797989,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "256556bc4833e9e05eda7f3773494a2d465c761af621ef6f55d3d8f6303d29a9",
+        "bytes": 452537887
+      },
+      "scale": "0.8"
+    },
+    "AM-E1p0": {
+      "dataset": "AM-E1p0",
+      "paper_id": "AM",
+      "path": "${PROJECT_ROOT}/data/processed/author-AM/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 27850748,
+        "edges": 17120546,
+        "incidences": 64555978,
+        "max_edge_size": 611,
+        "max_vertex_id": 27850748,
+        "dense_vertex_ids": true,
+        "sha256": "9f6fdd4b0375c7907d9794f1a1a7206bc13c7abe1f8118533aaf02c14ffb7600",
+        "bytes": 568826468
+      },
+      "scale": "1.0"
+    },
+    "AMZ-E0p2": {
+      "dataset": "AMZ-E0p2",
+      "paper_id": "AMZ",
+      "path": "${PROJECT_ROOT}/data/processed/scales-AMZ/0.2/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 1988786,
+        "edges": 857072,
+        "incidences": 14650664,
+        "max_edge_size": 4076,
+        "max_vertex_id": 1988786,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "21f8e0af7aff8faed3c9b19b07f868c58e9cac75e6a073ede31613e53f15c7bf",
+        "bytes": 114982346
+      },
+      "scale": "0.2"
+    },
+    "AMZ-E0p4": {
+      "dataset": "AMZ-E0p4",
+      "paper_id": "AMZ",
+      "path": "${PROJECT_ROOT}/data/processed/scales-AMZ/0.4/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 2220795,
+        "edges": 1714145,
+        "incidences": 29298082,
+        "max_edge_size": 8947,
+        "max_vertex_id": 2220795,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "a71cca5f078477fd17baa6dd66872415519e1f5254405bc1b45aa0d967cbad4d",
+        "bytes": 230983549
+      },
+      "scale": "0.4"
+    },
+    "AMZ-E0p6": {
+      "dataset": "AMZ-E0p6",
+      "paper_id": "AMZ",
+      "path": "${PROJECT_ROOT}/data/processed/scales-AMZ/0.6/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 2262555,
+        "edges": 2571218,
+        "incidences": 43899733,
+        "max_edge_size": 8947,
+        "max_vertex_id": 2262555,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "bbcd556220d5da0ef7f0acad9882b2818d25195a0b08239278b8194e8fcf8a87",
+        "bytes": 346154068
+      },
+      "scale": "0.6"
+    },
+    "AMZ-E0p8": {
+      "dataset": "AMZ-E0p8",
+      "paper_id": "AMZ",
+      "path": "${PROJECT_ROOT}/data/processed/scales-AMZ/0.8/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 2267702,
+        "edges": 3428290,
+        "incidences": 58542635,
+        "max_edge_size": 9350,
+        "max_vertex_id": 2267702,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "62476ad4db2c35ff1f1b7d5796d6afbd27caee33fc1d0e71c78929d0edffebfa",
+        "bytes": 461422000
+      },
+      "scale": "0.8"
+    },
+    "AMZ-E1p0": {
+      "dataset": "AMZ-E1p0",
+      "paper_id": "AMZ",
+      "path": "${PROJECT_ROOT}/data/processed/extended-AMZ/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 2268231,
+        "edges": 4285363,
+        "incidences": 73141425,
+        "max_edge_size": 9350,
+        "max_vertex_id": 2268231,
+        "dense_vertex_ids": true,
+        "sha256": "051b06d2b20ba24f76d4f68eb4d9408e6b42ddb5251bf8a69075dfc92c8a08a7",
+        "bytes": 576273554
+      },
+      "scale": "1.0"
+    }
+  },
+  "plan": [
+    {
+      "dataset": "DF",
+      "family": "core",
+      "argument": "OPTIV",
+      "repeats": 3
+    },
+    {
+      "dataset": "GE",
+      "family": "core",
+      "argument": "2",
+      "repeats": 3
+    },
+    {
+      "dataset": "SOA",
+      "family": "core",
+      "argument": "OPTIV",
+      "repeats": 3
+    },
+    {
+      "dataset": "AMZ-E0p8",
+      "family": "scale",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "TAS",
+      "family": "core",
+      "argument": "OPTIV",
+      "repeats": 3
+    },
+    {
+      "dataset": "SOA",
+      "family": "parallel",
+      "argument": "1",
+      "repeats": 3
+    },
+    {
+      "dataset": "SOA",
+      "family": "parallel",
+      "argument": "16",
+      "repeats": 3
+    },
+    {
+      "dataset": "AMZ",
+      "family": "parallel",
+      "argument": "16",
+      "repeats": 3
+    },
+    {
+      "dataset": "THS",
+      "family": "core",
+      "argument": "5",
+      "repeats": 3
+    },
+    {
+      "dataset": "TAS-E0p6",
+      "family": "scale",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "DF",
+      "family": "stats",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "SOA",
+      "family": "core",
+      "argument": "1",
+      "repeats": 3
+    },
+    {
+      "dataset": "SOA",
+      "family": "parallel",
+      "argument": "4",
+      "repeats": 3
+    },
+    {
+      "dataset": "DF",
+      "family": "core",
+      "argument": "2",
+      "repeats": 3
+    },
+    {
+      "dataset": "GE",
+      "family": "core",
+      "argument": "5",
+      "repeats": 3
+    },
+    {
+      "dataset": "TAS",
+      "family": "core",
+      "argument": "1",
+      "repeats": 3
+    },
+    {
+      "dataset": "GE",
+      "family": "core",
+      "argument": "3",
+      "repeats": 3
+    },
+    {
+      "dataset": "AMZ-E0p4",
+      "family": "scale",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "TAS",
+      "family": "core",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "DF",
+      "family": "stats",
+      "argument": "1",
+      "repeats": 1
+    },
+    {
+      "dataset": "AMZ",
+      "family": "parallel",
+      "argument": "1",
+      "repeats": 3
+    },
+    {
+      "dataset": "GE",
+      "family": "core",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "SOA",
+      "family": "parallel",
+      "argument": "32",
+      "repeats": 3
+    },
+    {
+      "dataset": "AM",
+      "family": "stats",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "SOA",
+      "family": "core",
+      "argument": "4",
+      "repeats": 3
+    },
+    {
+      "dataset": "SOA-E0p6",
+      "family": "scale",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "SOA",
+      "family": "stats",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "THS",
+      "family": "stats",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "AMZ",
+      "family": "parallel",
+      "argument": "4",
+      "repeats": 3
+    },
+    {
+      "dataset": "SOA-E0p4",
+      "family": "scale",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "AMZ",
+      "family": "parallel",
+      "argument": "2",
+      "repeats": 3
+    },
+    {
+      "dataset": "DF",
+      "family": "core",
+      "argument": "1",
+      "repeats": 3
+    },
+    {
+      "dataset": "AMZ",
+      "family": "stats",
+      "argument": "5",
+      "repeats": 1
+    },
+    {
+      "dataset": "AMZ",
+      "family": "core",
+      "argument": "4",
+      "repeats": 3
+    },
+    {
+      "dataset": "TAS",
+      "family": "core",
+      "argument": "3",
+      "repeats": 3
+    },
+    {
+      "dataset": "HI",
+      "family": "stats",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "TAS-E1p0",
+      "family": "scale",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "THS",
+      "family": "stats",
+      "argument": "5",
+      "repeats": 1
+    },
+    {
+      "dataset": "TAS",
+      "family": "core",
+      "argument": "4",
+      "repeats": 3
+    },
+    {
+      "dataset": "THS",
+      "family": "core",
+      "argument": "3",
+      "repeats": 3
+    },
+    {
+      "dataset": "GE",
+      "family": "core",
+      "argument": "4",
+      "repeats": 3
+    },
+    {
+      "dataset": "GE",
+      "family": "stats",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "AM-E0p6",
+      "family": "scale",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "SOA-E0p8",
+      "family": "scale",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "THS",
+      "family": "core",
+      "argument": "2",
+      "repeats": 3
+    },
+    {
+      "dataset": "TAS",
+      "family": "stats",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "DF",
+      "family": "core",
+      "argument": "5",
+      "repeats": 3
+    },
+    {
+      "dataset": "DF",
+      "family": "stats",
+      "argument": "2",
+      "repeats": 1
+    },
+    {
+      "dataset": "DF",
+      "family": "stats",
+      "argument": "5",
+      "repeats": 1
+    },
+    {
+      "dataset": "AMZ",
+      "family": "core",
+      "argument": "3",
+      "repeats": 3
+    },
+    {
+      "dataset": "SOA-E0p2",
+      "family": "scale",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "SOA",
+      "family": "core",
+      "argument": "2",
+      "repeats": 3
+    },
+    {
+      "dataset": "TAS-E0p4",
+      "family": "scale",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "DB",
+      "family": "stats",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "THS",
+      "family": "core",
+      "argument": "4",
+      "repeats": 3
+    },
+    {
+      "dataset": "AMZ",
+      "family": "core",
+      "argument": "2",
+      "repeats": 3
+    },
+    {
+      "dataset": "SOA",
+      "family": "parallel",
+      "argument": "8",
+      "repeats": 3
+    },
+    {
+      "dataset": "SOA",
+      "family": "parallel",
+      "argument": "2",
+      "repeats": 3
+    },
+    {
+      "dataset": "AMZ",
+      "family": "core",
+      "argument": "5",
+      "repeats": 3
+    },
+    {
+      "dataset": "AM-E1p0",
+      "family": "scale",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "TAS",
+      "family": "core",
+      "argument": "2",
+      "repeats": 3
+    },
+    {
+      "dataset": "SOA",
+      "family": "core",
+      "argument": "5",
+      "repeats": 3
+    },
+    {
+      "dataset": "AMZ-E0p2",
+      "family": "scale",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "AMZ",
+      "family": "core",
+      "argument": "OPTIV",
+      "repeats": 3
+    },
+    {
+      "dataset": "SOA",
+      "family": "core",
+      "argument": "3",
+      "repeats": 3
+    },
+    {
+      "dataset": "SOA",
+      "family": "core",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "THS",
+      "family": "core",
+      "argument": "OPTIV",
+      "repeats": 3
+    },
+    {
+      "dataset": "AMZ",
+      "family": "parallel",
+      "argument": "32",
+      "repeats": 3
+    },
+    {
+      "dataset": "AMZ-E1p0",
+      "family": "scale",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "GE",
+      "family": "core",
+      "argument": "1",
+      "repeats": 3
+    },
+    {
+      "dataset": "AMZ",
+      "family": "core",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "TAS",
+      "family": "stats",
+      "argument": "1",
+      "repeats": 1
+    },
+    {
+      "dataset": "TAS",
+      "family": "stats",
+      "argument": "2",
+      "repeats": 1
+    },
+    {
+      "dataset": "AMZ",
+      "family": "parallel",
+      "argument": "8",
+      "repeats": 3
+    },
+    {
+      "dataset": "SOA",
+      "family": "parallel",
+      "argument": "64",
+      "repeats": 3
+    },
+    {
+      "dataset": "AMZ-E0p6",
+      "family": "scale",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "TAS-E0p8",
+      "family": "scale",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "AMZ",
+      "family": "stats",
+      "argument": "1",
+      "repeats": 1
+    },
+    {
+      "dataset": "DF",
+      "family": "core",
+      "argument": "4",
+      "repeats": 3
+    },
+    {
+      "dataset": "THS",
+      "family": "stats",
+      "argument": "1",
+      "repeats": 1
+    },
+    {
+      "dataset": "THS",
+      "family": "core",
+      "argument": "1",
+      "repeats": 3
+    },
+    {
+      "dataset": "THS",
+      "family": "core",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "AM-E0p4",
+      "family": "scale",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "THS",
+      "family": "stats",
+      "argument": "2",
+      "repeats": 1
+    },
+    {
+      "dataset": "SOA-E1p0",
+      "family": "scale",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "DF",
+      "family": "core",
+      "argument": "3",
+      "repeats": 3
+    },
+    {
+      "dataset": "CO",
+      "family": "stats",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "AMZ",
+      "family": "parallel",
+      "argument": "64",
+      "repeats": 3
+    },
+    {
+      "dataset": "AM-E0p8",
+      "family": "scale",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "AMZ",
+      "family": "stats",
+      "argument": "2",
+      "repeats": 1
+    },
+    {
+      "dataset": "AMZ",
+      "family": "core",
+      "argument": "1",
+      "repeats": 3
+    },
+    {
+      "dataset": "AM-E0p2",
+      "family": "scale",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "TAS-E0p2",
+      "family": "scale",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "DF",
+      "family": "core",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "AMZ",
+      "family": "stats",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "GE",
+      "family": "core",
+      "argument": "OPTIV",
+      "repeats": 3
+    },
+    {
+      "dataset": "TAS",
+      "family": "stats",
+      "argument": "5",
+      "repeats": 1
+    },
+    {
+      "dataset": "TAS",
+      "family": "core",
+      "argument": "5",
+      "repeats": 3
+    }
+  ],
+  "binary_sha256": {
+    "build/drivers/sigmod": "0d0c558d01db77b45bf3cc1bbb0eb1231316a0945c675bdb7c3d081e42c19b1a",
+    "build/drivers/vldb": "87bbd5527834740854e8429f89da2722208ae30084f01d1d7c97c4ff019cbc8c",
+    "build/extended/sigmod_extended": "9788b5649d1c58b346605db271292484addac166409a863edcf21924e757ae56"
+  },
+  "timeout_s": 21600,
+  "memory_gib": 500,
+  "seed": 5012,
+  "source_sha256": "e3523aaf5302ebfefe8665b138024303ce72325631d6dd298ccb9f9245be58c3"
+}

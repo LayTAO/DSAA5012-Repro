@@ -1,0 +1,84 @@
+{
+  "dataset": "TAS",
+  "source": {
+    "name": "tags-stack-overflow",
+    "drive_id": "17XFOUNXR8Ecxhmt6YWMPt1uVr5yxiSz7",
+    "format": "tar.gz",
+    "source_page": "https://www.cs.cornell.edu/~arb/data/tags-stack-overflow/",
+    "url": "https://drive.usercontent.google.com/download?id=17XFOUNXR8Ecxhmt6YWMPt1uVr5yxiSz7&export=download&confirm=t",
+    "bytes": 168131276,
+    "sha256": "60057242c0917015ea513dbd38957e38469dd2e51cf0a958d89e1a489fe36b78",
+    "retrieved_at_utc": "2026-10-29T04:14:14.562308+00:00"
+  },
+  "raw": {
+    "vertices": 49998,
+    "edges": 5675497,
+    "incidences": 21887644,
+    "max_edge_size": 5,
+    "max_vertex_id": 49998,
+    "dense_vertex_ids": true,
+    "sha256": "bc6d70a1cf63e65e23aca5e5d35142bc7d3a7bc15175086b1159716911178aea",
+    "bytes": 99046407
+  },
+  "processed": {
+    "vertices": 49945,
+    "edges": 5654914,
+    "incidences": 21867061,
+    "max_edge_size": 5,
+    "max_vertex_id": 49998,
+    "dense_vertex_ids": false,
+    "sha256": "99807b30d2ea59f02042a3cd6beeae2aba21978623cefb6bf82e080067032ec3",
+    "bytes": 131168120
+  },
+  "details": {
+    "temporal": {
+      "timestamped_simplices": 14458875,
+      "incidences_before_edge_dedup": 42920549,
+      "duplicate_members_removed": 0
+    },
+    "unique": {
+      "unique_vertices": 49998,
+      "max_vertex_id": 49998,
+      "min_vertex_id": 1,
+      "unique_edges": 5675497,
+      "incidences": 21887644,
+      "singleton_edges": 20583,
+      "vertices_after_singleton_removal": 49945,
+      "edges_after_singleton_removal": 5654914,
+      "max_edge_size": 5,
+      "upstream_array_nodes": 49999,
+      "upstream_array_edges": 5675499
+    }
+  },
+  "preprocessing": "Deduplicate original ordered simplex lists, then author org and sortEV desc asc",
+  "commands": [
+    [
+      "${PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${PROJECT_ROOT}/data/processed/extended-TAS/author-input.hyp",
+      "org"
+    ],
+    [
+      "${PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${PROJECT_ROOT}/data/processed/extended-TAS/author-input.hyp",
+      "sortEV",
+      "desc",
+      "asc"
+    ]
+  ],
+  "paper_table4": {
+    "id": "TAS",
+    "name": "Tags-stack-overflow",
+    "reported_n": 94872,
+    "reported_m": 7838561,
+    "degree_mean": 303.9,
+    "edge_size_mean": 3.7,
+    "neighbors_mean": 187.5,
+    "raw_size_GB": 0.43
+  },
+  "paper_count_match": {
+    "raw_true_counts": false,
+    "raw_array_counts": false,
+    "processed_array_counts": false,
+    "processed_edges_array_match": false
+  }
+}

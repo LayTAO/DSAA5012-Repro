@@ -1,0 +1,20 @@
+{
+  "completed_at_utc": "2026-10-31T15:42:40.594332+00:00",
+  "series": 5,
+  "attempt_records": 20,
+  "successful_records": 16,
+  "trial_records": 15,
+  "trial_status_counts": {
+    "failed": 3,
+    "ok": 12
+  },
+  "timeouts": 0,
+  "memory_limit_records": 0,
+  "other_failures": [
+    "core-POW-S-approx-OPTIV-validation",
+    "core-POW-S-approx-OPTIV-r2",
+    "core-POW-S-approx-OPTIV-r1",
+    "core-POW-S-approx-OPTIV-r3"
+  ],
+  "note": "Failed validation may also represent the first failed trial, explicitly linked by reused_attempt."
+}

@@ -1,0 +1,16 @@
+{
+  "completed_at_utc": "2026-11-07T02:23:53.505647+00:00",
+  "series": 12,
+  "attempt_records": 41,
+  "successful_records": 25,
+  "trial_records": 36,
+  "trial_status_counts": {
+    "memory_limit": 3,
+    "ok": 22,
+    "timeout": 11
+  },
+  "timeouts": 12,
+  "memory_limit_records": 4,
+  "other_failures": [],
+  "note": "Failed validation may also represent the first failed trial, explicitly linked by reused_attempt."
+}

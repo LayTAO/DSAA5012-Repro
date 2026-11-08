@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "resolved_on": "2026-10-28",
+  "repositories": [
+    {
+      "name": "hyper-k-core",
+      "role": "sigmod2025",
+      "url": "https://github.com/unswdb/hyper-k-core.git",
+      "commit": "db709d81c3da8fff410c6b4f4aa2932883a227ee"
+    },
+    {
+      "name": "vldbsubmission",
+      "role": "vldb2023_baseline",
+      "url": "https://github.com/toggled/vldbsubmission.git",
+      "commit": "ea540958c176058b44830960753d854017719be2"
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "label": "stats-THS-0-r1",
+  "dataset": "THS",
+  "paper_id": "THS",
+  "kind": "stats",
+  "argument": "0",
+  "repeat": 1,
+  "status": "ok",
+  "exit_code": 0,
+  "recorded_at_utc": "2026-10-29T13:20:27.103349+00:00",
+  "process_wall_s": 29.919731952250004,
+  "command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "${PROJECT_ROOT}/results/full-real-001/stats-THS-0-r1.time.txt",
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "21600s",
+    "taskset",
+    "-c",
+    "0",
+    "${PROJECT_ROOT}/build/extended/sigmod_extended",
+    "${PROJECT_ROOT}/data/processed/extended-THS/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+    "stats",
+    "0",
+    "3000",
+    "${PROJECT_ROOT}/results/full-real-001/stats-THS-0-r1.cores.csv"
+  ],
+  "input_sha256": "b719a410c9eb07d08feaa7c3ff029692779f03b0f8c979148f92964559b65305",
+  "binary_sha256": "9788b5649d1c58b346605db271292484addac166409a863edcf21924e757ae56",
+  "threads": 1,
+  "physical_cpus": [
+    0
+  ],
+  "memory_limit_kind": "RLIMIT_AS virtual address space; not identical to paper physical RAM limit",
+  "memory_limit_bytes": 536870912000,
+  "timeout_s": 21600,
+  "exported_cores": true,
+  "load_average_end": [
+    5.46630859375,
+    6.4541015625,
+    6.22607421875
+  ],
+  "peak_rss_kib": 556516,
+  "load_wall_s": 4.207580261,
+  "setup_wall_s": 0,
+  "compute_wall_s": 25.423213497,
+  "total_before_export_wall_s": 29.630793758,
+  "vertices": 2321767,
+  "reported_init_s": 5.18009,
+  "reported_execution_s": 20.243,
+  "reported_total_s": 25.42309,
+  "reported_clock": "wall high_resolution_clock",
+  "core_sha256": "3d009b3931867b7b635babb3303fef6bbecf0eb99353de1b596500e468ef82db",
+  "iteration_trace": [
+    {
+      "iteration": 1,
+      "computed": 1263748,
+      "changed": 618910
+    },
+    {
+      "iteration": 2,
+      "computed": 285678,
+      "changed": 268550
+    },
+    {
+      "iteration": 3,
+      "computed": 151381,
+      "changed": 124667
+    },
+    {
+      "iteration": 4,
+      "computed": 90792,
+      "changed": 67288
+    },
+    {
+      "iteration": 5,
+      "computed": 57936,
+      "changed": 39827
+    },
+    {
+      "iteration": 6,
+      "computed": 39297,
+      "changed": 25406
+    },
+    {
+      "iteration": 7,
+      "computed": 29222,
+      "changed": 17323
+    },
+    {
+      "iteration": 8,
+      "computed": 23166,
+      "changed": 12018
+    },
+    {
+      "iteration": 9,
+      "computed": 18943,
+      "changed": 8506
+    },
+    {
+      "iteration": 10,
+      "computed": 16554,
+      "changed": 6280
+    },
+    {
+      "iteration": 11,
+      "computed": 14846,
+      "changed": 4812
+    },
+    {
+      "iteration": 12,
+      "computed": 13300,
+      "changed": 3815
+    },
+    {
+      "iteration": 13,
+      "computed": 12213,
+      "changed": 3348
+    },
+    {
+      "iteration": 14,
+      "computed": 11321,
+      "changed": 2468
+    },
+    {
+      "iteration": 15,
+      "computed": 10418,
+      "changed": 2279
+    },
+    {
+      "iteration": 16,
+      "computed": 9617,
+      "changed": 2006
+    },
+    {
+      "iteration": 17,
+      "computed": 8910,
+      "changed": 1667
+    },
+    {
+      "iteration": 18,
+      "computed": 8186,
+      "changed": 779
+    },
+    {
+      "iteration": 19,
+      "computed": 7549,
+      "changed": 612
+    },
+    {
+      "iteration": 20,
+      "computed": 7129,
+      "changed": 585
+    },
+    {
+      "iteration": 21,
+      "computed": 6493,
+      "changed": 592
+    },
+    {
+      "iteration": 22,
+      "computed": 6254,
+      "changed": 676
+    },
+    {
+      "iteration": 23,
+      "computed": 5930,
+      "changed": 856
+    },
+    {
+      "iteration": 24,
+      "computed": 5510,
+      "changed": 1025
+    },
+    {
+      "iteration": 25,
+      "computed": 4744,
+      "changed": 1214
+    },
+    {
+      "iteration": 26,
+      "computed": 3735,
+      "changed": 1195
+    },
+    {
+      "iteration": 27,
+      "computed": 2380,
+      "changed": 1071
+    },
+    {
+      "iteration": 28,
+      "computed": 1254,
+      "changed": 499
+    },
+    {
+      "iteration": 29,
+      "computed": 922,
+      "changed": 30
+    },
+    {
+      "iteration": 30,
+      "computed": 625,
+      "changed": 13
+    },
+    {
+      "iteration": 31,
+      "computed": 312,
+      "changed": 7
+    },
+    {
+      "iteration": 32,
+      "computed": 263,
+      "changed": 6
+    },
+    {
+      "iteration": 33,
+      "computed": 206,
+      "changed": 4
+    },
+    {
+      "iteration": 34,
+      "computed": 52,
+      "changed": 1
+    },
+    {
+      "iteration": 35,
+      "computed": 1,
+      "changed": 0
+    }
+  ],
+  "decide_time_s": 2.49063,
+  "compute_time_s": 11.9987,
+  "exc_Time_s": 20.243,
+  "ruc_fraction_of_execution": 0.12303660524625797
+}

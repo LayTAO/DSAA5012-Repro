@@ -1,0 +1,76 @@
+{
+  "steps": [
+    [
+      "scale-inputs",
+      [
+        "python3",
+        "scripts/prepare_full_inputs.py",
+        "scales",
+        "AMZ",
+        "TAS",
+        "SOA",
+        "AM"
+      ]
+    ],
+    [
+      "real-experiments",
+      [
+        "python3",
+        "scripts/run_extended_suite.py",
+        "--phase",
+        "real",
+        "--run-id",
+        "001"
+      ]
+    ],
+    [
+      "synthetic-small-input",
+      [
+        "python3",
+        "scripts/prepare_full_inputs.py",
+        "synthetic",
+        "POW-S-approx"
+      ]
+    ],
+    [
+      "synthetic-small-experiments",
+      [
+        "python3",
+        "scripts/run_extended_suite.py",
+        "--phase",
+        "synthetic",
+        "--datasets",
+        "POW-S-approx",
+        "--run-id",
+        "small001"
+      ]
+    ],
+    [
+      "synthetic-large-input",
+      [
+        "python3",
+        "scripts/prepare_full_inputs.py",
+        "synthetic",
+        "POW-L-approx"
+      ]
+    ],
+    [
+      "synthetic-large-experiments",
+      [
+        "python3",
+        "scripts/run_extended_suite.py",
+        "--phase",
+        "synthetic",
+        "--datasets",
+        "POW-L-approx",
+        "--run-id",
+        "large001"
+      ]
+    ]
+  ],
+  "root": "${PROJECT_ROOT}",
+  "created_at_utc": "2026-10-29T07:10:20.062306+00:00",
+  "workflow_sha256": "8650bdbce3e49f1275aed03849763c7f47b1bdd778028ff2453047c78b02be75",
+  "storage_device": 2065,
+  "root_device": 64768
+}

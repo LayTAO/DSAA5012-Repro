@@ -1,0 +1,67 @@
+{
+  "candidate_paper_id": "GE",
+  "source": {
+    "name": "coauth-MAG-Geology-full",
+    "drive_id": "1bk5uTnuijgHEAOi5sA-sM8Cxyg3Ejr43",
+    "source_page": "https://www.cs.cornell.edu/~arb/data/coauth-MAG-Geology/"
+  },
+  "archive_sha256": "798cf0fbfd0cd2bd8c9c7d4ece042f659849083f898b1332e24ccb4713778077",
+  "archive_bytes": 95995105,
+  "temporal": {
+    "timestamped_simplices": 1591166,
+    "incidences_before_edge_dedup": 4448428,
+    "duplicate_members_removed": 0
+  },
+  "unique": {
+    "unique_vertices": 1261129,
+    "max_vertex_id": 1261129,
+    "min_vertex_id": 1,
+    "unique_edges": 1208201,
+    "incidences": 3831128,
+    "singleton_edges": 295379,
+    "vertices_after_singleton_removal": 1091979,
+    "edges_after_singleton_removal": 912822,
+    "max_edge_size": 284,
+    "upstream_array_nodes": 1261130,
+    "upstream_array_edges": 1208203
+  },
+  "paper_table4": {
+    "id": "GE",
+    "name": "Coauth-MAG-Geology",
+    "reported_n": 1261199,
+    "reported_m": 1342357,
+    "degree_mean": 3.3,
+    "edge_size_mean": 3.1,
+    "neighbors_mean": 11.9,
+    "raw_size_GB": 0.06
+  },
+  "paper_count_match": {
+    "true_counts_match": false,
+    "upstream_array_counts_match": false
+  },
+  "preprocessing": "deduplicate ordered timestamped vertex lists; author org (sort members, drop singleton edges, map IDs before dropping); author sortEV desc asc; preserve resulting ID gaps",
+  "processed": {
+    "vertices": 1091979,
+    "edges": 912822,
+    "incidences": 3535749,
+    "max_edge_size": 284,
+    "max_vertex_id": 1261129,
+    "dense_vertex_ids": false,
+    "sha256": "7bdcada7eb8577bab19d03637b12677a6b4c9cc60a97d8ae1ccabc266a335865",
+    "bytes": 27168203
+  },
+  "commands": [
+    [
+      "${ORIGINAL_PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${ORIGINAL_PROJECT_ROOT}/data/processed/cornell-GE-ordered/author-input.hyp",
+      "org"
+    ],
+    [
+      "${ORIGINAL_PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${ORIGINAL_PROJECT_ROOT}/data/processed/cornell-GE-ordered/author-input.hyp",
+      "sortEV",
+      "desc",
+      "asc"
+    ]
+  ]
+}

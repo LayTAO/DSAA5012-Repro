@@ -1,0 +1,47 @@
+{
+  "label": "core-SOA-OPTIV-r1",
+  "dataset": "SOA",
+  "paper_id": "SOA",
+  "kind": "core",
+  "argument": "OPTIV",
+  "repeat": 1,
+  "status": "memory_limit",
+  "exit_code": 2,
+  "recorded_at_utc": "2026-10-29T07:50:58.667979+00:00",
+  "process_wall_s": 1431.1661747135222,
+  "command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "${PROJECT_ROOT}/results/full-real-001/core-SOA-OPTIV-validation.time.txt",
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "21600s",
+    "taskset",
+    "-c",
+    "0",
+    "${PROJECT_ROOT}/build/drivers/vldb",
+    "${PROJECT_ROOT}/data/processed/extended-SOA/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+    "OPTIV",
+    "${PROJECT_ROOT}/results/full-real-001/core-SOA-OPTIV-validation.cores.csv"
+  ],
+  "input_sha256": "e2c1b6802962c1528f4a50c01d14c1acf32d9070079a7ac1eee2a8e36eabb04d",
+  "binary_sha256": "87bbd5527834740854e8429f89da2722208ae30084f01d1d7c97c4ff019cbc8c",
+  "threads": 1,
+  "physical_cpus": [
+    0
+  ],
+  "memory_limit_kind": "RLIMIT_AS virtual address space; not identical to paper physical RAM limit",
+  "memory_limit_bytes": 536870912000,
+  "timeout_s": 21600,
+  "exported_cores": true,
+  "load_average_end": [
+    7.96630859375,
+    8.1142578125,
+    7.580078125
+  ],
+  "peak_rss_kib": 524248456,
+  "attempt_origin": "failed_validation",
+  "reused_attempt": "core-SOA-OPTIV-validation"
+}

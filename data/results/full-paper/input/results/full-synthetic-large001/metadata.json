@@ -1,0 +1,108 @@
+{
+  "created_at_utc": "2026-11-01T03:25:32.992801+00:00",
+  "phase": "synthetic",
+  "datasets": {
+    "POW-L-approx": {
+      "directory": "synthetic-POW-L-approx",
+      "paper_id": "POW-L",
+      "existing_result": null,
+      "dataset": "POW-L-approx",
+      "path": "${PROJECT_ROOT}/data/processed/synthetic-POW-L-approx/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 1096436298,
+        "edges": 821411625,
+        "incidences": 11304925605,
+        "max_edge_size": 160,
+        "max_vertex_id": 1096436298,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "cf059caa708a0b42f7b5d8e74a565de570b1bbbfdca0417aa2ac15771c25fabd",
+        "bytes": 121857265636
+      },
+      "data_manifest": "${PROJECT_ROOT}/data/processed/synthetic-POW-L-approx/manifest.json"
+    }
+  },
+  "plan": [
+    {
+      "dataset": "POW-L-approx",
+      "family": "core",
+      "argument": "OPTIV",
+      "repeats": 3
+    },
+    {
+      "dataset": "POW-L-approx",
+      "family": "parallel",
+      "argument": "2",
+      "repeats": 3
+    },
+    {
+      "dataset": "POW-L-approx",
+      "family": "parallel",
+      "argument": "8",
+      "repeats": 3
+    },
+    {
+      "dataset": "POW-L-approx",
+      "family": "parallel",
+      "argument": "16",
+      "repeats": 3
+    },
+    {
+      "dataset": "POW-L-approx",
+      "family": "stats",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "POW-L-approx",
+      "family": "parallel",
+      "argument": "4",
+      "repeats": 3
+    },
+    {
+      "dataset": "POW-L-approx",
+      "family": "core",
+      "argument": "0",
+      "repeats": 3
+    },
+    {
+      "dataset": "POW-L-approx",
+      "family": "parallel",
+      "argument": "1",
+      "repeats": 3
+    },
+    {
+      "dataset": "POW-L-approx",
+      "family": "parallel",
+      "argument": "64",
+      "repeats": 3
+    },
+    {
+      "dataset": "POW-L-approx",
+      "family": "parallel",
+      "argument": "32",
+      "repeats": 3
+    },
+    {
+      "dataset": "POW-L-approx",
+      "family": "core",
+      "argument": "1",
+      "repeats": 3
+    },
+    {
+      "dataset": "POW-L-approx",
+      "family": "core",
+      "argument": "2",
+      "repeats": 3
+    }
+  ],
+  "binary_sha256": {
+    "build/drivers/sigmod": "0d0c558d01db77b45bf3cc1bbb0eb1231316a0945c675bdb7c3d081e42c19b1a",
+    "build/drivers/vldb": "87bbd5527834740854e8429f89da2722208ae30084f01d1d7c97c4ff019cbc8c",
+    "build/extended/sigmod_extended": "9788b5649d1c58b346605db271292484addac166409a863edcf21924e757ae56"
+  },
+  "timeout_s": 21600,
+  "memory_gib": 500,
+  "seed": 5012,
+  "source_sha256": "e3523aaf5302ebfefe8665b138024303ce72325631d6dd298ccb9f9245be58c3"
+}

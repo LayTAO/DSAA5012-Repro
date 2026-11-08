@@ -1,0 +1,5 @@
+{
+  "source_sha256": "5b3d32e8e167df434f8c6aa0c87448d6569075fb8c97977ac7800ed578a5e31c",
+  "generated_sha256": "e440ffdc61979ca6a1783c5cf5a48d4daeece76cb23990f0b77066783b6b9b38",
+  "change": "Explicit RNG seed only; original vary_edges selection, including its EOF behavior, retained."
+}

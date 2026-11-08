@@ -1,0 +1,98 @@
+{
+  "label": "stats-HI-0-r1",
+  "dataset": "HI",
+  "paper_id": "HI",
+  "kind": "stats",
+  "argument": "0",
+  "repeat": 1,
+  "status": "ok",
+  "exit_code": 0,
+  "recorded_at_utc": "2026-10-30T05:26:24.222293+00:00",
+  "process_wall_s": 0.9287748392671347,
+  "command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "${PROJECT_ROOT}/results/full-real-001/stats-HI-0-r1.time.txt",
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "21600s",
+    "taskset",
+    "-c",
+    "0",
+    "${PROJECT_ROOT}/build/extended/sigmod_extended",
+    "${PROJECT_ROOT}/data/processed/cornell-HI-ordered/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+    "stats",
+    "0",
+    "3000",
+    "${PROJECT_ROOT}/results/full-real-001/stats-HI-0-r1.cores.csv"
+  ],
+  "input_sha256": "ab3b8a00895e60d782388ddcdac831d9e07d3be82d691eb9deb92b4e03e2a4ae",
+  "binary_sha256": "9788b5649d1c58b346605db271292484addac166409a863edcf21924e757ae56",
+  "threads": 1,
+  "physical_cpus": [
+    0
+  ],
+  "memory_limit_kind": "RLIMIT_AS virtual address space; not identical to paper physical RAM limit",
+  "memory_limit_bytes": 536870912000,
+  "timeout_s": 21600,
+  "exported_cores": true,
+  "load_average_end": [
+    14.337890625,
+    9.36181640625,
+    7.83642578125
+  ],
+  "peak_rss_kib": 45352,
+  "load_wall_s": 0.138485052,
+  "setup_wall_s": 0,
+  "compute_wall_s": 0.716965058,
+  "total_before_export_wall_s": 0.85545011,
+  "vertices": 503868,
+  "reported_init_s": 0.0815905,
+  "reported_execution_s": 0.635225,
+  "reported_total_s": 0.7168155,
+  "reported_clock": "wall high_resolution_clock",
+  "core_sha256": "df9d0029421ab2b71fedc691eb5476f2a5633b462b7c9d87a8b42a1d63d92725",
+  "iteration_trace": [
+    {
+      "iteration": 1,
+      "computed": 94038,
+      "changed": 88072
+    },
+    {
+      "iteration": 2,
+      "computed": 4163,
+      "changed": 3802
+    },
+    {
+      "iteration": 3,
+      "computed": 523,
+      "changed": 389
+    },
+    {
+      "iteration": 4,
+      "computed": 107,
+      "changed": 59
+    },
+    {
+      "iteration": 5,
+      "computed": 60,
+      "changed": 43
+    },
+    {
+      "iteration": 6,
+      "computed": 23,
+      "changed": 16
+    },
+    {
+      "iteration": 7,
+      "computed": 0,
+      "changed": 0
+    }
+  ],
+  "decide_time_s": 0.14541,
+  "compute_time_s": 0.172059,
+  "exc_Time_s": 0.635225,
+  "ruc_fraction_of_execution": 0.2289110157818096
+}

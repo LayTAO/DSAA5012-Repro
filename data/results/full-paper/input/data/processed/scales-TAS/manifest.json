@@ -1,0 +1,77 @@
+{
+  "dataset": "TAS",
+  "seed": 5012,
+  "source_sha256": "99807b30d2ea59f02042a3cd6beeae2aba21978623cefb6bf82e080067032ec3",
+  "sampling": "Seeded copy of author vary_edges; nested shuffled prefixes; author EOF empty-record behavior retained.",
+  "fractions": {
+    "0.2": {
+      "path": "data/processed/scales-TAS/0.2/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 43568,
+        "edges": 1130983,
+        "incidences": 4371788,
+        "max_edge_size": 5,
+        "max_vertex_id": 43568,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "0891ae6dcb4e0837abec29001772bdbb509e30e944e7cde865796d0ee9c23f40",
+        "bytes": 26214085
+      }
+    },
+    "0.4": {
+      "path": "data/processed/scales-TAS/0.4/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 46989,
+        "edges": 2261966,
+        "incidences": 8746981,
+        "max_edge_size": 5,
+        "max_vertex_id": 46989,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "e2b389b91bd9dd2f25680d6ec70b85506ef6260c03ed54751084f453bea1fd09",
+        "bytes": 52460553
+      }
+    },
+    "0.6": {
+      "path": "data/processed/scales-TAS/0.6/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 48489,
+        "edges": 3392948,
+        "incidences": 13119638,
+        "max_edge_size": 5,
+        "max_vertex_id": 48489,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "5979d67a914448242c8f6af5725ca84c59be0112d49f316369049007c3c66d2d",
+        "bytes": 78691999
+      }
+    },
+    "0.8": {
+      "path": "data/processed/scales-TAS/0.8/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 49372,
+        "edges": 4523931,
+        "incidences": 17492599,
+        "max_edge_size": 5,
+        "max_vertex_id": 49372,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "2c9b007b364c29af3d499ba31400bf3d3109b217b4665f1d931fda1f7ba6b173",
+        "bytes": 104925358
+      }
+    },
+    "1.0": {
+      "path": "data/processed/extended-TAS/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 49945,
+        "edges": 5654914,
+        "incidences": 21867061,
+        "max_edge_size": 5,
+        "max_vertex_id": 49998,
+        "dense_vertex_ids": false,
+        "sha256": "99807b30d2ea59f02042a3cd6beeae2aba21978623cefb6bf82e080067032ec3",
+        "bytes": 131168120
+      }
+    }
+  }
+}

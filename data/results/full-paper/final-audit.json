@@ -1,0 +1,2459 @@
+{
+  "started_at_utc": "2026-11-08T03:11:21.176897+00:00",
+  "status": "passed_with_recorded_experimental_failures",
+  "root_device": 64768,
+  "project_device": 2065,
+  "issues": [],
+  "inputs": [
+    {
+      "path": "${PROJECT_ROOT}/data/processed/author-AM/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "9f6fdd4b0375c7907d9794f1a1a7206bc13c7abe1f8118533aaf02c14ffb7600",
+      "actual_sha256": "9f6fdd4b0375c7907d9794f1a1a7206bc13c7abe1f8118533aaf02c14ffb7600",
+      "bytes": 568826468,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/author-CO/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "bd245b80cf262b2ec6f2daa4044954da5dfe6b8d350e8a6c7cdf35bd385da918",
+      "actual_sha256": "bd245b80cf262b2ec6f2daa4044954da5dfe6b8d350e8a6c7cdf35bd385da918",
+      "bytes": 3358867,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/author-DB/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "962f5424644089e9233eef6fc3f9dd340faeacd67ce5070f2541e88e332325c3",
+      "actual_sha256": "962f5424644089e9233eef6fc3f9dd340faeacd67ce5070f2541e88e332325c3",
+      "bytes": 58258135,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/cornell-DF-ordered/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "8d86b7b94625d19307e7f0fc25ddc76d05ca62e121b5f3e7aa088a4a90aa4404",
+      "actual_sha256": "8d86b7b94625d19307e7f0fc25ddc76d05ca62e121b5f3e7aa088a4a90aa4404",
+      "bytes": 61889510,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/cornell-GE-ordered/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "7bdcada7eb8577bab19d03637b12677a6b4c9cc60a97d8ae1ccabc266a335865",
+      "actual_sha256": "7bdcada7eb8577bab19d03637b12677a6b4c9cc60a97d8ae1ccabc266a335865",
+      "bytes": 27168203,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/cornell-HI-ordered/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "ab3b8a00895e60d782388ddcdac831d9e07d3be82d691eb9deb92b4e03e2a4ae",
+      "actual_sha256": "ab3b8a00895e60d782388ddcdac831d9e07d3be82d691eb9deb92b4e03e2a4ae",
+      "bytes": 5463450,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/extended-AMZ/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "051b06d2b20ba24f76d4f68eb4d9408e6b42ddb5251bf8a69075dfc92c8a08a7",
+      "actual_sha256": "051b06d2b20ba24f76d4f68eb4d9408e6b42ddb5251bf8a69075dfc92c8a08a7",
+      "bytes": 576273554,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/extended-SOA/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "e2c1b6802962c1528f4a50c01d14c1acf32d9070079a7ac1eee2a8e36eabb04d",
+      "actual_sha256": "e2c1b6802962c1528f4a50c01d14c1acf32d9070079a7ac1eee2a8e36eabb04d",
+      "bytes": 219330812,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/extended-TAS/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "99807b30d2ea59f02042a3cd6beeae2aba21978623cefb6bf82e080067032ec3",
+      "actual_sha256": "99807b30d2ea59f02042a3cd6beeae2aba21978623cefb6bf82e080067032ec3",
+      "bytes": 131168120,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/extended-THS/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "b719a410c9eb07d08feaa7c3ff029692779f03b0f8c979148f92964559b65305",
+      "actual_sha256": "b719a410c9eb07d08feaa7c3ff029692779f03b0f8c979148f92964559b65305",
+      "bytes": 180519742,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/scales-AM/0.2/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "31e53e3fa196daa4bd97fbd5953d11f00ac6cc33a5159c948f1ebcb5d001d285",
+      "actual_sha256": "31e53e3fa196daa4bd97fbd5953d11f00ac6cc33a5159c948f1ebcb5d001d285",
+      "bytes": 102161609,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/scales-AM/0.4/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "925c48426bcae3d925fa012035269ddaf685a6245d02eb34b2f9247b3854c4d1",
+      "actual_sha256": "925c48426bcae3d925fa012035269ddaf685a6245d02eb34b2f9247b3854c4d1",
+      "bytes": 219695946,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/scales-AM/0.6/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "b2ebf5dbdc5c313803c08073045aa6c0bc4297e16d7a340245e1366aebe43352",
+      "actual_sha256": "b2ebf5dbdc5c313803c08073045aa6c0bc4297e16d7a340245e1366aebe43352",
+      "bytes": 336156931,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/scales-AM/0.8/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "256556bc4833e9e05eda7f3773494a2d465c761af621ef6f55d3d8f6303d29a9",
+      "actual_sha256": "256556bc4833e9e05eda7f3773494a2d465c761af621ef6f55d3d8f6303d29a9",
+      "bytes": 452537887,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/scales-AMZ/0.2/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "21f8e0af7aff8faed3c9b19b07f868c58e9cac75e6a073ede31613e53f15c7bf",
+      "actual_sha256": "21f8e0af7aff8faed3c9b19b07f868c58e9cac75e6a073ede31613e53f15c7bf",
+      "bytes": 114982346,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/scales-AMZ/0.4/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "a71cca5f078477fd17baa6dd66872415519e1f5254405bc1b45aa0d967cbad4d",
+      "actual_sha256": "a71cca5f078477fd17baa6dd66872415519e1f5254405bc1b45aa0d967cbad4d",
+      "bytes": 230983549,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/scales-AMZ/0.6/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "bbcd556220d5da0ef7f0acad9882b2818d25195a0b08239278b8194e8fcf8a87",
+      "actual_sha256": "bbcd556220d5da0ef7f0acad9882b2818d25195a0b08239278b8194e8fcf8a87",
+      "bytes": 346154068,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/scales-AMZ/0.8/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "62476ad4db2c35ff1f1b7d5796d6afbd27caee33fc1d0e71c78929d0edffebfa",
+      "actual_sha256": "62476ad4db2c35ff1f1b7d5796d6afbd27caee33fc1d0e71c78929d0edffebfa",
+      "bytes": 461422000,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/scales-SOA/0.2/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "a1248c1414c40ec737588cce80c5c4b8733742e815488b5eb711598864b35b99",
+      "actual_sha256": "a1248c1414c40ec737588cce80c5c4b8733742e815488b5eb711598864b35b99",
+      "bytes": 40906686,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/scales-SOA/0.4/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "1a78b23d304be399cc592365eeba12f34698392feb35e66e862ea74875015405",
+      "actual_sha256": "1a78b23d304be399cc592365eeba12f34698392feb35e66e862ea74875015405",
+      "bytes": 83386989,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/scales-SOA/0.6/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "ced2d566da1530795442d1cd33d79cf03c77252ada30a4754ec2300a670e575c",
+      "actual_sha256": "ced2d566da1530795442d1cd33d79cf03c77252ada30a4754ec2300a670e575c",
+      "bytes": 126392401,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/scales-SOA/0.8/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "cd623c8a3703c450288043c0360e3fd8099e8ea8d672a1a3535220558f0358c5",
+      "actual_sha256": "cd623c8a3703c450288043c0360e3fd8099e8ea8d672a1a3535220558f0358c5",
+      "bytes": 172480227,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/scales-TAS/0.2/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "0891ae6dcb4e0837abec29001772bdbb509e30e944e7cde865796d0ee9c23f40",
+      "actual_sha256": "0891ae6dcb4e0837abec29001772bdbb509e30e944e7cde865796d0ee9c23f40",
+      "bytes": 26214085,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/scales-TAS/0.4/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "e2b389b91bd9dd2f25680d6ec70b85506ef6260c03ed54751084f453bea1fd09",
+      "actual_sha256": "e2b389b91bd9dd2f25680d6ec70b85506ef6260c03ed54751084f453bea1fd09",
+      "bytes": 52460553,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/scales-TAS/0.6/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "5979d67a914448242c8f6af5725ca84c59be0112d49f316369049007c3c66d2d",
+      "actual_sha256": "5979d67a914448242c8f6af5725ca84c59be0112d49f316369049007c3c66d2d",
+      "bytes": 78691999,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/scales-TAS/0.8/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "2c9b007b364c29af3d499ba31400bf3d3109b217b4665f1d931fda1f7ba6b173",
+      "actual_sha256": "2c9b007b364c29af3d499ba31400bf3d3109b217b4665f1d931fda1f7ba6b173",
+      "bytes": 104925358,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/synthetic-POW-L-approx/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "cf059caa708a0b42f7b5d8e74a565de570b1bbbfdca0417aa2ac15771c25fabd",
+      "actual_sha256": "cf059caa708a0b42f7b5d8e74a565de570b1bbbfdca0417aa2ac15771c25fabd",
+      "bytes": 121857265636,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/processed/synthetic-POW-S-approx/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "expected_sha256": "0191f9f37d68b3d21efc5be53f7980c0c236b2156646f9af0050a3b07871da24",
+      "actual_sha256": "0191f9f37d68b3d21efc5be53f7980c0c236b2156646f9af0050a3b07871da24",
+      "bytes": 4989299069,
+      "matches": true
+    }
+  ],
+  "binaries": [
+    {
+      "path": "${PROJECT_ROOT}/build/drivers/sigmod",
+      "expected_sha256": "0d0c558d01db77b45bf3cc1bbb0eb1231316a0945c675bdb7c3d081e42c19b1a",
+      "actual_sha256": "0d0c558d01db77b45bf3cc1bbb0eb1231316a0945c675bdb7c3d081e42c19b1a",
+      "bytes": 104992,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/build/drivers/vldb",
+      "expected_sha256": "87bbd5527834740854e8429f89da2722208ae30084f01d1d7c97c4ff019cbc8c",
+      "actual_sha256": "87bbd5527834740854e8429f89da2722208ae30084f01d1d7c97c4ff019cbc8c",
+      "bytes": 230408,
+      "matches": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/build/extended/sigmod_extended",
+      "expected_sha256": "9788b5649d1c58b346605db271292484addac166409a863edcf21924e757ae56",
+      "actual_sha256": "9788b5649d1c58b346605db271292484addac166409a863edcf21924e757ae56",
+      "bytes": 149584,
+      "matches": true
+    }
+  ],
+  "runner_sources": [
+    {
+      "suite": "full-real-001",
+      "expected": "e3523aaf5302ebfefe8665b138024303ce72325631d6dd298ccb9f9245be58c3",
+      "actual": "e3523aaf5302ebfefe8665b138024303ce72325631d6dd298ccb9f9245be58c3"
+    },
+    {
+      "suite": "full-synthetic-small001",
+      "expected": "e3523aaf5302ebfefe8665b138024303ce72325631d6dd298ccb9f9245be58c3",
+      "actual": "e3523aaf5302ebfefe8665b138024303ce72325631d6dd298ccb9f9245be58c3"
+    },
+    {
+      "suite": "full-synthetic-large001",
+      "expected": "e3523aaf5302ebfefe8665b138024303ce72325631d6dd298ccb9f9245be58c3",
+      "actual": "e3523aaf5302ebfefe8665b138024303ce72325631d6dd298ccb9f9245be58c3"
+    }
+  ],
+  "full_core_records": [
+    {
+      "record": "${PROJECT_ROOT}/results/paper-HI-001/validation.json",
+      "dataset": "HI",
+      "method": "sigmod_0",
+      "label": "validation_sigmod_0",
+      "sha256_recorded_at_execution": "df9d0029421ab2b71fedc691eb5476f2a5633b462b7c9d87a8b42a1d63d92725",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-HI-001/validation_sigmod_0.cores.csv",
+      "csv_bytes": 4649538
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-HI-001/validation.json",
+      "dataset": "HI",
+      "method": "sigmod_1",
+      "label": "validation_sigmod_1",
+      "sha256_recorded_at_execution": "df9d0029421ab2b71fedc691eb5476f2a5633b462b7c9d87a8b42a1d63d92725",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-HI-001/validation_sigmod_1.cores.csv",
+      "csv_bytes": 4649538
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-HI-001/validation.json",
+      "dataset": "HI",
+      "method": "sigmod_2",
+      "label": "validation_sigmod_2",
+      "sha256_recorded_at_execution": "df9d0029421ab2b71fedc691eb5476f2a5633b462b7c9d87a8b42a1d63d92725",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-HI-001/validation_sigmod_2.cores.csv",
+      "csv_bytes": 4649538
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-HI-001/validation.json",
+      "dataset": "HI",
+      "method": "sigmod_3",
+      "label": "validation_sigmod_3",
+      "sha256_recorded_at_execution": "df9d0029421ab2b71fedc691eb5476f2a5633b462b7c9d87a8b42a1d63d92725",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-HI-001/validation_sigmod_3.cores.csv",
+      "csv_bytes": 4649538
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-HI-001/validation.json",
+      "dataset": "HI",
+      "method": "sigmod_4",
+      "label": "validation_sigmod_4",
+      "sha256_recorded_at_execution": "df9d0029421ab2b71fedc691eb5476f2a5633b462b7c9d87a8b42a1d63d92725",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-HI-001/validation_sigmod_4.cores.csv",
+      "csv_bytes": 4649538
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-HI-001/validation.json",
+      "dataset": "HI",
+      "method": "sigmod_5",
+      "label": "validation_sigmod_5",
+      "sha256_recorded_at_execution": "df9d0029421ab2b71fedc691eb5476f2a5633b462b7c9d87a8b42a1d63d92725",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-HI-001/validation_sigmod_5.cores.csv",
+      "csv_bytes": 4649538
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-HI-001/validation.json",
+      "dataset": "HI",
+      "method": "vldb_OPTIV",
+      "label": "validation_vldb_OPTIV",
+      "sha256_recorded_at_execution": "df9d0029421ab2b71fedc691eb5476f2a5633b462b7c9d87a8b42a1d63d92725",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-HI-001/validation_vldb_OPTIV.cores.csv",
+      "csv_bytes": 4649538
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-CO-001/validation.json",
+      "dataset": "CO",
+      "method": "sigmod_0",
+      "label": "validation_sigmod_0",
+      "sha256_recorded_at_execution": "c6096d2a73b9e91f32f18c34f1bf6204fd720c7df5239e5732662b291b34e2bc",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-CO-001/validation_sigmod_0.cores.csv",
+      "csv_bytes": 14250
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-CO-001/validation.json",
+      "dataset": "CO",
+      "method": "sigmod_1",
+      "label": "validation_sigmod_1",
+      "sha256_recorded_at_execution": "c6096d2a73b9e91f32f18c34f1bf6204fd720c7df5239e5732662b291b34e2bc",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-CO-001/validation_sigmod_1.cores.csv",
+      "csv_bytes": 14250
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-CO-001/validation.json",
+      "dataset": "CO",
+      "method": "sigmod_2",
+      "label": "validation_sigmod_2",
+      "sha256_recorded_at_execution": "c6096d2a73b9e91f32f18c34f1bf6204fd720c7df5239e5732662b291b34e2bc",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-CO-001/validation_sigmod_2.cores.csv",
+      "csv_bytes": 14250
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-CO-001/validation.json",
+      "dataset": "CO",
+      "method": "sigmod_3",
+      "label": "validation_sigmod_3",
+      "sha256_recorded_at_execution": "c6096d2a73b9e91f32f18c34f1bf6204fd720c7df5239e5732662b291b34e2bc",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-CO-001/validation_sigmod_3.cores.csv",
+      "csv_bytes": 14250
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-CO-001/validation.json",
+      "dataset": "CO",
+      "method": "sigmod_4",
+      "label": "validation_sigmod_4",
+      "sha256_recorded_at_execution": "c6096d2a73b9e91f32f18c34f1bf6204fd720c7df5239e5732662b291b34e2bc",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-CO-001/validation_sigmod_4.cores.csv",
+      "csv_bytes": 14250
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-CO-001/validation.json",
+      "dataset": "CO",
+      "method": "sigmod_5",
+      "label": "validation_sigmod_5",
+      "sha256_recorded_at_execution": "c6096d2a73b9e91f32f18c34f1bf6204fd720c7df5239e5732662b291b34e2bc",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-CO-001/validation_sigmod_5.cores.csv",
+      "csv_bytes": 14250
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-CO-001/validation.json",
+      "dataset": "CO",
+      "method": "vldb_OPTIV",
+      "label": "validation_vldb_OPTIV",
+      "sha256_recorded_at_execution": "c6096d2a73b9e91f32f18c34f1bf6204fd720c7df5239e5732662b291b34e2bc",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-CO-001/validation_vldb_OPTIV.cores.csv",
+      "csv_bytes": 14250
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-DB-001/validation.json",
+      "dataset": "DB",
+      "method": "sigmod_0",
+      "label": "validation_sigmod_0",
+      "sha256_recorded_at_execution": "e2d87062b9de336738451310f5d19105fe992cdc334f59f0858817657a2a6bd0",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-DB-001/validation_sigmod_0.cores.csv",
+      "csv_bytes": 17407333
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-DB-001/validation.json",
+      "dataset": "DB",
+      "method": "sigmod_1",
+      "label": "validation_sigmod_1",
+      "sha256_recorded_at_execution": "e2d87062b9de336738451310f5d19105fe992cdc334f59f0858817657a2a6bd0",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-DB-001/validation_sigmod_1.cores.csv",
+      "csv_bytes": 17407333
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-DB-001/validation.json",
+      "dataset": "DB",
+      "method": "sigmod_2",
+      "label": "validation_sigmod_2",
+      "sha256_recorded_at_execution": "e2d87062b9de336738451310f5d19105fe992cdc334f59f0858817657a2a6bd0",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-DB-001/validation_sigmod_2.cores.csv",
+      "csv_bytes": 17407333
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-DB-001/validation.json",
+      "dataset": "DB",
+      "method": "sigmod_3",
+      "label": "validation_sigmod_3",
+      "sha256_recorded_at_execution": "e2d87062b9de336738451310f5d19105fe992cdc334f59f0858817657a2a6bd0",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-DB-001/validation_sigmod_3.cores.csv",
+      "csv_bytes": 17407333
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-DB-001/validation.json",
+      "dataset": "DB",
+      "method": "sigmod_4",
+      "label": "validation_sigmod_4",
+      "sha256_recorded_at_execution": "e2d87062b9de336738451310f5d19105fe992cdc334f59f0858817657a2a6bd0",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-DB-001/validation_sigmod_4.cores.csv",
+      "csv_bytes": 17407333
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-DB-001/validation.json",
+      "dataset": "DB",
+      "method": "sigmod_5",
+      "label": "validation_sigmod_5",
+      "sha256_recorded_at_execution": "e2d87062b9de336738451310f5d19105fe992cdc334f59f0858817657a2a6bd0",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-DB-001/validation_sigmod_5.cores.csv",
+      "csv_bytes": 17407333
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-DB-001/validation.json",
+      "dataset": "DB",
+      "method": "vldb_OPTIV",
+      "label": "validation_vldb_OPTIV",
+      "sha256_recorded_at_execution": "e2d87062b9de336738451310f5d19105fe992cdc334f59f0858817657a2a6bd0",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-DB-001/validation_vldb_OPTIV.cores.csv",
+      "csv_bytes": 17407333
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-AM-001/validation.json",
+      "dataset": "AM",
+      "method": "sigmod_0",
+      "label": "validation_sigmod_0",
+      "sha256_recorded_at_execution": "4d1c25cdc23d55ec158532a942835b849956eaad5ddabb65c138a826caf61750",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-AM-001/validation_sigmod_0.cores.csv",
+      "csv_bytes": 297639353
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-AM-001/validation.json",
+      "dataset": "AM",
+      "method": "sigmod_1",
+      "label": "validation_sigmod_1",
+      "sha256_recorded_at_execution": "4d1c25cdc23d55ec158532a942835b849956eaad5ddabb65c138a826caf61750",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-AM-001/validation_sigmod_1.cores.csv",
+      "csv_bytes": 297639353
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-AM-001/validation.json",
+      "dataset": "AM",
+      "method": "sigmod_2",
+      "label": "validation_sigmod_2",
+      "sha256_recorded_at_execution": "4d1c25cdc23d55ec158532a942835b849956eaad5ddabb65c138a826caf61750",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-AM-001/validation_sigmod_2.cores.csv",
+      "csv_bytes": 297639353
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-AM-001/validation.json",
+      "dataset": "AM",
+      "method": "sigmod_3",
+      "label": "validation_sigmod_3",
+      "sha256_recorded_at_execution": "4d1c25cdc23d55ec158532a942835b849956eaad5ddabb65c138a826caf61750",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-AM-001/validation_sigmod_3.cores.csv",
+      "csv_bytes": 297639353
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-AM-001/validation.json",
+      "dataset": "AM",
+      "method": "sigmod_4",
+      "label": "validation_sigmod_4",
+      "sha256_recorded_at_execution": "4d1c25cdc23d55ec158532a942835b849956eaad5ddabb65c138a826caf61750",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-AM-001/validation_sigmod_4.cores.csv",
+      "csv_bytes": 297639353
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-AM-001/validation.json",
+      "dataset": "AM",
+      "method": "sigmod_5",
+      "label": "validation_sigmod_5",
+      "sha256_recorded_at_execution": "4d1c25cdc23d55ec158532a942835b849956eaad5ddabb65c138a826caf61750",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-AM-001/validation_sigmod_5.cores.csv",
+      "csv_bytes": 297639353
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/paper-AM-001/validation.json",
+      "dataset": "AM",
+      "method": "vldb_OPTIV",
+      "label": "validation_vldb_OPTIV",
+      "sha256_recorded_at_execution": "4d1c25cdc23d55ec158532a942835b849956eaad5ddabb65c138a826caf61750",
+      "matches_reference": true,
+      "csv": "${ORIGINAL_PROJECT_ROOT}/results/paper-AM-001/validation_vldb_OPTIV.cores.csv",
+      "csv_bytes": 297639353
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-DF-2-validation.json",
+      "dataset": "DF",
+      "method": "2",
+      "label": "core-DF-2-validation",
+      "sha256_recorded_at_execution": "fcf888081965b739e3e1556c555101274d218f85cbc0b2716d0dfd55b4e25580",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-DF-2-validation.cores.csv",
+      "csv_bytes": 17606003
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-GE-4-validation.json",
+      "dataset": "GE",
+      "method": "4",
+      "label": "core-GE-4-validation",
+      "sha256_recorded_at_execution": "97b23ab79c69464f7f43652a899e7582c274542c2708fa806c36ba796606cdec",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-GE-4-validation.cores.csv",
+      "csv_bytes": 10219939
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-TAS-E1p0.json",
+      "dataset": "TAS-E1p0",
+      "method": "1",
+      "label": "reference-TAS-E1p0",
+      "sha256_recorded_at_execution": "d5a6425d22f5b7b5e4780ac15c98328df387606f39c91b08e96d226d235afa9b",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-TAS-E1p0.cores.csv",
+      "csv_bytes": 441324
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-TAS.json",
+      "dataset": "TAS",
+      "method": "0",
+      "label": "reference-TAS",
+      "sha256_recorded_at_execution": "d5a6425d22f5b7b5e4780ac15c98328df387606f39c91b08e96d226d235afa9b",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-TAS.cores.csv",
+      "csv_bytes": 441324
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-TAS-0-r1.json",
+      "dataset": "TAS",
+      "method": "0",
+      "label": "stats-TAS-0-r1",
+      "sha256_recorded_at_execution": "d5a6425d22f5b7b5e4780ac15c98328df387606f39c91b08e96d226d235afa9b",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-TAS-0-r1.cores.csv",
+      "csv_bytes": 441324
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/scale-AM-E0p2-0-r1.json",
+      "dataset": "AM-E0p2",
+      "method": "0",
+      "label": "scale-AM-E0p2-0-r1",
+      "sha256_recorded_at_execution": "701a817cd7e78166d04f87060b2e59cf13b43dfaef6f840c2bd8c26fd048bc82",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/scale-AM-E0p2-0-r1.cores.csv",
+      "csv_bytes": 84944365
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-4-r2.json",
+      "dataset": "AMZ",
+      "method": "4",
+      "label": "parallel-AMZ-4-r2",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-4-r2.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-DF-0-validation.json",
+      "dataset": "DF",
+      "method": "0",
+      "label": "core-DF-0-validation",
+      "sha256_recorded_at_execution": "fcf888081965b739e3e1556c555101274d218f85cbc0b2716d0dfd55b4e25580",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-DF-0-validation.cores.csv",
+      "csv_bytes": 17606003
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/scale-SOA-E1p0-0-r1.json",
+      "dataset": "SOA-E1p0",
+      "method": "0",
+      "label": "scale-SOA-E1p0-0-r1",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/scale-SOA-E1p0-0-r1.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-16-r2.json",
+      "dataset": "AMZ",
+      "method": "16",
+      "label": "parallel-AMZ-16-r2",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-16-r2.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-8-r2.json",
+      "dataset": "SOA",
+      "method": "8",
+      "label": "parallel-SOA-8-r2",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-8-r2.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/scale-SOA-E0p4-0-r1.json",
+      "dataset": "SOA-E0p4",
+      "method": "0",
+      "label": "scale-SOA-E0p4-0-r1",
+      "sha256_recorded_at_execution": "87cf0404e0df94da30169a94e4a88815945f97906ae7b0b3545c8f68784aacc6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/scale-SOA-E0p4-0-r1.cores.csv",
+      "csv_bytes": 94915484
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-AM-0-r1.json",
+      "dataset": "AM",
+      "method": "0",
+      "label": "stats-AM-0-r1",
+      "sha256_recorded_at_execution": "4d1c25cdc23d55ec158532a942835b849956eaad5ddabb65c138a826caf61750",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-AM-0-r1.cores.csv",
+      "csv_bytes": 297639353
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-2-r2.json",
+      "dataset": "SOA",
+      "method": "2",
+      "label": "parallel-SOA-2-r2",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-2-r2.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-4-r1.json",
+      "dataset": "SOA",
+      "method": "4",
+      "label": "parallel-SOA-4-r1",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-4-r1.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-GE-5-validation.json",
+      "dataset": "GE",
+      "method": "5",
+      "label": "core-GE-5-validation",
+      "sha256_recorded_at_execution": "97b23ab79c69464f7f43652a899e7582c274542c2708fa806c36ba796606cdec",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-GE-5-validation.cores.csv",
+      "csv_bytes": 10219939
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-8-r1.json",
+      "dataset": "AMZ",
+      "method": "8",
+      "label": "parallel-AMZ-8-r1",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-8-r1.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-4-r3.json",
+      "dataset": "AMZ",
+      "method": "4",
+      "label": "parallel-AMZ-4-r3",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-4-r3.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-TAS-4-validation.json",
+      "dataset": "TAS",
+      "method": "4",
+      "label": "core-TAS-4-validation",
+      "sha256_recorded_at_execution": "d5a6425d22f5b7b5e4780ac15c98328df387606f39c91b08e96d226d235afa9b",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-TAS-4-validation.cores.csv",
+      "csv_bytes": 441324
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-1-r1.json",
+      "dataset": "AMZ",
+      "method": "1",
+      "label": "parallel-AMZ-1-r1",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-1-r1.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-DF-2-r1.json",
+      "dataset": "DF",
+      "method": "2",
+      "label": "stats-DF-2-r1",
+      "sha256_recorded_at_execution": "fcf888081965b739e3e1556c555101274d218f85cbc0b2716d0dfd55b4e25580",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-DF-2-r1.cores.csv",
+      "csv_bytes": 17606003
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-64-r1.json",
+      "dataset": "AMZ",
+      "method": "64",
+      "label": "parallel-AMZ-64-r1",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-64-r1.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-AM-E1p0.json",
+      "dataset": "AM-E1p0",
+      "method": "1",
+      "label": "reference-AM-E1p0",
+      "sha256_recorded_at_execution": "4d1c25cdc23d55ec158532a942835b849956eaad5ddabb65c138a826caf61750",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-AM-E1p0.cores.csv",
+      "csv_bytes": 297639353
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/scale-AMZ-E0p8-0-r1.json",
+      "dataset": "AMZ-E0p8",
+      "method": "0",
+      "label": "scale-AMZ-E0p8-0-r1",
+      "sha256_recorded_at_execution": "7f0a2a271ecd810382f2b6fa6bf92744436c19419125a7c89d7b58ee89fe70f5",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/scale-AMZ-E0p8-0-r1.cores.csv",
+      "csv_bytes": 25931587
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-64-r3.json",
+      "dataset": "AMZ",
+      "method": "64",
+      "label": "parallel-AMZ-64-r3",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-64-r3.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-16-r1.json",
+      "dataset": "SOA",
+      "method": "16",
+      "label": "parallel-SOA-16-r1",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-16-r1.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-2-r3.json",
+      "dataset": "SOA",
+      "method": "2",
+      "label": "parallel-SOA-2-r3",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-2-r3.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-AM-E0p4.json",
+      "dataset": "AM-E0p4",
+      "method": "1",
+      "label": "reference-AM-E0p4",
+      "sha256_recorded_at_execution": "62575db550fec0846fe696b5ccdf9c7b98d6cc4fe150eebe315e225e7b728aa0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-AM-E0p4.cores.csv",
+      "csv_bytes": 148858090
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-HI-0-r1.json",
+      "dataset": "HI",
+      "method": "0",
+      "label": "stats-HI-0-r1",
+      "sha256_recorded_at_execution": "df9d0029421ab2b71fedc691eb5476f2a5633b462b7c9d87a8b42a1d63d92725",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-HI-0-r1.cores.csv",
+      "csv_bytes": 4649538
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-TAS-OPTIV-validation.json",
+      "dataset": "TAS",
+      "method": "OPTIV",
+      "label": "core-TAS-OPTIV-validation",
+      "sha256_recorded_at_execution": "d5a6425d22f5b7b5e4780ac15c98328df387606f39c91b08e96d226d235afa9b",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-TAS-OPTIV-validation.cores.csv",
+      "csv_bytes": 441324
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-DB-0-r1.json",
+      "dataset": "DB",
+      "method": "0",
+      "label": "stats-DB-0-r1",
+      "sha256_recorded_at_execution": "e2d87062b9de336738451310f5d19105fe992cdc334f59f0858817657a2a6bd0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-DB-0-r1.cores.csv",
+      "csv_bytes": 17407333
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-THS.json",
+      "dataset": "THS",
+      "method": "0",
+      "label": "reference-THS",
+      "sha256_recorded_at_execution": "3d009b3931867b7b635babb3303fef6bbecf0eb99353de1b596500e468ef82db",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-THS.cores.csv",
+      "csv_bytes": 23010645
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-64-r2.json",
+      "dataset": "AMZ",
+      "method": "64",
+      "label": "parallel-AMZ-64-r2",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-64-r2.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-DF-1-r1.json",
+      "dataset": "DF",
+      "method": "1",
+      "label": "stats-DF-1-r1",
+      "sha256_recorded_at_execution": "fcf888081965b739e3e1556c555101274d218f85cbc0b2716d0dfd55b4e25580",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-DF-1-r1.cores.csv",
+      "csv_bytes": 17606003
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-AM-E0p6.json",
+      "dataset": "AM-E0p6",
+      "method": "1",
+      "label": "reference-AM-E0p6",
+      "sha256_recorded_at_execution": "4b9f2ac374f59bc734cb82bfa3e49a0db943a91c498ce6c5a0e51fb1086610e9",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-AM-E0p6.cores.csv",
+      "csv_bytes": 203724574
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-GE-0-r1.json",
+      "dataset": "GE",
+      "method": "0",
+      "label": "stats-GE-0-r1",
+      "sha256_recorded_at_execution": "97b23ab79c69464f7f43652a899e7582c274542c2708fa806c36ba796606cdec",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-GE-0-r1.cores.csv",
+      "csv_bytes": 10219939
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-16-r3.json",
+      "dataset": "AMZ",
+      "method": "16",
+      "label": "parallel-AMZ-16-r3",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-16-r3.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-DF-OPTIV-validation.json",
+      "dataset": "DF",
+      "method": "OPTIV",
+      "label": "core-DF-OPTIV-validation",
+      "sha256_recorded_at_execution": "fcf888081965b739e3e1556c555101274d218f85cbc0b2716d0dfd55b4e25580",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-DF-OPTIV-validation.cores.csv",
+      "csv_bytes": 17606003
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-DF-0-r1.json",
+      "dataset": "DF",
+      "method": "0",
+      "label": "stats-DF-0-r1",
+      "sha256_recorded_at_execution": "fcf888081965b739e3e1556c555101274d218f85cbc0b2716d0dfd55b4e25580",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-DF-0-r1.cores.csv",
+      "csv_bytes": 17606003
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-1-r3.json",
+      "dataset": "SOA",
+      "method": "1",
+      "label": "parallel-SOA-1-r3",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-1-r3.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-CO-0-r1.json",
+      "dataset": "CO",
+      "method": "0",
+      "label": "stats-CO-0-r1",
+      "sha256_recorded_at_execution": "c6096d2a73b9e91f32f18c34f1bf6204fd720c7df5239e5732662b291b34e2bc",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-CO-0-r1.cores.csv",
+      "csv_bytes": 14250
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/scale-SOA-E0p8-0-r1.json",
+      "dataset": "SOA-E0p8",
+      "method": "0",
+      "label": "scale-SOA-E0p8-0-r1",
+      "sha256_recorded_at_execution": "e7a5a3098d429a18cbfcff18f4292dc6630389c500f845ec9fdb410932f5547d",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/scale-SOA-E0p8-0-r1.cores.csv",
+      "csv_bytes": 159133286
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-2-r2.json",
+      "dataset": "AMZ",
+      "method": "2",
+      "label": "parallel-AMZ-2-r2",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-2-r2.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-AMZ-E0p4.json",
+      "dataset": "AMZ-E0p4",
+      "method": "1",
+      "label": "reference-AMZ-E0p4",
+      "sha256_recorded_at_execution": "b69a44711d840159c94819d35e753747d5b41a912d365bcf6af90d6a4b1effca",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-AMZ-E0p4.cores.csv",
+      "csv_bytes": 24840794
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-4-r3.json",
+      "dataset": "SOA",
+      "method": "4",
+      "label": "parallel-SOA-4-r3",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-4-r3.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/scale-TAS-E1p0-0-r1.json",
+      "dataset": "TAS-E1p0",
+      "method": "0",
+      "label": "scale-TAS-E1p0-0-r1",
+      "sha256_recorded_at_execution": "d5a6425d22f5b7b5e4780ac15c98328df387606f39c91b08e96d226d235afa9b",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/scale-TAS-E1p0-0-r1.cores.csv",
+      "csv_bytes": 441324
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-4-r1.json",
+      "dataset": "AMZ",
+      "method": "4",
+      "label": "parallel-AMZ-4-r1",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-4-r1.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-TAS-2-validation.json",
+      "dataset": "TAS",
+      "method": "2",
+      "label": "core-TAS-2-validation",
+      "sha256_recorded_at_execution": "d5a6425d22f5b7b5e4780ac15c98328df387606f39c91b08e96d226d235afa9b",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-TAS-2-validation.cores.csv",
+      "csv_bytes": 441324
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-AMZ-E0p2.json",
+      "dataset": "AMZ-E0p2",
+      "method": "1",
+      "label": "reference-AMZ-E0p2",
+      "sha256_recorded_at_execution": "82ad1183c3b102136e940c441cf9179801f5e4500ed9c3302972078c22c0ead9",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-AMZ-E0p2.cores.csv",
+      "csv_bytes": 21744427
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-1-r2.json",
+      "dataset": "SOA",
+      "method": "1",
+      "label": "parallel-SOA-1-r2",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-1-r2.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-64-r2.json",
+      "dataset": "SOA",
+      "method": "64",
+      "label": "parallel-SOA-64-r2",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-64-r2.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-SOA-0-r1.json",
+      "dataset": "SOA",
+      "method": "0",
+      "label": "stats-SOA-0-r1",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-SOA-0-r1.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-THS-4-validation.json",
+      "dataset": "THS",
+      "method": "4",
+      "label": "core-THS-4-validation",
+      "sha256_recorded_at_execution": "3d009b3931867b7b635babb3303fef6bbecf0eb99353de1b596500e468ef82db",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-THS-4-validation.cores.csv",
+      "csv_bytes": 23010645
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-1-r3.json",
+      "dataset": "AMZ",
+      "method": "1",
+      "label": "parallel-AMZ-1-r3",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-1-r3.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-AMZ-1-r1.json",
+      "dataset": "AMZ",
+      "method": "1",
+      "label": "stats-AMZ-1-r1",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-AMZ-1-r1.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-GE-1-validation.json",
+      "dataset": "GE",
+      "method": "1",
+      "label": "core-GE-1-validation",
+      "sha256_recorded_at_execution": "97b23ab79c69464f7f43652a899e7582c274542c2708fa806c36ba796606cdec",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-GE-1-validation.cores.csv",
+      "csv_bytes": 10219939
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-GE-OPTIV-validation.json",
+      "dataset": "GE",
+      "method": "OPTIV",
+      "label": "core-GE-OPTIV-validation",
+      "sha256_recorded_at_execution": "97b23ab79c69464f7f43652a899e7582c274542c2708fa806c36ba796606cdec",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-GE-OPTIV-validation.cores.csv",
+      "csv_bytes": 10219939
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-SOA.json",
+      "dataset": "SOA",
+      "method": "0",
+      "label": "reference-SOA",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-SOA.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/scale-SOA-E0p6-0-r1.json",
+      "dataset": "SOA-E0p6",
+      "method": "0",
+      "label": "scale-SOA-E0p6-0-r1",
+      "sha256_recorded_at_execution": "60a07d9ba4d584bf971b1e1b87eb106ea460b5901ed95403179f9b1f73f5600f",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/scale-SOA-E0p6-0-r1.cores.csv",
+      "csv_bytes": 129202486
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-AMZ-4-validation.json",
+      "dataset": "AMZ",
+      "method": "4",
+      "label": "core-AMZ-4-validation",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-AMZ-4-validation.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-AMZ-0-validation.json",
+      "dataset": "AMZ",
+      "method": "0",
+      "label": "core-AMZ-0-validation",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-AMZ-0-validation.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-TAS-0-validation.json",
+      "dataset": "TAS",
+      "method": "0",
+      "label": "core-TAS-0-validation",
+      "sha256_recorded_at_execution": "d5a6425d22f5b7b5e4780ac15c98328df387606f39c91b08e96d226d235afa9b",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-TAS-0-validation.cores.csv",
+      "csv_bytes": 441324
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-2-r1.json",
+      "dataset": "AMZ",
+      "method": "2",
+      "label": "parallel-AMZ-2-r1",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-2-r1.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/scale-AMZ-E0p4-0-r1.json",
+      "dataset": "AMZ-E0p4",
+      "method": "0",
+      "label": "scale-AMZ-E0p4-0-r1",
+      "sha256_recorded_at_execution": "b69a44711d840159c94819d35e753747d5b41a912d365bcf6af90d6a4b1effca",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/scale-AMZ-E0p4-0-r1.cores.csv",
+      "csv_bytes": 24840794
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-GE-0-validation.json",
+      "dataset": "GE",
+      "method": "0",
+      "label": "core-GE-0-validation",
+      "sha256_recorded_at_execution": "97b23ab79c69464f7f43652a899e7582c274542c2708fa806c36ba796606cdec",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-GE-0-validation.cores.csv",
+      "csv_bytes": 10219939
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-SOA-2-validation.json",
+      "dataset": "SOA",
+      "method": "2",
+      "label": "core-SOA-2-validation",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-SOA-2-validation.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/scale-AM-E1p0-0-r1.json",
+      "dataset": "AM-E1p0",
+      "method": "0",
+      "label": "scale-AM-E1p0-0-r1",
+      "sha256_recorded_at_execution": "4d1c25cdc23d55ec158532a942835b849956eaad5ddabb65c138a826caf61750",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/scale-AM-E1p0-0-r1.cores.csv",
+      "csv_bytes": 297639353
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-1-r2.json",
+      "dataset": "AMZ",
+      "method": "1",
+      "label": "parallel-AMZ-1-r2",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-1-r2.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-THS-2-r1.json",
+      "dataset": "THS",
+      "method": "2",
+      "label": "stats-THS-2-r1",
+      "sha256_recorded_at_execution": "3d009b3931867b7b635babb3303fef6bbecf0eb99353de1b596500e468ef82db",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-THS-2-r1.cores.csv",
+      "csv_bytes": 23010645
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-THS-0-validation.json",
+      "dataset": "THS",
+      "method": "0",
+      "label": "core-THS-0-validation",
+      "sha256_recorded_at_execution": "3d009b3931867b7b635babb3303fef6bbecf0eb99353de1b596500e468ef82db",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-THS-0-validation.cores.csv",
+      "csv_bytes": 23010645
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-TAS-3-validation.json",
+      "dataset": "TAS",
+      "method": "3",
+      "label": "core-TAS-3-validation",
+      "sha256_recorded_at_execution": "d5a6425d22f5b7b5e4780ac15c98328df387606f39c91b08e96d226d235afa9b",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-TAS-3-validation.cores.csv",
+      "csv_bytes": 441324
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-TAS-5-r1.json",
+      "dataset": "TAS",
+      "method": "5",
+      "label": "stats-TAS-5-r1",
+      "sha256_recorded_at_execution": "d5a6425d22f5b7b5e4780ac15c98328df387606f39c91b08e96d226d235afa9b",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-TAS-5-r1.cores.csv",
+      "csv_bytes": 441324
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-64-r3.json",
+      "dataset": "SOA",
+      "method": "64",
+      "label": "parallel-SOA-64-r3",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-64-r3.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-32-r2.json",
+      "dataset": "SOA",
+      "method": "32",
+      "label": "parallel-SOA-32-r2",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-32-r2.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-2-r1.json",
+      "dataset": "SOA",
+      "method": "2",
+      "label": "parallel-SOA-2-r1",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-2-r1.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-AMZ.json",
+      "dataset": "AMZ",
+      "method": "0",
+      "label": "reference-AMZ",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-AMZ.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-THS-2-validation.json",
+      "dataset": "THS",
+      "method": "2",
+      "label": "core-THS-2-validation",
+      "sha256_recorded_at_execution": "3d009b3931867b7b635babb3303fef6bbecf0eb99353de1b596500e468ef82db",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-THS-2-validation.cores.csv",
+      "csv_bytes": 23010645
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-32-r1.json",
+      "dataset": "SOA",
+      "method": "32",
+      "label": "parallel-SOA-32-r1",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-32-r1.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-SOA-E0p6.json",
+      "dataset": "SOA-E0p6",
+      "method": "1",
+      "label": "reference-SOA-E0p6",
+      "sha256_recorded_at_execution": "60a07d9ba4d584bf971b1e1b87eb106ea460b5901ed95403179f9b1f73f5600f",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-SOA-E0p6.cores.csv",
+      "csv_bytes": 129202486
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-TAS-E0p6.json",
+      "dataset": "TAS-E0p6",
+      "method": "1",
+      "label": "reference-TAS-E0p6",
+      "sha256_recorded_at_execution": "52add568b659e9ef9b7dbb14290eb60096b9633f5acdf22eaa80c033fda0d979",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-TAS-E0p6.cores.csv",
+      "csv_bytes": 422432
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-GE-3-validation.json",
+      "dataset": "GE",
+      "method": "3",
+      "label": "core-GE-3-validation",
+      "sha256_recorded_at_execution": "97b23ab79c69464f7f43652a899e7582c274542c2708fa806c36ba796606cdec",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-GE-3-validation.cores.csv",
+      "csv_bytes": 10219939
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-4-r2.json",
+      "dataset": "SOA",
+      "method": "4",
+      "label": "parallel-SOA-4-r2",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-4-r2.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-THS-5-validation.json",
+      "dataset": "THS",
+      "method": "5",
+      "label": "core-THS-5-validation",
+      "sha256_recorded_at_execution": "3d009b3931867b7b635babb3303fef6bbecf0eb99353de1b596500e468ef82db",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-THS-5-validation.cores.csv",
+      "csv_bytes": 23010645
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-AMZ-E0p6.json",
+      "dataset": "AMZ-E0p6",
+      "method": "1",
+      "label": "reference-AMZ-E0p6",
+      "sha256_recorded_at_execution": "c91486ddb6b34e3fb53baffae5496839a560067706e522f18702024da0b9ebeb",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-AMZ-E0p6.cores.csv",
+      "csv_bytes": 25633470
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-AMZ-3-validation.json",
+      "dataset": "AMZ",
+      "method": "3",
+      "label": "core-AMZ-3-validation",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-AMZ-3-validation.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-TAS-5-validation.json",
+      "dataset": "TAS",
+      "method": "5",
+      "label": "core-TAS-5-validation",
+      "sha256_recorded_at_execution": "d5a6425d22f5b7b5e4780ac15c98328df387606f39c91b08e96d226d235afa9b",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-TAS-5-validation.cores.csv",
+      "csv_bytes": 441324
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-AMZ-E1p0.json",
+      "dataset": "AMZ-E1p0",
+      "method": "1",
+      "label": "reference-AMZ-E1p0",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-AMZ-E1p0.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-32-r2.json",
+      "dataset": "AMZ",
+      "method": "32",
+      "label": "parallel-AMZ-32-r2",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-32-r2.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-GE.json",
+      "dataset": "GE",
+      "method": "0",
+      "label": "reference-GE",
+      "sha256_recorded_at_execution": "97b23ab79c69464f7f43652a899e7582c274542c2708fa806c36ba796606cdec",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-GE.cores.csv",
+      "csv_bytes": 10219939
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-AMZ-2-r1.json",
+      "dataset": "AMZ",
+      "method": "2",
+      "label": "stats-AMZ-2-r1",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-AMZ-2-r1.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/scale-TAS-E0p8-0-r1.json",
+      "dataset": "TAS-E0p8",
+      "method": "0",
+      "label": "scale-TAS-E0p8-0-r1",
+      "sha256_recorded_at_execution": "055c219f557e7c3c85f95885d94d0b631c291a84713b997158f09b0f857e503d",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/scale-TAS-E0p8-0-r1.cores.csv",
+      "csv_bytes": 433567
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-SOA-0-validation.json",
+      "dataset": "SOA",
+      "method": "0",
+      "label": "core-SOA-0-validation",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-SOA-0-validation.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-8-r1.json",
+      "dataset": "SOA",
+      "method": "8",
+      "label": "parallel-SOA-8-r1",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-8-r1.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-GE-2-validation.json",
+      "dataset": "GE",
+      "method": "2",
+      "label": "core-GE-2-validation",
+      "sha256_recorded_at_execution": "97b23ab79c69464f7f43652a899e7582c274542c2708fa806c36ba796606cdec",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-GE-2-validation.cores.csv",
+      "csv_bytes": 10219939
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-AM-E0p2.json",
+      "dataset": "AM-E0p2",
+      "method": "1",
+      "label": "reference-AM-E0p2",
+      "sha256_recorded_at_execution": "701a817cd7e78166d04f87060b2e59cf13b43dfaef6f840c2bd8c26fd048bc82",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-AM-E0p2.cores.csv",
+      "csv_bytes": 84944365
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-AMZ-E0p8.json",
+      "dataset": "AMZ-E0p8",
+      "method": "1",
+      "label": "reference-AMZ-E0p8",
+      "sha256_recorded_at_execution": "7f0a2a271ecd810382f2b6fa6bf92744436c19419125a7c89d7b58ee89fe70f5",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-AMZ-E0p8.cores.csv",
+      "csv_bytes": 25931587
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-SOA-E0p4.json",
+      "dataset": "SOA-E0p4",
+      "method": "1",
+      "label": "reference-SOA-E0p4",
+      "sha256_recorded_at_execution": "87cf0404e0df94da30169a94e4a88815945f97906ae7b0b3545c8f68784aacc6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-SOA-E0p4.cores.csv",
+      "csv_bytes": 94915484
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/scale-AM-E0p8-0-r1.json",
+      "dataset": "AM-E0p8",
+      "method": "0",
+      "label": "scale-AM-E0p8-0-r1",
+      "sha256_recorded_at_execution": "d8a8891310ea81c98affc174882cd3904f0f6eab6b3b42783b8a6e43d9b52f6c",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/scale-AM-E0p8-0-r1.cores.csv",
+      "csv_bytes": 252671788
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-AMZ-0-r1.json",
+      "dataset": "AMZ",
+      "method": "0",
+      "label": "stats-AMZ-0-r1",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-AMZ-0-r1.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-AMZ-5-r1.json",
+      "dataset": "AMZ",
+      "method": "5",
+      "label": "stats-AMZ-5-r1",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-AMZ-5-r1.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-32-r1.json",
+      "dataset": "AMZ",
+      "method": "32",
+      "label": "parallel-AMZ-32-r1",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-32-r1.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-DF-3-validation.json",
+      "dataset": "DF",
+      "method": "3",
+      "label": "core-DF-3-validation",
+      "sha256_recorded_at_execution": "fcf888081965b739e3e1556c555101274d218f85cbc0b2716d0dfd55b4e25580",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-DF-3-validation.cores.csv",
+      "csv_bytes": 17606003
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-32-r3.json",
+      "dataset": "AMZ",
+      "method": "32",
+      "label": "parallel-AMZ-32-r3",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-32-r3.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-TAS-E0p4.json",
+      "dataset": "TAS-E0p4",
+      "method": "1",
+      "label": "reference-TAS-E0p4",
+      "sha256_recorded_at_execution": "3bfc9348e20edf89449ae78628eaaa74aa6f26f0c201944d284204d9982a4d42",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-TAS-E0p4.cores.csv",
+      "csv_bytes": 404727
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-DF-5-validation.json",
+      "dataset": "DF",
+      "method": "5",
+      "label": "core-DF-5-validation",
+      "sha256_recorded_at_execution": "fcf888081965b739e3e1556c555101274d218f85cbc0b2716d0dfd55b4e25580",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-DF-5-validation.cores.csv",
+      "csv_bytes": 17606003
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-16-r2.json",
+      "dataset": "SOA",
+      "method": "16",
+      "label": "parallel-SOA-16-r2",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-16-r2.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-64-r1.json",
+      "dataset": "SOA",
+      "method": "64",
+      "label": "parallel-SOA-64-r1",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-64-r1.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-DF.json",
+      "dataset": "DF",
+      "method": "0",
+      "label": "reference-DF",
+      "sha256_recorded_at_execution": "fcf888081965b739e3e1556c555101274d218f85cbc0b2716d0dfd55b4e25580",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-DF.cores.csv",
+      "csv_bytes": 17606003
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-SOA-3-validation.json",
+      "dataset": "SOA",
+      "method": "3",
+      "label": "core-SOA-3-validation",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-SOA-3-validation.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-SOA-E0p2.json",
+      "dataset": "SOA-E0p2",
+      "method": "1",
+      "label": "reference-SOA-E0p2",
+      "sha256_recorded_at_execution": "81f1ce729feaa5d1049ce84df8418cac4342da93cff12deb65d56b7a8d1bfd67",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-SOA-E0p2.cores.csv",
+      "csv_bytes": 52338510
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-THS-1-r1.json",
+      "dataset": "THS",
+      "method": "1",
+      "label": "stats-THS-1-r1",
+      "sha256_recorded_at_execution": "3d009b3931867b7b635babb3303fef6bbecf0eb99353de1b596500e468ef82db",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-THS-1-r1.cores.csv",
+      "csv_bytes": 23010645
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/scale-TAS-E0p4-0-r1.json",
+      "dataset": "TAS-E0p4",
+      "method": "0",
+      "label": "scale-TAS-E0p4-0-r1",
+      "sha256_recorded_at_execution": "3bfc9348e20edf89449ae78628eaaa74aa6f26f0c201944d284204d9982a4d42",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/scale-TAS-E0p4-0-r1.cores.csv",
+      "csv_bytes": 404727
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-TAS-1-r1.json",
+      "dataset": "TAS",
+      "method": "1",
+      "label": "stats-TAS-1-r1",
+      "sha256_recorded_at_execution": "d5a6425d22f5b7b5e4780ac15c98328df387606f39c91b08e96d226d235afa9b",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-TAS-1-r1.cores.csv",
+      "csv_bytes": 441324
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-32-r3.json",
+      "dataset": "SOA",
+      "method": "32",
+      "label": "parallel-SOA-32-r3",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-32-r3.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-THS-OPTIV-validation.json",
+      "dataset": "THS",
+      "method": "OPTIV",
+      "label": "core-THS-OPTIV-validation",
+      "sha256_recorded_at_execution": "3d009b3931867b7b635babb3303fef6bbecf0eb99353de1b596500e468ef82db",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-THS-OPTIV-validation.cores.csv",
+      "csv_bytes": 23010645
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-SOA-E0p8.json",
+      "dataset": "SOA-E0p8",
+      "method": "1",
+      "label": "reference-SOA-E0p8",
+      "sha256_recorded_at_execution": "e7a5a3098d429a18cbfcff18f4292dc6630389c500f845ec9fdb410932f5547d",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-SOA-E0p8.cores.csv",
+      "csv_bytes": 159133286
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-16-r3.json",
+      "dataset": "SOA",
+      "method": "16",
+      "label": "parallel-SOA-16-r3",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-16-r3.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-8-r3.json",
+      "dataset": "SOA",
+      "method": "8",
+      "label": "parallel-SOA-8-r3",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-8-r3.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/scale-AM-E0p6-0-r1.json",
+      "dataset": "AM-E0p6",
+      "method": "0",
+      "label": "scale-AM-E0p6-0-r1",
+      "sha256_recorded_at_execution": "4b9f2ac374f59bc734cb82bfa3e49a0db943a91c498ce6c5a0e51fb1086610e9",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/scale-AM-E0p6-0-r1.cores.csv",
+      "csv_bytes": 203724574
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-AMZ-OPTIV-validation.json",
+      "dataset": "AMZ",
+      "method": "OPTIV",
+      "label": "core-AMZ-OPTIV-validation",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-AMZ-OPTIV-validation.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-AMZ-2-validation.json",
+      "dataset": "AMZ",
+      "method": "2",
+      "label": "core-AMZ-2-validation",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-AMZ-2-validation.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-TAS-1-validation.json",
+      "dataset": "TAS",
+      "method": "1",
+      "label": "core-TAS-1-validation",
+      "sha256_recorded_at_execution": "d5a6425d22f5b7b5e4780ac15c98328df387606f39c91b08e96d226d235afa9b",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-TAS-1-validation.cores.csv",
+      "csv_bytes": 441324
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-THS-1-validation.json",
+      "dataset": "THS",
+      "method": "1",
+      "label": "core-THS-1-validation",
+      "sha256_recorded_at_execution": "3d009b3931867b7b635babb3303fef6bbecf0eb99353de1b596500e468ef82db",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-THS-1-validation.cores.csv",
+      "csv_bytes": 23010645
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/scale-TAS-E0p2-0-r1.json",
+      "dataset": "TAS-E0p2",
+      "method": "0",
+      "label": "scale-TAS-E0p2-0-r1",
+      "sha256_recorded_at_execution": "28cb91287292ece6602198480156f563b25350644989a8961df5a2ffcf37dcaa",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/scale-TAS-E0p2-0-r1.cores.csv",
+      "csv_bytes": 367853
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/scale-AMZ-E0p6-0-r1.json",
+      "dataset": "AMZ-E0p6",
+      "method": "0",
+      "label": "scale-AMZ-E0p6-0-r1",
+      "sha256_recorded_at_execution": "c91486ddb6b34e3fb53baffae5496839a560067706e522f18702024da0b9ebeb",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/scale-AMZ-E0p6-0-r1.cores.csv",
+      "csv_bytes": 25633470
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-8-r3.json",
+      "dataset": "AMZ",
+      "method": "8",
+      "label": "parallel-AMZ-8-r3",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-8-r3.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-AMZ-1-validation.json",
+      "dataset": "AMZ",
+      "method": "1",
+      "label": "core-AMZ-1-validation",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-AMZ-1-validation.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-AM-E0p8.json",
+      "dataset": "AM-E0p8",
+      "method": "1",
+      "label": "reference-AM-E0p8",
+      "sha256_recorded_at_execution": "d8a8891310ea81c98affc174882cd3904f0f6eab6b3b42783b8a6e43d9b52f6c",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-AM-E0p8.cores.csv",
+      "csv_bytes": 252671788
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/scale-AM-E0p4-0-r1.json",
+      "dataset": "AM-E0p4",
+      "method": "0",
+      "label": "scale-AM-E0p4-0-r1",
+      "sha256_recorded_at_execution": "62575db550fec0846fe696b5ccdf9c7b98d6cc4fe150eebe315e225e7b728aa0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/scale-AM-E0p4-0-r1.cores.csv",
+      "csv_bytes": 148858090
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-THS-0-r1.json",
+      "dataset": "THS",
+      "method": "0",
+      "label": "stats-THS-0-r1",
+      "sha256_recorded_at_execution": "3d009b3931867b7b635babb3303fef6bbecf0eb99353de1b596500e468ef82db",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-THS-0-r1.cores.csv",
+      "csv_bytes": 23010645
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-THS-3-validation.json",
+      "dataset": "THS",
+      "method": "3",
+      "label": "core-THS-3-validation",
+      "sha256_recorded_at_execution": "3d009b3931867b7b635babb3303fef6bbecf0eb99353de1b596500e468ef82db",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-THS-3-validation.cores.csv",
+      "csv_bytes": 23010645
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-TAS-E0p8.json",
+      "dataset": "TAS-E0p8",
+      "method": "1",
+      "label": "reference-TAS-E0p8",
+      "sha256_recorded_at_execution": "055c219f557e7c3c85f95885d94d0b631c291a84713b997158f09b0f857e503d",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-TAS-E0p8.cores.csv",
+      "csv_bytes": 433567
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-THS-5-r1.json",
+      "dataset": "THS",
+      "method": "5",
+      "label": "stats-THS-5-r1",
+      "sha256_recorded_at_execution": "3d009b3931867b7b635babb3303fef6bbecf0eb99353de1b596500e468ef82db",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-THS-5-r1.cores.csv",
+      "csv_bytes": 23010645
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-SOA-E1p0.json",
+      "dataset": "SOA-E1p0",
+      "method": "1",
+      "label": "reference-SOA-E1p0",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-SOA-E1p0.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-2-r3.json",
+      "dataset": "AMZ",
+      "method": "2",
+      "label": "parallel-AMZ-2-r3",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-2-r3.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-SOA-1-validation.json",
+      "dataset": "SOA",
+      "method": "1",
+      "label": "core-SOA-1-validation",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-SOA-1-validation.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-DF-5-r1.json",
+      "dataset": "DF",
+      "method": "5",
+      "label": "stats-DF-5-r1",
+      "sha256_recorded_at_execution": "fcf888081965b739e3e1556c555101274d218f85cbc0b2716d0dfd55b4e25580",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-DF-5-r1.cores.csv",
+      "csv_bytes": 17606003
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-SOA-5-validation.json",
+      "dataset": "SOA",
+      "method": "5",
+      "label": "core-SOA-5-validation",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-SOA-5-validation.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/reference-TAS-E0p2.json",
+      "dataset": "TAS-E0p2",
+      "method": "1",
+      "label": "reference-TAS-E0p2",
+      "sha256_recorded_at_execution": "28cb91287292ece6602198480156f563b25350644989a8961df5a2ffcf37dcaa",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/reference-TAS-E0p2.cores.csv",
+      "csv_bytes": 367853
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/scale-AMZ-E1p0-0-r1.json",
+      "dataset": "AMZ-E1p0",
+      "method": "0",
+      "label": "scale-AMZ-E1p0-0-r1",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/scale-AMZ-E1p0-0-r1.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/scale-TAS-E0p6-0-r1.json",
+      "dataset": "TAS-E0p6",
+      "method": "0",
+      "label": "scale-TAS-E0p6-0-r1",
+      "sha256_recorded_at_execution": "52add568b659e9ef9b7dbb14290eb60096b9633f5acdf22eaa80c033fda0d979",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/scale-TAS-E0p6-0-r1.cores.csv",
+      "csv_bytes": 422432
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/stats-TAS-2-r1.json",
+      "dataset": "TAS",
+      "method": "2",
+      "label": "stats-TAS-2-r1",
+      "sha256_recorded_at_execution": "d5a6425d22f5b7b5e4780ac15c98328df387606f39c91b08e96d226d235afa9b",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/stats-TAS-2-r1.cores.csv",
+      "csv_bytes": 441324
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-8-r2.json",
+      "dataset": "AMZ",
+      "method": "8",
+      "label": "parallel-AMZ-8-r2",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-8-r2.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-DF-4-validation.json",
+      "dataset": "DF",
+      "method": "4",
+      "label": "core-DF-4-validation",
+      "sha256_recorded_at_execution": "fcf888081965b739e3e1556c555101274d218f85cbc0b2716d0dfd55b4e25580",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-DF-4-validation.cores.csv",
+      "csv_bytes": 17606003
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-AMZ-5-validation.json",
+      "dataset": "AMZ",
+      "method": "5",
+      "label": "core-AMZ-5-validation",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-AMZ-5-validation.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/scale-AMZ-E0p2-0-r1.json",
+      "dataset": "AMZ-E0p2",
+      "method": "0",
+      "label": "scale-AMZ-E0p2-0-r1",
+      "sha256_recorded_at_execution": "82ad1183c3b102136e940c441cf9179801f5e4500ed9c3302972078c22c0ead9",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/scale-AMZ-E0p2-0-r1.cores.csv",
+      "csv_bytes": 21744427
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-DF-1-validation.json",
+      "dataset": "DF",
+      "method": "1",
+      "label": "core-DF-1-validation",
+      "sha256_recorded_at_execution": "fcf888081965b739e3e1556c555101274d218f85cbc0b2716d0dfd55b4e25580",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/core-DF-1-validation.cores.csv",
+      "csv_bytes": 17606003
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/scale-SOA-E0p2-0-r1.json",
+      "dataset": "SOA-E0p2",
+      "method": "0",
+      "label": "scale-SOA-E0p2-0-r1",
+      "sha256_recorded_at_execution": "81f1ce729feaa5d1049ce84df8418cac4342da93cff12deb65d56b7a8d1bfd67",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/scale-SOA-E0p2-0-r1.cores.csv",
+      "csv_bytes": 52338510
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-1-r1.json",
+      "dataset": "SOA",
+      "method": "1",
+      "label": "parallel-SOA-1-r1",
+      "sha256_recorded_at_execution": "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-SOA-1-r1.cores.csv",
+      "csv_bytes": 185323441
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-16-r1.json",
+      "dataset": "AMZ",
+      "method": "16",
+      "label": "parallel-AMZ-16-r1",
+      "sha256_recorded_at_execution": "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-real-001/parallel-AMZ-16-r1.cores.csv",
+      "csv_bytes": 26171412
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-small001/stats-POW-S-approx-0-r1.json",
+      "dataset": "POW-S-approx",
+      "method": "0",
+      "label": "stats-POW-S-approx-0-r1",
+      "sha256_recorded_at_execution": "26efbb77e1ff57833977b7195046b7d41e63bd8785d57c0145eed89312af2894",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-small001/stats-POW-S-approx-0-r1.cores.csv",
+      "csv_bytes": 698985201
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-small001/core-POW-S-approx-1-validation.json",
+      "dataset": "POW-S-approx",
+      "method": "1",
+      "label": "core-POW-S-approx-1-validation",
+      "sha256_recorded_at_execution": "26efbb77e1ff57833977b7195046b7d41e63bd8785d57c0145eed89312af2894",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-small001/core-POW-S-approx-1-validation.cores.csv",
+      "csv_bytes": 698985201
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-small001/core-POW-S-approx-2-validation.json",
+      "dataset": "POW-S-approx",
+      "method": "2",
+      "label": "core-POW-S-approx-2-validation",
+      "sha256_recorded_at_execution": "26efbb77e1ff57833977b7195046b7d41e63bd8785d57c0145eed89312af2894",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-small001/core-POW-S-approx-2-validation.cores.csv",
+      "csv_bytes": 698985201
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-small001/core-POW-S-approx-0-validation.json",
+      "dataset": "POW-S-approx",
+      "method": "0",
+      "label": "core-POW-S-approx-0-validation",
+      "sha256_recorded_at_execution": "26efbb77e1ff57833977b7195046b7d41e63bd8785d57c0145eed89312af2894",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-small001/core-POW-S-approx-0-validation.cores.csv",
+      "csv_bytes": 698985201
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-small001/reference-POW-S-approx.json",
+      "dataset": "POW-S-approx",
+      "method": "0",
+      "label": "reference-POW-S-approx",
+      "sha256_recorded_at_execution": "26efbb77e1ff57833977b7195046b7d41e63bd8785d57c0145eed89312af2894",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-small001/reference-POW-S-approx.cores.csv",
+      "csv_bytes": 698985201
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-32-r2.json",
+      "dataset": "POW-L-approx",
+      "method": "32",
+      "label": "parallel-POW-L-approx-32-r2",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-32-r2.cores.csv",
+      "csv_bytes": 14135243646
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/core-POW-L-approx-1-validation.json",
+      "dataset": "POW-L-approx",
+      "method": "1",
+      "label": "core-POW-L-approx-1-validation",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/core-POW-L-approx-1-validation.cores.csv",
+      "csv_bytes": 14135243646
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-8-r3.json",
+      "dataset": "POW-L-approx",
+      "method": "8",
+      "label": "parallel-POW-L-approx-8-r3",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-8-r3.cores.csv",
+      "csv_bytes": 14135243646
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-64-r2.json",
+      "dataset": "POW-L-approx",
+      "method": "64",
+      "label": "parallel-POW-L-approx-64-r2",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-64-r2.cores.csv",
+      "csv_bytes": 14135243646
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-16-r3.json",
+      "dataset": "POW-L-approx",
+      "method": "16",
+      "label": "parallel-POW-L-approx-16-r3",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-16-r3.cores.csv",
+      "csv_bytes": 14135243646
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-16-r2.json",
+      "dataset": "POW-L-approx",
+      "method": "16",
+      "label": "parallel-POW-L-approx-16-r2",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-16-r2.cores.csv",
+      "csv_bytes": 14135243646
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-8-r2.json",
+      "dataset": "POW-L-approx",
+      "method": "8",
+      "label": "parallel-POW-L-approx-8-r2",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-8-r2.cores.csv",
+      "csv_bytes": 14135243646
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-8-r1.json",
+      "dataset": "POW-L-approx",
+      "method": "8",
+      "label": "parallel-POW-L-approx-8-r1",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-8-r1.cores.csv",
+      "csv_bytes": 14135243646
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/core-POW-L-approx-0-validation.json",
+      "dataset": "POW-L-approx",
+      "method": "0",
+      "label": "core-POW-L-approx-0-validation",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/core-POW-L-approx-0-validation.cores.csv",
+      "csv_bytes": 14135243646
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-16-r1.json",
+      "dataset": "POW-L-approx",
+      "method": "16",
+      "label": "parallel-POW-L-approx-16-r1",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-16-r1.cores.csv",
+      "csv_bytes": 14135243646
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-32-r3.json",
+      "dataset": "POW-L-approx",
+      "method": "32",
+      "label": "parallel-POW-L-approx-32-r3",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-32-r3.cores.csv",
+      "csv_bytes": 14135243646
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-4-r1.json",
+      "dataset": "POW-L-approx",
+      "method": "4",
+      "label": "parallel-POW-L-approx-4-r1",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-4-r1.cores.csv",
+      "csv_bytes": 14135243646
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-2-r2.json",
+      "dataset": "POW-L-approx",
+      "method": "2",
+      "label": "parallel-POW-L-approx-2-r2",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-2-r2.cores.csv",
+      "csv_bytes": 14135243646
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-4-r2.json",
+      "dataset": "POW-L-approx",
+      "method": "4",
+      "label": "parallel-POW-L-approx-4-r2",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-4-r2.cores.csv",
+      "csv_bytes": 14135243646
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-64-r3.json",
+      "dataset": "POW-L-approx",
+      "method": "64",
+      "label": "parallel-POW-L-approx-64-r3",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-64-r3.cores.csv",
+      "csv_bytes": 14135243646
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-2-r3.json",
+      "dataset": "POW-L-approx",
+      "method": "2",
+      "label": "parallel-POW-L-approx-2-r3",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-2-r3.cores.csv",
+      "csv_bytes": 14135243646
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-32-r1.json",
+      "dataset": "POW-L-approx",
+      "method": "32",
+      "label": "parallel-POW-L-approx-32-r1",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-32-r1.cores.csv",
+      "csv_bytes": 14135243646
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-2-r1.json",
+      "dataset": "POW-L-approx",
+      "method": "2",
+      "label": "parallel-POW-L-approx-2-r1",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-2-r1.cores.csv",
+      "csv_bytes": 14135243646
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-64-r1.json",
+      "dataset": "POW-L-approx",
+      "method": "64",
+      "label": "parallel-POW-L-approx-64-r1",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-64-r1.cores.csv",
+      "csv_bytes": 14135243646
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/reference-POW-L-approx.json",
+      "dataset": "POW-L-approx",
+      "method": "0",
+      "label": "reference-POW-L-approx",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/reference-POW-L-approx.cores.csv",
+      "csv_bytes": 14135243646
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-4-r3.json",
+      "dataset": "POW-L-approx",
+      "method": "4",
+      "label": "parallel-POW-L-approx-4-r3",
+      "sha256_recorded_at_execution": "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0",
+      "matches_reference": true,
+      "csv": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-4-r3.cores.csv",
+      "csv_bytes": 14135243646
+    }
+  ],
+  "failure_records": [
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-SOA-4-r2.json",
+      "status": "memory_limit",
+      "exit_code": 2,
+      "sha256": "9e3947fcc1b68728ce9efb152aebb837cbd22481c2a2be42a5dc275884f963fb",
+      "reused_attempt": null
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-SOA-OPTIV-r3.json",
+      "status": "memory_limit",
+      "exit_code": 2,
+      "sha256": "04909165cb5f7c966eadd9ff8909eb5a33361e1c7ed1024ddb887b88b1ea23bd",
+      "reused_attempt": null
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-SOA-OPTIV-r1.json",
+      "status": "memory_limit",
+      "exit_code": 2,
+      "sha256": "8fcd806c0f3f1e382f93c01c42bd01a5df16aba20bf4b9199b87214ed42444fb",
+      "reused_attempt": "core-SOA-OPTIV-validation"
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-SOA-4-r3.json",
+      "status": "memory_limit",
+      "exit_code": 2,
+      "sha256": "e1553ca5d9b208d51057e3338f2475afb148dc7d6beae6de2e21812c2ee87415",
+      "reused_attempt": null
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-SOA-OPTIV-r2.json",
+      "status": "memory_limit",
+      "exit_code": 2,
+      "sha256": "35990a5335f98d353e50ea5261c4208584745181294fdb77c822ab08f7fa1359",
+      "reused_attempt": null
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-real-001/core-SOA-4-r1.json",
+      "status": "memory_limit",
+      "exit_code": 2,
+      "sha256": "915a93d548ec86c5b99f6434ddfc9938fc06cbffc6348ace048e59dd40027fed",
+      "reused_attempt": "core-SOA-4-validation"
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-small001/core-POW-S-approx-OPTIV-r2.json",
+      "status": "failed",
+      "exit_code": 139,
+      "sha256": "807f19d29ed3b65cfdb5bcdce5d94acac0a494939e445fb1bbc713c9f95b71af",
+      "reused_attempt": null
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-small001/core-POW-S-approx-OPTIV-r1.json",
+      "status": "failed",
+      "exit_code": 139,
+      "sha256": "0b563a3092e6b4810145e23415bb2e2d519cf603474b0d6d5478202f4cdaf548",
+      "reused_attempt": "core-POW-S-approx-OPTIV-validation"
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-small001/core-POW-S-approx-OPTIV-r3.json",
+      "status": "failed",
+      "exit_code": 139,
+      "sha256": "061ca964de2778c9139990aaae48ad1f0eff098bbc49481509b079b1c4e45e50",
+      "reused_attempt": null
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/core-POW-L-approx-1-r3.json",
+      "status": "timeout",
+      "exit_code": 124,
+      "sha256": "41d01974f463b931dd78501fa9113963095a37cc4b8bc39b5e7a03ed77249d2c",
+      "reused_attempt": null
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-1-r1.json",
+      "status": "timeout",
+      "exit_code": 124,
+      "sha256": "2259687b116e957635d746d281add26a8236ec8f257d690257a02eb03b8b32bc",
+      "reused_attempt": null
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/stats-POW-L-approx-0-r3.json",
+      "status": "timeout",
+      "exit_code": 124,
+      "sha256": "81178b5907c623e9cdc94d2a9a6a016f244f59c343a61267c8b2c13f670769f7",
+      "reused_attempt": null
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/stats-POW-L-approx-0-r2.json",
+      "status": "timeout",
+      "exit_code": 124,
+      "sha256": "e0bfc8f62ec949f94ada7bfd2a99b7e9e08320918ea7fc7ba5ace9f53e62f002",
+      "reused_attempt": null
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/core-POW-L-approx-OPTIV-r3.json",
+      "status": "memory_limit",
+      "exit_code": 2,
+      "sha256": "21a9ac7ed647fe0411aff4874f1d440875aa1109b443baba507bf5eb830b25e7",
+      "reused_attempt": null
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/core-POW-L-approx-OPTIV-r2.json",
+      "status": "memory_limit",
+      "exit_code": 2,
+      "sha256": "8e9da5fe363e45b18a6237ec9e496821e05b8ac1b0eadc215629cbf3945d3c91",
+      "reused_attempt": null
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-1-r2.json",
+      "status": "timeout",
+      "exit_code": 124,
+      "sha256": "08de775ce81925d3db4c2325980add473cc173233b30f7e95a5c228c21aee3de",
+      "reused_attempt": null
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/core-POW-L-approx-2-r1.json",
+      "status": "timeout",
+      "exit_code": 124,
+      "sha256": "781e181ad493c97c7f627888174f954a9dc552ff52ab54e7d28234434e0b9e8b",
+      "reused_attempt": "core-POW-L-approx-2-validation"
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/core-POW-L-approx-1-r2.json",
+      "status": "timeout",
+      "exit_code": 124,
+      "sha256": "6a3dda8e367da9bbed6b7880300158a6f0fc1d1d4cbc3779ec80b1b8199b4b50",
+      "reused_attempt": null
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/stats-POW-L-approx-0-r1.json",
+      "status": "timeout",
+      "exit_code": 124,
+      "sha256": "41e7b6eb44867072866626cbcc37a27fbf31971d92ba3c0afbb94c893ce1e4f9",
+      "reused_attempt": null
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/core-POW-L-approx-2-r3.json",
+      "status": "timeout",
+      "exit_code": 124,
+      "sha256": "66b869b62642cc8a1d1220c238df8100f5545fe7fbd82ef45afb3ade632db3ef",
+      "reused_attempt": null
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/core-POW-L-approx-2-r2.json",
+      "status": "timeout",
+      "exit_code": 124,
+      "sha256": "1455daa3ffc8ef2a69b28e6a194e7e30f4545f1bc2c2850d91164c81e293ec16",
+      "reused_attempt": null
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/parallel-POW-L-approx-1-r3.json",
+      "status": "timeout",
+      "exit_code": 124,
+      "sha256": "51d046298c3cf5bf1592d8d1bd3082d2dccb78b5d1aaca93cd17300990357311",
+      "reused_attempt": null
+    },
+    {
+      "record": "${PROJECT_ROOT}/results/full-synthetic-large001/core-POW-L-approx-OPTIV-r1.json",
+      "status": "memory_limit",
+      "exit_code": 2,
+      "sha256": "993ff9cebe3c0101db5c26988fb0d48947ce405aeaff34053438659ba7133696",
+      "reused_attempt": "core-POW-L-approx-OPTIV-validation"
+    }
+  ],
+  "trial_status_counts": {
+    "ok": 382,
+    "memory_limit": 9,
+    "failed": 3,
+    "timeout": 11
+  },
+  "planned_records": 405,
+  "core_audit_scope": "All execution-time full-output SHA records compared with references; CSV existence/size checked. Core CSV contents were not rehashed a second time.",
+  "completed_at_utc": "2026-11-08T03:20:49.963253+00:00"
+}

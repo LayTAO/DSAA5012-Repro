@@ -1,0 +1,67 @@
+{
+  "dataset": "AMZ",
+  "source": {
+    "name": "amazon-reviews",
+    "drive_id": "1dOeke9Rdh0vySIrsSqIZbGXIggVFqZwP",
+    "format": "zip",
+    "source_page": "https://www.cs.cornell.edu/~arb/data/amazon-reviews/",
+    "url": "https://drive.usercontent.google.com/download?id=1dOeke9Rdh0vySIrsSqIZbGXIggVFqZwP&export=download&confirm=t",
+    "bytes": 259512238,
+    "sha256": "2c01746a15e12238d03120f6833eda8d2e981fc908999b21e9f11aa1b34d2e89",
+    "retrieved_at_utc": "2026-10-29T04:15:29.777144+00:00"
+  },
+  "raw": {
+    "vertices": 2268231,
+    "edges": 4285363,
+    "incidences": 73141425,
+    "max_edge_size": 9350,
+    "max_vertex_id": 2268264,
+    "dense_vertex_ids": false,
+    "sha256": "d08fec0e3c6b5d847d9f7ecf8085f777d625d8af659dd601681ce69ea654190a",
+    "bytes": 549229940
+  },
+  "processed": {
+    "vertices": 2268231,
+    "edges": 4285363,
+    "incidences": 73141425,
+    "max_edge_size": 9350,
+    "max_vertex_id": 2268231,
+    "dense_vertex_ids": true,
+    "sha256": "051b06d2b20ba24f76d4f68eb4d9408e6b42ddb5251bf8a69075dfc92c8a08a7",
+    "bytes": 576273554
+  },
+  "details": {
+    "zip_member": "amazon-reviews/hyperedges-amazon-reviews.txt"
+  },
+  "preprocessing": "Preserve original hyperedge records, then author org and sortEV desc asc",
+  "commands": [
+    [
+      "${PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${PROJECT_ROOT}/data/processed/extended-AMZ/author-input.hyp",
+      "org"
+    ],
+    [
+      "${PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${PROJECT_ROOT}/data/processed/extended-AMZ/author-input.hyp",
+      "sortEV",
+      "desc",
+      "asc"
+    ]
+  ],
+  "paper_table4": {
+    "id": "AMZ",
+    "name": "Amazon",
+    "reported_n": 2887466,
+    "reported_m": 4242423,
+    "degree_mean": 25.2,
+    "edge_size_mean": 17.2,
+    "neighbors_mean": 2106.8,
+    "raw_size_GB": 1.1
+  },
+  "paper_count_match": {
+    "raw_true_counts": false,
+    "raw_array_counts": false,
+    "processed_array_counts": false,
+    "processed_edges_array_match": false
+  }
+}

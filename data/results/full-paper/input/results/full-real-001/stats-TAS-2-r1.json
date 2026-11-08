@@ -1,0 +1,243 @@
+{
+  "label": "stats-TAS-2-r1",
+  "dataset": "TAS",
+  "paper_id": "TAS",
+  "kind": "stats",
+  "argument": "2",
+  "repeat": 1,
+  "status": "ok",
+  "exit_code": 0,
+  "recorded_at_utc": "2026-10-30T19:15:37.952899+00:00",
+  "process_wall_s": 62.472762966528535,
+  "command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "${PROJECT_ROOT}/results/full-real-001/stats-TAS-2-r1.time.txt",
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "21600s",
+    "taskset",
+    "-c",
+    "0",
+    "${PROJECT_ROOT}/build/extended/sigmod_extended",
+    "${PROJECT_ROOT}/data/processed/extended-TAS/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+    "stats",
+    "2",
+    "3000",
+    "${PROJECT_ROOT}/results/full-real-001/stats-TAS-2-r1.cores.csv"
+  ],
+  "input_sha256": "99807b30d2ea59f02042a3cd6beeae2aba21978623cefb6bf82e080067032ec3",
+  "binary_sha256": "9788b5649d1c58b346605db271292484addac166409a863edcf21924e757ae56",
+  "threads": 1,
+  "physical_cpus": [
+    0
+  ],
+  "memory_limit_kind": "RLIMIT_AS virtual address space; not identical to paper physical RAM limit",
+  "memory_limit_bytes": 536870912000,
+  "timeout_s": 21600,
+  "exported_cores": true,
+  "load_average_end": [
+    3.22265625,
+    4.7529296875,
+    7.9169921875
+  ],
+  "peak_rss_kib": 436092,
+  "load_wall_s": 3.030445889,
+  "setup_wall_s": 0,
+  "compute_wall_s": 59.382635952,
+  "total_before_export_wall_s": 62.413081841,
+  "vertices": 49945,
+  "reported_init_s": 2.26791,
+  "reported_execution_s": 57.1146,
+  "reported_total_s": 59.38251,
+  "reported_clock": "wall high_resolution_clock",
+  "core_sha256": "d5a6425d22f5b7b5e4780ac15c98328df387606f39c91b08e96d226d235afa9b",
+  "iteration_trace": [
+    {
+      "iteration": 1,
+      "computed": 47044,
+      "changed": 28590
+    },
+    {
+      "iteration": 2,
+      "computed": 46984,
+      "changed": 11875
+    },
+    {
+      "iteration": 3,
+      "computed": 46984,
+      "changed": 5593
+    },
+    {
+      "iteration": 4,
+      "computed": 46984,
+      "changed": 3320
+    },
+    {
+      "iteration": 5,
+      "computed": 46984,
+      "changed": 2382
+    },
+    {
+      "iteration": 6,
+      "computed": 46984,
+      "changed": 1915
+    },
+    {
+      "iteration": 7,
+      "computed": 46984,
+      "changed": 1648
+    },
+    {
+      "iteration": 8,
+      "computed": 46984,
+      "changed": 1457
+    },
+    {
+      "iteration": 9,
+      "computed": 46984,
+      "changed": 1336
+    },
+    {
+      "iteration": 10,
+      "computed": 46984,
+      "changed": 856
+    },
+    {
+      "iteration": 11,
+      "computed": 46984,
+      "changed": 1100
+    },
+    {
+      "iteration": 12,
+      "computed": 46984,
+      "changed": 1005
+    },
+    {
+      "iteration": 13,
+      "computed": 46984,
+      "changed": 817
+    },
+    {
+      "iteration": 14,
+      "computed": 46984,
+      "changed": 425
+    },
+    {
+      "iteration": 15,
+      "computed": 46984,
+      "changed": 283
+    },
+    {
+      "iteration": 16,
+      "computed": 46984,
+      "changed": 789
+    },
+    {
+      "iteration": 17,
+      "computed": 46984,
+      "changed": 197
+    },
+    {
+      "iteration": 18,
+      "computed": 46984,
+      "changed": 657
+    },
+    {
+      "iteration": 19,
+      "computed": 46984,
+      "changed": 180
+    },
+    {
+      "iteration": 20,
+      "computed": 46984,
+      "changed": 117
+    },
+    {
+      "iteration": 21,
+      "computed": 46984,
+      "changed": 126
+    },
+    {
+      "iteration": 22,
+      "computed": 46984,
+      "changed": 501
+    },
+    {
+      "iteration": 23,
+      "computed": 46984,
+      "changed": 240
+    },
+    {
+      "iteration": 24,
+      "computed": 46984,
+      "changed": 19
+    },
+    {
+      "iteration": 25,
+      "computed": 46984,
+      "changed": 11
+    },
+    {
+      "iteration": 26,
+      "computed": 46984,
+      "changed": 13
+    },
+    {
+      "iteration": 27,
+      "computed": 46984,
+      "changed": 18
+    },
+    {
+      "iteration": 28,
+      "computed": 46984,
+      "changed": 18
+    },
+    {
+      "iteration": 29,
+      "computed": 46984,
+      "changed": 11
+    },
+    {
+      "iteration": 30,
+      "computed": 46984,
+      "changed": 7
+    },
+    {
+      "iteration": 31,
+      "computed": 46984,
+      "changed": 8
+    },
+    {
+      "iteration": 32,
+      "computed": 46984,
+      "changed": 10
+    },
+    {
+      "iteration": 33,
+      "computed": 46984,
+      "changed": 3
+    },
+    {
+      "iteration": 34,
+      "computed": 46984,
+      "changed": 1
+    },
+    {
+      "iteration": 35,
+      "computed": 46984,
+      "changed": 1
+    },
+    {
+      "iteration": 36,
+      "computed": 46984,
+      "changed": 0
+    }
+  ],
+  "decide_time_s": 0.784301,
+  "compute_time_s": 53.3534,
+  "exc_Time_s": 57.1146,
+  "ruc_fraction_of_execution": 0.013732058002682327
+}

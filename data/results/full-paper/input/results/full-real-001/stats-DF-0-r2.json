@@ -1,0 +1,197 @@
+{
+  "label": "stats-DF-0-r2",
+  "dataset": "DF",
+  "paper_id": "DF",
+  "kind": "stats",
+  "argument": "0",
+  "repeat": 2,
+  "status": "ok",
+  "exit_code": 0,
+  "recorded_at_utc": "2026-10-29T10:24:27.915346+00:00",
+  "process_wall_s": 9.495163770392537,
+  "command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "${PROJECT_ROOT}/results/full-real-001/stats-DF-0-r2.time.txt",
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "21600s",
+    "taskset",
+    "-c",
+    "0",
+    "${PROJECT_ROOT}/build/extended/sigmod_extended",
+    "${PROJECT_ROOT}/data/processed/cornell-DF-ordered/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+    "stats",
+    "0",
+    "3000",
+    "-"
+  ],
+  "input_sha256": "8d86b7b94625d19307e7f0fc25ddc76d05ca62e121b5f3e7aa088a4a90aa4404",
+  "binary_sha256": "9788b5649d1c58b346605db271292484addac166409a863edcf21924e757ae56",
+  "threads": 1,
+  "physical_cpus": [
+    0
+  ],
+  "memory_limit_kind": "RLIMIT_AS virtual address space; not identical to paper physical RAM limit",
+  "memory_limit_bytes": 536870912000,
+  "timeout_s": 21600,
+  "exported_cores": false,
+  "load_average_end": [
+    3.662109375,
+    7.36083984375,
+    7.66259765625
+  ],
+  "peak_rss_kib": 224644,
+  "load_wall_s": 1.320639732,
+  "setup_wall_s": 0,
+  "compute_wall_s": 8.135591536,
+  "total_before_export_wall_s": 9.456231268,
+  "vertices": 1836596,
+  "reported_init_s": 1.24759,
+  "reported_execution_s": 6.88789,
+  "reported_total_s": 8.13548,
+  "reported_clock": "wall high_resolution_clock",
+  "iteration_trace": [
+    {
+      "iteration": 1,
+      "computed": 735958,
+      "changed": 634929
+    },
+    {
+      "iteration": 2,
+      "computed": 142044,
+      "changed": 123845
+    },
+    {
+      "iteration": 3,
+      "computed": 53128,
+      "changed": 36624
+    },
+    {
+      "iteration": 4,
+      "computed": 22856,
+      "changed": 12840
+    },
+    {
+      "iteration": 5,
+      "computed": 11025,
+      "changed": 5169
+    },
+    {
+      "iteration": 6,
+      "computed": 5946,
+      "changed": 2416
+    },
+    {
+      "iteration": 7,
+      "computed": 3327,
+      "changed": 1231
+    },
+    {
+      "iteration": 8,
+      "computed": 2030,
+      "changed": 708
+    },
+    {
+      "iteration": 9,
+      "computed": 1372,
+      "changed": 428
+    },
+    {
+      "iteration": 10,
+      "computed": 952,
+      "changed": 299
+    },
+    {
+      "iteration": 11,
+      "computed": 618,
+      "changed": 174
+    },
+    {
+      "iteration": 12,
+      "computed": 460,
+      "changed": 145
+    },
+    {
+      "iteration": 13,
+      "computed": 368,
+      "changed": 102
+    },
+    {
+      "iteration": 14,
+      "computed": 233,
+      "changed": 62
+    },
+    {
+      "iteration": 15,
+      "computed": 151,
+      "changed": 46
+    },
+    {
+      "iteration": 16,
+      "computed": 69,
+      "changed": 15
+    },
+    {
+      "iteration": 17,
+      "computed": 75,
+      "changed": 22
+    },
+    {
+      "iteration": 18,
+      "computed": 63,
+      "changed": 19
+    },
+    {
+      "iteration": 19,
+      "computed": 64,
+      "changed": 19
+    },
+    {
+      "iteration": 20,
+      "computed": 110,
+      "changed": 37
+    },
+    {
+      "iteration": 21,
+      "computed": 94,
+      "changed": 19
+    },
+    {
+      "iteration": 22,
+      "computed": 103,
+      "changed": 41
+    },
+    {
+      "iteration": 23,
+      "computed": 101,
+      "changed": 39
+    },
+    {
+      "iteration": 24,
+      "computed": 47,
+      "changed": 13
+    },
+    {
+      "iteration": 25,
+      "computed": 18,
+      "changed": 6
+    },
+    {
+      "iteration": 26,
+      "computed": 7,
+      "changed": 2
+    },
+    {
+      "iteration": 27,
+      "computed": 2,
+      "changed": 0
+    }
+  ],
+  "decide_time_s": 1.38193,
+  "compute_time_s": 2.54109,
+  "exc_Time_s": 6.88789,
+  "ruc_fraction_of_execution": 0.20063183355134884
+}

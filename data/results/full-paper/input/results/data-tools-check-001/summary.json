@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "Same seed reproduces bytes; a different seed changes the graph",
+    "Streaming audit matches independent Python statistics, including trailing commas",
+    "Seeded samples are byte-reproducible nested prefixes, with audited EOF behavior",
+    "Auditor rejects zero-based inputs before benchmarking"
+  ],
+  "passed": 4,
+  "generator_sha256": "9816804b43b2698575b09b4d554451b6bbf8930c21fac186ce2d3c391af6a24f",
+  "sampler_sha256": "f7610ccf8162cd93756f7dcb5ce3ebb2768d930f4a73fa243c35417a51cfada4",
+  "auditor_sha256": "767ca19010dbaf4a28fc83f045f6ef6a47dc0d7cdd9795cb4c7a6be2bb01107b"
+}

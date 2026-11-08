@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-11-08T03:24:19.768431+00:00",
+  "upstream": {
+    "hyper-k-core": {
+      "commit": "db709d81c3da8fff410c6b4f4aa2932883a227ee",
+      "status": ""
+    },
+    "vldbsubmission": {
+      "commit": "ea540958c176058b44830960753d854017719be2",
+      "status": ""
+    }
+  },
+  "active_experiments": [],
+  "root_device": 64768,
+  "project_device": 2065
+}

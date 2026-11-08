@@ -1,0 +1,11 @@
+{
+  "suc_original_sha256": "be0a6a7b4694f3ee01069b0db891ea465ce1702e39b3fa4919bc4011092106a0",
+  "suc_generated_sha256": "bf7ec295eb41aa8d371e6b9db3df0d775cfd9f908be1c8c835c30bd328f28ece",
+  "generator_original_sha256": "250763663a78459d79f8c330aa3dea364d8a235cdaaba306cdebe79dc5dade1e",
+  "generator_generated_sha256": "c5bc63a37d4ea42e4eead9409613aff8e40137e7a21f68cd43eccae46471870d",
+  "changes": [
+    "Add observational per-iteration computed/changed counters to SUC info implementation; no algorithm update changes.",
+    "Replace random_device seed draws in a generated copy with explicit repro_seed; retain original neighbor power-law generator."
+  ],
+  "claim": "Synthetic results are same-scale approximations, not identical paper inputs."
+}

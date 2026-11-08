@@ -1,0 +1,77 @@
+{
+  "dataset": "AMZ",
+  "seed": 5012,
+  "source_sha256": "051b06d2b20ba24f76d4f68eb4d9408e6b42ddb5251bf8a69075dfc92c8a08a7",
+  "sampling": "Seeded copy of author vary_edges; nested shuffled prefixes; author EOF empty-record behavior retained.",
+  "fractions": {
+    "0.2": {
+      "path": "data/processed/scales-AMZ/0.2/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 1988786,
+        "edges": 857072,
+        "incidences": 14650664,
+        "max_edge_size": 4076,
+        "max_vertex_id": 1988786,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "21f8e0af7aff8faed3c9b19b07f868c58e9cac75e6a073ede31613e53f15c7bf",
+        "bytes": 114982346
+      }
+    },
+    "0.4": {
+      "path": "data/processed/scales-AMZ/0.4/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 2220795,
+        "edges": 1714145,
+        "incidences": 29298082,
+        "max_edge_size": 8947,
+        "max_vertex_id": 2220795,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "a71cca5f078477fd17baa6dd66872415519e1f5254405bc1b45aa0d967cbad4d",
+        "bytes": 230983549
+      }
+    },
+    "0.6": {
+      "path": "data/processed/scales-AMZ/0.6/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 2262555,
+        "edges": 2571218,
+        "incidences": 43899733,
+        "max_edge_size": 8947,
+        "max_vertex_id": 2262555,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "bbcd556220d5da0ef7f0acad9882b2818d25195a0b08239278b8194e8fcf8a87",
+        "bytes": 346154068
+      }
+    },
+    "0.8": {
+      "path": "data/processed/scales-AMZ/0.8/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 2267702,
+        "edges": 3428290,
+        "incidences": 58542635,
+        "max_edge_size": 9350,
+        "max_vertex_id": 2267702,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "62476ad4db2c35ff1f1b7d5796d6afbd27caee33fc1d0e71c78929d0edffebfa",
+        "bytes": 461422000
+      }
+    },
+    "1.0": {
+      "path": "data/processed/extended-AMZ/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+      "processed": {
+        "vertices": 2268231,
+        "edges": 4285363,
+        "incidences": 73141425,
+        "max_edge_size": 9350,
+        "max_vertex_id": 2268231,
+        "dense_vertex_ids": true,
+        "sha256": "051b06d2b20ba24f76d4f68eb4d9408e6b42ddb5251bf8a69075dfc92c8a08a7",
+        "bytes": 576273554
+      }
+    }
+  }
+}

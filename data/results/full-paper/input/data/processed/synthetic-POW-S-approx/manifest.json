@@ -1,0 +1,54 @@
+{
+  "dataset": "POW-S-approx",
+  "paper_id": "POW-S",
+  "claim": "Same-scale approximation authorized by user; original paper inputs and seeds unavailable.",
+  "requested_parameters": {
+    "requested_nodes": 60000000,
+    "requested_edges": 60000000,
+    "paper_id": "POW-S",
+    "minimum_free_gib": 100
+  },
+  "seed": 5012,
+  "generator": "generateHypergraph_nbr_PowerLaw",
+  "generation_command": [
+    "${PROJECT_ROOT}/build/extended/generate_synthetic",
+    "${PROJECT_ROOT}/data/processed/synthetic-POW-S-approx/generated-raw.hyp",
+    "60000000",
+    "60000000",
+    "5012"
+  ],
+  "raw": {
+    "vertices": 59769610,
+    "edges": 45476589,
+    "incidences": 555634937,
+    "max_edge_size": 117,
+    "max_vertex_id": 59999999,
+    "dense_vertex_ids": false,
+    "strictly_sorted_members": true,
+    "sha256": "7fe59e8ac024cc21d06ad31189ff46e399bc8800fd9947d6e287fb4c36f8c49c",
+    "bytes": 4907904067
+  },
+  "processed": {
+    "vertices": 59769610,
+    "edges": 45476589,
+    "incidences": 555634937,
+    "max_edge_size": 117,
+    "max_vertex_id": 59769610,
+    "dense_vertex_ids": true,
+    "strictly_sorted_members": true,
+    "sha256": "0191f9f37d68b3d21efc5be53f7980c0c236b2156646f9af0050a3b07871da24",
+    "bytes": 4989299069
+  },
+  "paper_table4": {
+    "id": "POW-S",
+    "name": "Synthetic power law",
+    "reported_n": 56785943,
+    "reported_m": 56898102,
+    "degree_mean": 10.4,
+    "edge_size_mean": 10.4,
+    "neighbors_mean": 157.2,
+    "raw_size_GB": 8.8
+  },
+  "generator_binary_sha256": "9816804b43b2698575b09b4d554451b6bbf8930c21fac186ce2d3c391af6a24f",
+  "preprocessing": "Author org; author sortEV desc asc; seeded author generator copy."
+}

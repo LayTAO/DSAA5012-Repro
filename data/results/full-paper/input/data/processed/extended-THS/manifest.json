@@ -1,0 +1,84 @@
+{
+  "dataset": "THS",
+  "source": {
+    "name": "threads-stack-overflow-full",
+    "drive_id": "1aUwsvAhse-5tfbVZ494y9Z3cGm5lhXPX",
+    "format": "tar.gz",
+    "source_page": "https://www.cs.cornell.edu/~arb/data/threads-stack-overflow/",
+    "url": "https://drive.usercontent.google.com/download?id=1aUwsvAhse-5tfbVZ494y9Z3cGm5lhXPX&export=download&confirm=t",
+    "bytes": 204730123,
+    "sha256": "0dbceb1a23681dbe3a7e38dde4ff51988d93adab25c31d12c4ea69b2c8846521",
+    "retrieved_at_utc": "2026-10-29T04:13:45.244241+00:00"
+  },
+  "raw": {
+    "vertices": 2675969,
+    "edges": 9705722,
+    "incidences": 23761836,
+    "max_edge_size": 67,
+    "max_vertex_id": 3455073,
+    "dense_vertex_ids": false,
+    "sha256": "ddd8b8435d0b5318e66d344fcc98ea0ad86df050cac51d3188ac186a2e68de70",
+    "bytes": 171700924
+  },
+  "processed": {
+    "vertices": 2321767,
+    "edges": 8589580,
+    "incidences": 22645694,
+    "max_edge_size": 67,
+    "max_vertex_id": 2675966,
+    "dense_vertex_ids": false,
+    "sha256": "b719a410c9eb07d08feaa7c3ff029692779f03b0f8c979148f92964559b65305",
+    "bytes": 180519742
+  },
+  "details": {
+    "temporal": {
+      "timestamped_simplices": 11305356,
+      "incidences_before_edge_dedup": 25578226,
+      "duplicate_members_removed": 0
+    },
+    "unique": {
+      "unique_vertices": 2675969,
+      "max_vertex_id": 3455073,
+      "min_vertex_id": 2,
+      "unique_edges": 9705722,
+      "incidences": 23761836,
+      "singleton_edges": 1116142,
+      "vertices_after_singleton_removal": 2321767,
+      "edges_after_singleton_removal": 8589580,
+      "max_edge_size": 67,
+      "upstream_array_nodes": 3455074,
+      "upstream_array_edges": 9705724
+    }
+  },
+  "preprocessing": "Deduplicate original ordered simplex lists, then author org and sortEV desc asc",
+  "commands": [
+    [
+      "${PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${PROJECT_ROOT}/data/processed/extended-THS/author-input.hyp",
+      "org"
+    ],
+    [
+      "${PROJECT_ROOT}/build/native/HypergraphKCore",
+      "${PROJECT_ROOT}/data/processed/extended-THS/author-input.hyp",
+      "sortEV",
+      "desc",
+      "asc"
+    ]
+  ],
+  "paper_table4": {
+    "id": "THS",
+    "name": "Threads-stack-overflow",
+    "reported_n": 3849392,
+    "reported_m": 9515733,
+    "degree_mean": 6.2,
+    "edge_size_mean": 2.5,
+    "neighbors_mean": 11.9,
+    "raw_size_GB": 0.36
+  },
+  "paper_count_match": {
+    "raw_true_counts": false,
+    "raw_array_counts": false,
+    "processed_array_counts": false,
+    "processed_edges_array_match": false
+  }
+}

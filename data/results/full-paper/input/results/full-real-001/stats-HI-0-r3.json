@@ -1,0 +1,97 @@
+{
+  "label": "stats-HI-0-r3",
+  "dataset": "HI",
+  "paper_id": "HI",
+  "kind": "stats",
+  "argument": "0",
+  "repeat": 3,
+  "status": "ok",
+  "exit_code": 0,
+  "recorded_at_utc": "2026-10-30T05:26:26.032221+00:00",
+  "process_wall_s": 0.867519348859787,
+  "command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "${PROJECT_ROOT}/results/full-real-001/stats-HI-0-r3.time.txt",
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "21600s",
+    "taskset",
+    "-c",
+    "0",
+    "${PROJECT_ROOT}/build/extended/sigmod_extended",
+    "${PROJECT_ROOT}/data/processed/cornell-HI-ordered/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+    "stats",
+    "0",
+    "3000",
+    "-"
+  ],
+  "input_sha256": "ab3b8a00895e60d782388ddcdac831d9e07d3be82d691eb9deb92b4e03e2a4ae",
+  "binary_sha256": "9788b5649d1c58b346605db271292484addac166409a863edcf21924e757ae56",
+  "threads": 1,
+  "physical_cpus": [
+    0
+  ],
+  "memory_limit_kind": "RLIMIT_AS virtual address space; not identical to paper physical RAM limit",
+  "memory_limit_bytes": 536870912000,
+  "timeout_s": 21600,
+  "exported_cores": false,
+  "load_average_end": [
+    14.337890625,
+    9.36181640625,
+    7.83642578125
+  ],
+  "peak_rss_kib": 45444,
+  "load_wall_s": 0.140598945,
+  "setup_wall_s": 0,
+  "compute_wall_s": 0.707602517,
+  "total_before_export_wall_s": 0.848201462,
+  "vertices": 503868,
+  "reported_init_s": 0.085956,
+  "reported_execution_s": 0.621476,
+  "reported_total_s": 0.7074320000000001,
+  "reported_clock": "wall high_resolution_clock",
+  "iteration_trace": [
+    {
+      "iteration": 1,
+      "computed": 94038,
+      "changed": 88072
+    },
+    {
+      "iteration": 2,
+      "computed": 4163,
+      "changed": 3802
+    },
+    {
+      "iteration": 3,
+      "computed": 523,
+      "changed": 389
+    },
+    {
+      "iteration": 4,
+      "computed": 107,
+      "changed": 59
+    },
+    {
+      "iteration": 5,
+      "computed": 60,
+      "changed": 43
+    },
+    {
+      "iteration": 6,
+      "computed": 23,
+      "changed": 16
+    },
+    {
+      "iteration": 7,
+      "computed": 0,
+      "changed": 0
+    }
+  ],
+  "decide_time_s": 0.142511,
+  "compute_time_s": 0.170559,
+  "exc_Time_s": 0.621476,
+  "ruc_fraction_of_execution": 0.229310544574529
+}

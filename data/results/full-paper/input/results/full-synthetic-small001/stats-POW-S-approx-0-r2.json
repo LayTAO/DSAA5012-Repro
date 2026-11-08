@@ -1,0 +1,107 @@
+{
+  "label": "stats-POW-S-approx-0-r2",
+  "dataset": "POW-S-approx",
+  "paper_id": "POW-S",
+  "kind": "stats",
+  "argument": "0",
+  "repeat": 2,
+  "status": "ok",
+  "exit_code": 0,
+  "recorded_at_utc": "2026-10-31T13:35:42.166398+00:00",
+  "process_wall_s": 1080.2989802192897,
+  "command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "${PROJECT_ROOT}/results/full-synthetic-small001/stats-POW-S-approx-0-r2.time.txt",
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "21600s",
+    "taskset",
+    "-c",
+    "0",
+    "${PROJECT_ROOT}/build/extended/sigmod_extended",
+    "${PROJECT_ROOT}/data/processed/synthetic-POW-S-approx/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+    "stats",
+    "0",
+    "3000",
+    "-"
+  ],
+  "input_sha256": "0191f9f37d68b3d21efc5be53f7980c0c236b2156646f9af0050a3b07871da24",
+  "binary_sha256": "9788b5649d1c58b346605db271292484addac166409a863edcf21924e757ae56",
+  "threads": 1,
+  "physical_cpus": [
+    0
+  ],
+  "memory_limit_kind": "RLIMIT_AS virtual address space; not identical to paper physical RAM limit",
+  "memory_limit_bytes": 536870912000,
+  "timeout_s": 21600,
+  "exported_cores": false,
+  "load_average_end": [
+    18.68017578125,
+    31.775390625,
+    47.193359375
+  ],
+  "peak_rss_kib": 10804988,
+  "load_wall_s": 81.198548294,
+  "setup_wall_s": 0,
+  "compute_wall_s": 998.159320612,
+  "total_before_export_wall_s": 1079.357868906,
+  "vertices": 59769610,
+  "reported_init_s": 716.841,
+  "reported_execution_s": 281.273,
+  "reported_total_s": 998.114,
+  "reported_clock": "wall high_resolution_clock",
+  "iteration_trace": [
+    {
+      "iteration": 1,
+      "computed": 25260903,
+      "changed": 24138177
+    },
+    {
+      "iteration": 2,
+      "computed": 1674983,
+      "changed": 1602097
+    },
+    {
+      "iteration": 3,
+      "computed": 253170,
+      "changed": 226574
+    },
+    {
+      "iteration": 4,
+      "computed": 37787,
+      "changed": 33369
+    },
+    {
+      "iteration": 5,
+      "computed": 5417,
+      "changed": 4770
+    },
+    {
+      "iteration": 6,
+      "computed": 711,
+      "changed": 620
+    },
+    {
+      "iteration": 7,
+      "computed": 128,
+      "changed": 114
+    },
+    {
+      "iteration": 8,
+      "computed": 17,
+      "changed": 15
+    },
+    {
+      "iteration": 9,
+      "computed": 1,
+      "changed": 1
+    }
+  ],
+  "decide_time_s": 55.9761,
+  "compute_time_s": 113.739,
+  "exc_Time_s": 281.273,
+  "ruc_fraction_of_execution": 0.19900985874932894
+}

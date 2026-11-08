@@ -1,0 +1,50 @@
+{
+  "cases": 104,
+  "attempted": 1144,
+  "passed": 1136,
+  "unsupported": [
+    {
+      "case": 0,
+      "mode": "parallel",
+      "argument": 1
+    },
+    {
+      "case": 0,
+      "mode": "parallel",
+      "argument": 2
+    },
+    {
+      "case": 0,
+      "mode": "parallel",
+      "argument": 4
+    },
+    {
+      "case": 0,
+      "mode": "parallel",
+      "argument": 8
+    },
+    {
+      "case": 1,
+      "mode": "parallel",
+      "argument": 1
+    },
+    {
+      "case": 1,
+      "mode": "parallel",
+      "argument": 2
+    },
+    {
+      "case": 1,
+      "mode": "parallel",
+      "argument": 4
+    },
+    {
+      "case": 1,
+      "mode": "parallel",
+      "argument": 8
+    }
+  ],
+  "failures": [],
+  "binary_sha256": "9788b5649d1c58b346605db271292484addac166409a863edcf21924e757ae56",
+  "seed": 5012
+}
