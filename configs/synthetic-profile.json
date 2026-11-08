@@ -1,0 +1,19 @@
+{
+  "claim": "Same-scale approximation authorized by user; original paper inputs and seeds unavailable.",
+  "generator": "generateHypergraph_nbr_PowerLaw",
+  "seed": 5012,
+  "datasets": {
+    "POW-S-approx": {
+      "requested_nodes": 60000000,
+      "requested_edges": 60000000,
+      "paper_id": "POW-S",
+      "minimum_free_gib": 100
+    },
+    "POW-L-approx": {
+      "requested_nodes": 1100000000,
+      "requested_edges": 1100000000,
+      "paper_id": "POW-L",
+      "minimum_free_gib": 800
+    }
+  }
+}

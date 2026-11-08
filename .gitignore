@@ -45,3 +45,6 @@ data/processed/*
 # Generated results are opt-in for publication
 results/*
 !results/README.md
+
+# Local reports, presentation assets, and generated documents
+/reports/

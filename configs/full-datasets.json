@@ -1,0 +1,62 @@
+{
+  "HI": {
+    "directory": "cornell-HI-ordered",
+    "paper_id": "HI",
+    "existing_result": "paper-HI-001",
+    "alignment_note": "Use the audited data manifest; do not assume identical paper input."
+  },
+  "CO": {
+    "directory": "author-CO",
+    "paper_id": "CO",
+    "existing_result": "paper-CO-001",
+    "alignment_note": "Use the audited data manifest; do not assume identical paper input."
+  },
+  "GE": {
+    "directory": "cornell-GE-ordered",
+    "paper_id": "GE",
+    "existing_result": null,
+    "alignment_note": "Current Cornell release differs from paper Table 4; report as public-version replication."
+  },
+  "DB": {
+    "directory": "author-DB",
+    "paper_id": "DB",
+    "existing_result": "paper-DB-001",
+    "alignment_note": "Use the audited data manifest; do not assume identical paper input."
+  },
+  "DF": {
+    "directory": "cornell-DF-ordered",
+    "paper_id": "DF",
+    "existing_result": null,
+    "alignment_note": "Current Cornell release differs from paper Table 4; report as public-version replication."
+  },
+  "THS": {
+    "directory": "extended-THS",
+    "paper_id": "THS",
+    "existing_result": null,
+    "alignment_note": "Use the audited data manifest; do not assume identical paper input."
+  },
+  "TAS": {
+    "directory": "extended-TAS",
+    "paper_id": "TAS",
+    "existing_result": null,
+    "alignment_note": "Use the audited data manifest; do not assume identical paper input."
+  },
+  "SOA": {
+    "directory": "extended-SOA",
+    "paper_id": "SOA",
+    "existing_result": null,
+    "alignment_note": "Use the audited data manifest; do not assume identical paper input."
+  },
+  "AM": {
+    "directory": "author-AM",
+    "paper_id": "AM",
+    "existing_result": "paper-AM-001",
+    "alignment_note": "Use the audited data manifest; do not assume identical paper input."
+  },
+  "AMZ": {
+    "directory": "extended-AMZ",
+    "paper_id": "AMZ",
+    "existing_result": null,
+    "alignment_note": "Use the audited data manifest; do not assume identical paper input."
+  }
+}

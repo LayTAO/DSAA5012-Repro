@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # Source this before any server download, build, or experiment.
-# All managed files stay in the current user's home on a non-root filesystem.
+# All managed files stay in owned home/data storage on a non-root filesystem.
 
 repro_setup_server_environment() {
-  local repro_project repro_home repro_root_device repro_home_device repro_project_device
+  local repro_project repro_home repro_root_device repro_home_device repro_project_device repro_storage
   if [[ "$(uname -s)" != Linux ]]; then
     echo "This environment guard is for the Linux experiment server." >&2
     return 1
@@ -15,14 +15,19 @@ repro_setup_server_environment() {
   repro_home="$(realpath -e -- "${HOME:?HOME is required}")" || return 1
   repro_project="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd -P)" || return 1
   case "${repro_project}" in
-    "${repro_home}/"*) ;;
-    *) echo "Project must be inside the experiment user's home." >&2; return 1 ;;
+    "${repro_home}/"*) repro_storage="${repro_home}" ;;
+    "/data/$(id -un)/"*)
+      repro_storage="$(realpath -e -- "/data/$(id -un)")" || return 1
+      if [[ "$(stat -c %u "${repro_storage}")" != "$(id -u)" ]]; then
+        echo "Data storage must belong to the experiment user." >&2; return 1
+      fi ;;
+    *) echo "Project must be inside the user's home or owned /data directory." >&2; return 1 ;;
   esac
   repro_root_device="$(stat -c %d /)" || return 1
-  repro_home_device="$(stat -c %d "${repro_home}")" || return 1
+  repro_home_device="$(stat -c %d "${repro_storage}")" || return 1
   repro_project_device="$(stat -c %d "${repro_project}")" || return 1
   if [[ "${repro_home_device}" == "${repro_root_device}" || "${repro_project_device}" != "${repro_home_device}" ]]; then
-    echo "Refusing to write: home/project must share a filesystem distinct from /." >&2
+    echo "Refusing to write: storage/project must share a filesystem distinct from /." >&2
     return 1
   fi
 

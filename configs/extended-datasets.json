@@ -1,0 +1,26 @@
+{
+  "THS": {
+    "name": "threads-stack-overflow-full",
+    "drive_id": "1aUwsvAhse-5tfbVZ494y9Z3cGm5lhXPX",
+    "format": "tar.gz",
+    "source_page": "https://www.cs.cornell.edu/~arb/data/threads-stack-overflow/"
+  },
+  "TAS": {
+    "name": "tags-stack-overflow",
+    "drive_id": "17XFOUNXR8Ecxhmt6YWMPt1uVr5yxiSz7",
+    "format": "tar.gz",
+    "source_page": "https://www.cs.cornell.edu/~arb/data/tags-stack-overflow/"
+  },
+  "SOA": {
+    "name": "stackoverflow-answers",
+    "drive_id": "1CQpYlCoENcTXflwvFiKE-PrDS9f0yFKO",
+    "format": "zip",
+    "source_page": "https://www.cs.cornell.edu/~arb/data/stackoverflow-answers/"
+  },
+  "AMZ": {
+    "name": "amazon-reviews",
+    "drive_id": "1dOeke9Rdh0vySIrsSqIZbGXIggVFqZwP",
+    "format": "zip",
+    "source_page": "https://www.cs.cornell.edu/~arb/data/amazon-reviews/"
+  }
+}
