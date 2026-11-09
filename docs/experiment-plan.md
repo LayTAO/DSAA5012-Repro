@@ -1,6 +1,6 @@
 # 实验协议与执行入口
 
-本文记录最终执行的范围与口径，替代早期骨架计划。全部尝试已结束，最终状态及异常见 [experiment-results.md](experiment-results.md)，机器可读结果见 [summary.json](../data/results/full-paper/summary.json)。
+本文记录论文图表、实验配置、测量口径及正确性验证方法。完整执行命令见 [README 快速启动](../README.md#快速启动)，结果分析见 [experiment-results.md](experiment-results.md)。
 
 ## 方法与版本
 
@@ -38,17 +38,28 @@ SIGMOD 的作者计时使用墙钟，baseline 的作者计时使用 CPU 时钟�
 
 先用小图 oracle 检查强诱导超图语义，再对适配器的完整节点 ID/core 输出进行对比。运行时完整输出的 SHA 与参考记录比较；最终审计另查 CSV 存在和大小，没有第二次重读全部巨大 CSV 计算 SHA。超时、内存限制和崩溃记录不会被标记为通过正确性验证。
 
-## 服务器执行入口
+## 执行命令
 
-正式目录固定为 `/data/taolei/DSAA5012-Repro-full`。服务器所有写入必须通过下述入口，并由 `server_env.sh` 验证项目与 `/` 位于不同设备，将缓存及临时文件重定向到项目 `.runtime/`。
+[README 快速启动](../README.md#快速启动) 按顺序给出项目获取、依赖准备、作者代码下载、四个构建入口、小图验证、真实数据处理、正式队列、审计和图表导出的完整命令。
+
+`run_full_workflow.py` 依赖已准备的十个真实输入、二进制及 HI/CO/DB/AM 的 `paper-*-001` 核心批次；对应前置步骤不能省略。数据与结果目录名由 `configs/full-datasets.json` 和运行器共同确定。
+
+单独运行扩展阶段时，现有入口如下。下列命令对应完整工作流内部步骤，不能在同一队列活跃时再启动一遍：
 
 ```bash
-cd /data/taolei/DSAA5012-Repro-full
-bash scripts/run_on_server.sh COMMAND [ARGUMENTS...]
+bash scripts/run_on_server.sh python3 scripts/prepare_full_inputs.py scales AMZ TAS SOA AM
+bash scripts/run_on_server.sh python3 scripts/run_extended_suite.py \
+  --phase real --run-id 001 --timeout 21600 --memory-gib 500
+
+bash scripts/run_on_server.sh python3 scripts/prepare_full_inputs.py synthetic POW-S-approx
+bash scripts/run_on_server.sh python3 scripts/run_extended_suite.py \
+  --phase synthetic --datasets POW-S-approx --run-id small001 \
+  --timeout 21600 --memory-gib 500
+
+bash scripts/run_on_server.sh python3 scripts/prepare_full_inputs.py synthetic POW-L-approx
+bash scripts/run_on_server.sh python3 scripts/run_extended_suite.py \
+  --phase synthetic --datasets POW-L-approx --run-id large001 \
+  --timeout 21600 --memory-gib 500
 ```
 
-新环境需要 Git、Python 3.10+、C++20/OpenMP 编译器及 GNU time 等运行工具。准备顺序为：固定上游版本（`fetch_upstream.py`）→ 主适配器（`build_drivers.sh`）→ 扩展与数据工具（`build_extended.sh`、`build_data_tools.sh`）→ 数据下载/转换及小图检查 → 正式队列。所有步骤都经上述入口执行；本项目不自动安装系统软件。
-
-`run_full_workflow.py` 不是空仓库的一键下载命令：它要求已准备好的真实输入、二进制与先前核心批次；随后生成规模输入，执行真实扩展、POW-S、POW-L 阶段，按检查点继续。运行前核对 `status.json`、`workflow.pid`、各阶段 `running.json` 与实际进程，不重复启动已有任务、不改变活跃输入和二进制。
-
-当前队列已经结束。查看或复算结果使用 [README 的本地汇总命令](../README.md#本地核查已归档结果)，不需要重新启动服务器实验。远程小型导出使用 `sync_full_results.py`；完整 core CSV 和大型输入继续留在服务器。
+方法参数、重复次数和线程列表由配置/运行器定义；以独立 run ID 执行的自定义实验不自动纳入固定全量导出。复现相同实验集合时保持上述批次名称和参数。
