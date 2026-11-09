@@ -12,7 +12,6 @@
 - **过滤对照**：仅 RUC（`1`）、仅 LB（`2`）、HyperCD+（`3`）、HyperCD（`4`）、HyperCD++ / SUC（`5`）。
 - **Local-core-OPTIV**：VLDB 2023 作者实现，对应参数 `OPTIV`。
 
-方法映射见 [configs/methods.json](configs/methods.json)，两份作者代码的完整 commit SHA 见 [configs/upstream.lock.json](configs/upstream.lock.json)。
 
 ## 环境依赖
 
