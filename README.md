@@ -19,7 +19,7 @@
 - Linux，Python 3.10+，Git，支持 C++20 与 OpenMP 的 `g++`。
 - GNU `time`、`sort`、`timeout`、`taskset`，以及 Python `venv`/`pip`。
 - 绘图需要 Matplotlib 和 NumPy；下面的命令将它们安装在项目虚拟环境中。
-- 本次实验环境：Ubuntu 22.04、GCC 11.4、双路 AMD EPYC 7543，共 64 个物理核 / 128 个逻辑线程、约 1007.7 GiB 内存。实验使用 CPU，不需要 GPU。
+- 本次实验环境：Ubuntu 22.04、GCC 11.4、双路 AMD EPYC 7543，共 64 个物理核 / 128 个逻辑线程、约 1007.7 GiB 内存。
 - 正式计时每组 3 次，每次最长 6 小时。扩展实验的虚拟地址空间上限为 500 GiB；早期核心批次的限制见[实验设置](docs/experiment-plan.md#重复时间内存与计量)。POW-L 生成前脚本要求项目分区至少有 800 GiB 可用空间。
 
 ## 快速启动
@@ -109,42 +109,6 @@ bash scripts/run_on_server.sh python3 scripts/audit_final_results.py
 
 POW-S / POW-L 使用作者公开的 `generateHypergraph_nbr_PowerLaw` 生成器，种子为 **5012**；参数记录于 [configs/synthetic-profile.json](configs/synthetic-profile.json)。原始及处理后输入的实际统计保存在 manifest 中。
 
-### 6. 导出结果与生成图表
-
-下面的命令在服务器项目内生成小型结果包、图 4–11、表 5 和 Markdown 比较报告，输出目录为 `results/reproduced/`。
-
-```bash
-bash scripts/run_on_server.sh .venv/bin/python - <<'PYRESULTS'
-import json
-from pathlib import Path
-import shutil
-import subprocess
-import sys
-
-out = Path('results/reproduced')
-inputs = out / 'input'
-inputs.mkdir(parents=True, exist_ok=True)
-package = json.loads(subprocess.check_output(
-    [sys.executable, 'scripts/export_full_results.py'], text=True))
-for name, content in package.items():
-    target = (inputs / name).resolve()
-    if not target.is_relative_to(inputs.resolve()):
-        raise ValueError('Unexpected export path: ' + name)
-    target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_text(content, encoding='utf-8')
-
-shutil.copyfile('results/final-audit-001/audit.json', out / 'final-audit.json')
-subprocess.run([sys.executable, 'scripts/summarize_full_results.py',
-                str(inputs), '--output', str(out / 'summary.json')], check=True)
-subprocess.run([sys.executable, 'scripts/plot_full_results.py',
-                str(out / 'summary.json'), '--input', str(inputs),
-                '--output', str(out)], check=True)
-subprocess.run([sys.executable, 'scripts/finalize_report.py', str(out)], check=True)
-PYRESULTS
-```
-
-对应输出：`summary.json`（分组测量）、`final-comparison.json`（结构化比较）、`final-report.md`（结果分析）、`figure-4` 至 `figure-11` 的 PNG/SVG，以及 `table-5.png` / `table-5.svg`。
-
 ## 主要实验结果
 
 以下均为本项目实测数据，来源为 [final-comparison.json](data/results/full-paper/final-comparison.json)。成功计时配置取 3 次算术平均；总时间为作者初始化时间加算法执行时间，进程峰值 RSS 单独记录。SIGMOD 作者计时为墙钟，VLDB 作者计时为 CPU 时钟，不能把表中比值解释为严格同一端到端时钟的加速比。
@@ -193,16 +157,3 @@ PYRESULTS
 
 这些输入使用作者公开生成器及本项目记录的参数生成，实际规模与论文表 4 分列。对应原论文时间、数据统计及差异分析见 [table-5-comparison.json](data/results/full-paper/table-5-comparison.json) 和[详细结果](docs/experiment-results.md#pow-s--pow-l-与论文比较)。
 
-## 数据与代码
-
-- `src/`：算法适配器、数据工具及小图 oracle；`scripts/`：下载、构建、运行、校验、汇总和绘图入口。
-- `configs/`：固定版本、方法映射、数据来源与实验参数。
-- `data/results/full-paper/`：随仓库提供的小型结果与配置快照；[data/README.md](data/README.md) 说明归档内容和大型数据位置。
-- `data/raw/`、`data/processed/`：运行时产生的原始数据与处理后超图，大型输入不放入 Git。
-- `docs/experiment-plan.md`：实验设置；`docs/experiment-results.md`：各实验结果和差异分析。
-
-## 引用
-
-论文 BibTeX 见 [references.bib](references.bib)。本仓库是课程复现项目；作者原始实现的许可分别由对应上游仓库规定。
-
-README 结构参考 [Papers with Code 的公开研究代码模板](https://github.com/paperswithcode/releasing-research-code/blob/master/templates/README.md)，将训练/评估部分调整为超图算法的构建、验证与复现实验。
