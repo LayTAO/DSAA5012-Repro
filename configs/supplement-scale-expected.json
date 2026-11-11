@@ -1,0 +1,86 @@
+{
+  "SOA-E0p2": {
+    "dataset": "SOA-E0p2",
+    "paper_id": "SOA",
+    "path": "${PROJECT_ROOT}/data/processed/scales-SOA/0.2/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+    "processed": {
+      "vertices": 4556804,
+      "edges": 220648,
+      "incidences": 5256229,
+      "max_edge_size": 33777,
+      "max_vertex_id": 4556804,
+      "dense_vertex_ids": true,
+      "strictly_sorted_members": true,
+      "sha256": "a1248c1414c40ec737588cce80c5c4b8733742e815488b5eb711598864b35b99",
+      "bytes": 40906686
+    },
+    "scale": "0.2"
+  },
+  "SOA-E0p4": {
+    "dataset": "SOA-E0p4",
+    "paper_id": "SOA",
+    "path": "${PROJECT_ROOT}/data/processed/scales-SOA/0.4/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+    "processed": {
+      "vertices": 8137346,
+      "edges": 441296,
+      "incidences": 10566340,
+      "max_edge_size": 61315,
+      "max_vertex_id": 8137346,
+      "dense_vertex_ids": true,
+      "strictly_sorted_members": true,
+      "sha256": "1a78b23d304be399cc592365eeba12f34698392feb35e66e862ea74875015405",
+      "bytes": 83386989
+    },
+    "scale": "0.4"
+  },
+  "SOA-E0p6": {
+    "dataset": "SOA-E0p6",
+    "paper_id": "SOA",
+    "path": "${PROJECT_ROOT}/data/processed/scales-SOA/0.6/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+    "processed": {
+      "vertices": 10935088,
+      "edges": 661945,
+      "incidences": 15719139,
+      "max_edge_size": 61315,
+      "max_vertex_id": 10935088,
+      "dense_vertex_ids": true,
+      "strictly_sorted_members": true,
+      "sha256": "ced2d566da1530795442d1cd33d79cf03c77252ada30a4754ec2300a670e575c",
+      "bytes": 126392401
+    },
+    "scale": "0.6"
+  },
+  "SOA-E0p8": {
+    "dataset": "SOA-E0p8",
+    "paper_id": "SOA",
+    "path": "${PROJECT_ROOT}/data/processed/scales-SOA/0.8/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+    "processed": {
+      "vertices": 13233114,
+      "edges": 882594,
+      "incidences": 20867845,
+      "max_edge_size": 61315,
+      "max_vertex_id": 13233114,
+      "dense_vertex_ids": true,
+      "strictly_sorted_members": true,
+      "sha256": "cd623c8a3703c450288043c0360e3fd8099e8ea8d672a1a3535220558f0358c5",
+      "bytes": 172480227
+    },
+    "scale": "0.8"
+  },
+  "SOA-E1p0": {
+    "dataset": "SOA-E1p0",
+    "paper_id": "SOA",
+    "path": "${PROJECT_ROOT}/data/processed/extended-SOA/author-input.hyp_sorted_by_edge_desc_node_asc.txt",
+    "processed": {
+      "vertices": 15211989,
+      "edges": 1103243,
+      "incidences": 26109177,
+      "max_edge_size": 61315,
+      "max_vertex_id": 15211989,
+      "dense_vertex_ids": true,
+      "sha256": "e2c1b6802962c1528f4a50c01d14c1acf32d9070079a7ac1eee2a8e36eabb04d",
+      "bytes": 219330812
+    },
+    "scale": "1.0"
+  }
+}

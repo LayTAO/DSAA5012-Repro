@@ -1,0 +1,858 @@
+{
+  "HI": {
+    "manifest": {
+      "candidate_paper_id": "HI",
+      "source": {
+        "name": "coauth-MAG-History-full",
+        "drive_id": "1KBSQyz6BVO1HM6tjCGh8aLcugNW9pDjA",
+        "source_page": "https://www.cs.cornell.edu/~arb/data/coauth-MAG-History/"
+      },
+      "archive_sha256": "920e44df69e2a908f2dad68692b0cae04f36ff22aea467ac490478a7503de07e",
+      "archive_bytes": 106174172,
+      "temporal": {
+        "timestamped_simplices": 1813147,
+        "incidences_before_edge_dedup": 2398702,
+        "duplicate_members_removed": 0
+      },
+      "unique": {
+        "unique_vertices": 1034876,
+        "max_vertex_id": 1034876,
+        "min_vertex_id": 1,
+        "unique_edges": 896291,
+        "incidences": 1406388,
+        "singleton_edges": 643356,
+        "vertices_after_singleton_removal": 503868,
+        "edges_after_singleton_removal": 252935,
+        "max_edge_size": 925,
+        "upstream_array_nodes": 1034877,
+        "upstream_array_edges": 896293
+      },
+      "paper_table4": {
+        "id": "HI",
+        "name": "Coauth-MAG-History",
+        "reported_n": 1034877,
+        "reported_m": 896293,
+        "degree_mean": 1.4,
+        "edge_size_mean": 1.6,
+        "neighbors_mean": 5.2,
+        "raw_size_GB": 0.02
+      },
+      "paper_count_match": {
+        "true_counts_match": false,
+        "upstream_array_counts_match": true
+      },
+      "preprocessing": "deduplicate ordered timestamped vertex lists; author org (sort members, drop singleton edges, map IDs before dropping); author sortEV desc asc; preserve resulting ID gaps",
+      "processed": {
+        "vertices": 503868,
+        "edges": 252935,
+        "incidences": 763032,
+        "max_edge_size": 925,
+        "max_vertex_id": 1034875,
+        "dense_vertex_ids": false,
+        "sha256": "ab3b8a00895e60d782388ddcdac831d9e07d3be82d691eb9deb92b4e03e2a4ae",
+        "bytes": 5463450
+      },
+      "commands": [
+        [
+          "${ORIGINAL_PROJECT_ROOT}/build/native/HypergraphKCore",
+          "${ORIGINAL_PROJECT_ROOT}/data/processed/cornell-HI-ordered/author-input.hyp",
+          "org"
+        ],
+        [
+          "${ORIGINAL_PROJECT_ROOT}/build/native/HypergraphKCore",
+          "${ORIGINAL_PROJECT_ROOT}/data/processed/cornell-HI-ordered/author-input.hyp",
+          "sortEV",
+          "desc",
+          "asc"
+        ]
+      ],
+      "bundled_equivalence": {
+        "canonical_text_equal_without_graph_isomorphism_test": false,
+        "bundled_canonical_sha256": "40477faea424fc9f6f4b3281345be516b11686861029d86b3954ce0aca1c0531",
+        "converted_canonical_sha256": "ad56b16add673fb4ecc26b03edf57457f4e4e1f24871ec3a84585bfed4c4d0f2"
+      }
+    },
+    "core_sha256_values": [
+      "df9d0029421ab2b71fedc691eb5476f2a5633b462b7c9d87a8b42a1d63d92725"
+    ]
+  },
+  "CO": {
+    "manifest": {
+      "candidate_paper_id": "CO",
+      "source": {
+        "page": "https://github.com/toggled/vldbsubmission/tree/ea540958c176058b44830960753d854017719be2",
+        "archive_url": "https://drive.google.com/file/d/12cvz-XtfQUbmj-gqlT9z4DKGMuhqLGjs/view",
+        "member": "data/datasets/real/congress-bills.hyp"
+      },
+      "archive_sha256": "22f00bd5b80738e3ef05c9ff2ce512dbb51f0061b78edfb1fa5dcf893bf45ffe",
+      "raw": {
+        "vertices": 1718,
+        "edges": 83105,
+        "incidences": 732300,
+        "max_edge_size": 25,
+        "max_vertex_id": 1718,
+        "dense_vertex_ids": true,
+        "sha256": "d565ed1d822829c94685e551a9102faf2743e65df6bee5fe5182826541dacc75",
+        "bytes": 3105918
+      },
+      "raw_upstream_array_nodes": 1719,
+      "raw_upstream_array_edges": 83107,
+      "paper_table4": {
+        "id": "CO",
+        "name": "Congress-bills",
+        "reported_n": 3286,
+        "reported_m": 83107,
+        "degree_mean": 222.9,
+        "edge_size_mean": 8.8,
+        "neighbors_mean": 333.0,
+        "raw_size_GB": 0.01
+      },
+      "paper_count_match": {
+        "true_counts_match": false,
+        "upstream_array_counts_match": false
+      },
+      "commands": [
+        [
+          "${ORIGINAL_PROJECT_ROOT}/build/native/HypergraphKCore",
+          "${ORIGINAL_PROJECT_ROOT}/data/processed/author-CO/author-input.hyp",
+          "org"
+        ],
+        [
+          "${ORIGINAL_PROJECT_ROOT}/build/native/HypergraphKCore",
+          "${ORIGINAL_PROJECT_ROOT}/data/processed/author-CO/author-input.hyp",
+          "sortEV",
+          "desc",
+          "asc"
+        ]
+      ],
+      "preprocessing": "Preserve provided hyperedges; author org and sortEV desc asc; preserve ID gaps",
+      "processed": {
+        "vertices": 1718,
+        "edges": 83105,
+        "incidences": 732300,
+        "max_edge_size": 25,
+        "max_vertex_id": 1718,
+        "dense_vertex_ids": true,
+        "sha256": "bd245b80cf262b2ec6f2daa4044954da5dfe6b8d350e8a6c7cdf35bd385da918",
+        "bytes": 3358867
+      }
+    },
+    "core_sha256_values": [
+      "c6096d2a73b9e91f32f18c34f1bf6204fd720c7df5239e5732662b291b34e2bc"
+    ]
+  },
+  "GE": {
+    "manifest": {
+      "candidate_paper_id": "GE",
+      "source": {
+        "name": "coauth-MAG-Geology-full",
+        "drive_id": "1bk5uTnuijgHEAOi5sA-sM8Cxyg3Ejr43",
+        "source_page": "https://www.cs.cornell.edu/~arb/data/coauth-MAG-Geology/"
+      },
+      "archive_sha256": "798cf0fbfd0cd2bd8c9c7d4ece042f659849083f898b1332e24ccb4713778077",
+      "archive_bytes": 95995105,
+      "temporal": {
+        "timestamped_simplices": 1591166,
+        "incidences_before_edge_dedup": 4448428,
+        "duplicate_members_removed": 0
+      },
+      "unique": {
+        "unique_vertices": 1261129,
+        "max_vertex_id": 1261129,
+        "min_vertex_id": 1,
+        "unique_edges": 1208201,
+        "incidences": 3831128,
+        "singleton_edges": 295379,
+        "vertices_after_singleton_removal": 1091979,
+        "edges_after_singleton_removal": 912822,
+        "max_edge_size": 284,
+        "upstream_array_nodes": 1261130,
+        "upstream_array_edges": 1208203
+      },
+      "paper_table4": {
+        "id": "GE",
+        "name": "Coauth-MAG-Geology",
+        "reported_n": 1261199,
+        "reported_m": 1342357,
+        "degree_mean": 3.3,
+        "edge_size_mean": 3.1,
+        "neighbors_mean": 11.9,
+        "raw_size_GB": 0.06
+      },
+      "paper_count_match": {
+        "true_counts_match": false,
+        "upstream_array_counts_match": false
+      },
+      "preprocessing": "deduplicate ordered timestamped vertex lists; author org (sort members, drop singleton edges, map IDs before dropping); author sortEV desc asc; preserve resulting ID gaps",
+      "processed": {
+        "vertices": 1091979,
+        "edges": 912822,
+        "incidences": 3535749,
+        "max_edge_size": 284,
+        "max_vertex_id": 1261129,
+        "dense_vertex_ids": false,
+        "sha256": "7bdcada7eb8577bab19d03637b12677a6b4c9cc60a97d8ae1ccabc266a335865",
+        "bytes": 27168203
+      },
+      "commands": [
+        [
+          "${ORIGINAL_PROJECT_ROOT}/build/native/HypergraphKCore",
+          "${ORIGINAL_PROJECT_ROOT}/data/processed/cornell-GE-ordered/author-input.hyp",
+          "org"
+        ],
+        [
+          "${ORIGINAL_PROJECT_ROOT}/build/native/HypergraphKCore",
+          "${ORIGINAL_PROJECT_ROOT}/data/processed/cornell-GE-ordered/author-input.hyp",
+          "sortEV",
+          "desc",
+          "asc"
+        ]
+      ]
+    },
+    "core_sha256_values": [
+      "97b23ab79c69464f7f43652a899e7582c274542c2708fa806c36ba796606cdec"
+    ]
+  },
+  "DB": {
+    "manifest": {
+      "candidate_paper_id": "DB",
+      "source": {
+        "page": "https://github.com/toggled/vldbsubmission/tree/ea540958c176058b44830960753d854017719be2",
+        "archive_url": "https://drive.google.com/file/d/12cvz-XtfQUbmj-gqlT9z4DKGMuhqLGjs/view",
+        "member": "data/datasets/real/DBLP.hyp"
+      },
+      "archive_sha256": "22f00bd5b80738e3ef05c9ff2ce512dbb51f0061b78edfb1fa5dcf893bf45ffe",
+      "raw": {
+        "vertices": 1836596,
+        "edges": 2170260,
+        "incidences": 7451608,
+        "max_edge_size": 280,
+        "max_vertex_id": 1930378,
+        "dense_vertex_ids": false,
+        "sha256": "da66aaf655752ac3e1ee5ed416ee550bb4c5b47dc39257a55833a17303a53895",
+        "bytes": 51327396
+      },
+      "raw_upstream_array_nodes": 1930379,
+      "raw_upstream_array_edges": 2170262,
+      "paper_table4": {
+        "id": "DB",
+        "name": "Coauth-DBLP",
+        "reported_n": 2215933,
+        "reported_m": 2170262,
+        "degree_mean": 3.4,
+        "edge_size_mean": 3.4,
+        "neighbors_mean": 8.1,
+        "raw_size_GB": 0.11
+      },
+      "paper_count_match": {
+        "true_counts_match": false,
+        "upstream_array_counts_match": false
+      },
+      "commands": [
+        [
+          "${ORIGINAL_PROJECT_ROOT}/build/native/HypergraphKCore",
+          "${ORIGINAL_PROJECT_ROOT}/data/processed/author-DB/author-input.hyp",
+          "org"
+        ],
+        [
+          "${ORIGINAL_PROJECT_ROOT}/build/native/HypergraphKCore",
+          "${ORIGINAL_PROJECT_ROOT}/data/processed/author-DB/author-input.hyp",
+          "sortEV",
+          "desc",
+          "asc"
+        ]
+      ],
+      "preprocessing": "Preserve provided hyperedges; author org and sortEV desc asc; preserve ID gaps",
+      "processed": {
+        "vertices": 1836596,
+        "edges": 2170260,
+        "incidences": 7451608,
+        "max_edge_size": 280,
+        "max_vertex_id": 1836596,
+        "dense_vertex_ids": true,
+        "sha256": "962f5424644089e9233eef6fc3f9dd340faeacd67ce5070f2541e88e332325c3",
+        "bytes": 58258135
+      }
+    },
+    "core_sha256_values": [
+      "e2d87062b9de336738451310f5d19105fe992cdc334f59f0858817657a2a6bd0"
+    ]
+  },
+  "DF": {
+    "manifest": {
+      "candidate_paper_id": "DF",
+      "source": {
+        "name": "coauth-DBLP-full",
+        "drive_id": "1tC0TdzV_IMTzhkIN_4P8y9M1a3lH-ScK",
+        "source_page": "https://www.cs.cornell.edu/~arb/data/coauth-DBLP/"
+      },
+      "archive_sha256": "feb4bed6d3c79a9ba16142e71405b7eff1515504741281b8edfe13dc0f960433",
+      "archive_bytes": 53289065,
+      "temporal": {
+        "timestamped_simplices": 3700681,
+        "incidences_before_edge_dedup": 10326773,
+        "duplicate_members_removed": 68
+      },
+      "unique": {
+        "unique_vertices": 1930378,
+        "max_vertex_id": 1930378,
+        "min_vertex_id": 1,
+        "unique_edges": 2599683,
+        "incidences": 8175008,
+        "singleton_edges": 297129,
+        "vertices_after_singleton_removal": 1836596,
+        "edges_after_singleton_removal": 2302554,
+        "max_edge_size": 280,
+        "upstream_array_nodes": 1930379,
+        "upstream_array_edges": 2599685
+      },
+      "paper_table4": {
+        "id": "DF",
+        "name": "Coauth-DBLP-FULL",
+        "reported_n": 2580030,
+        "reported_m": 3305642,
+        "degree_mean": 3.8,
+        "edge_size_mean": 3.0,
+        "neighbors_mean": 9.8,
+        "raw_size_GB": 0.15
+      },
+      "paper_count_match": {
+        "true_counts_match": false,
+        "upstream_array_counts_match": false
+      },
+      "preprocessing": "deduplicate ordered timestamped vertex lists; author org (sort members, drop singleton edges, map IDs before dropping); author sortEV desc asc; preserve resulting ID gaps",
+      "processed": {
+        "vertices": 1836596,
+        "edges": 2302554,
+        "incidences": 7877879,
+        "max_edge_size": 280,
+        "max_vertex_id": 1930378,
+        "dense_vertex_ids": false,
+        "sha256": "8d86b7b94625d19307e7f0fc25ddc76d05ca62e121b5f3e7aa088a4a90aa4404",
+        "bytes": 61889510
+      },
+      "commands": [
+        [
+          "${ORIGINAL_PROJECT_ROOT}/build/native/HypergraphKCore",
+          "${ORIGINAL_PROJECT_ROOT}/data/processed/cornell-DF-ordered/author-input.hyp",
+          "org"
+        ],
+        [
+          "${ORIGINAL_PROJECT_ROOT}/build/native/HypergraphKCore",
+          "${ORIGINAL_PROJECT_ROOT}/data/processed/cornell-DF-ordered/author-input.hyp",
+          "sortEV",
+          "desc",
+          "asc"
+        ]
+      ]
+    },
+    "core_sha256_values": [
+      "fcf888081965b739e3e1556c555101274d218f85cbc0b2716d0dfd55b4e25580"
+    ]
+  },
+  "THS": {
+    "manifest": {
+      "dataset": "THS",
+      "source": {
+        "name": "threads-stack-overflow-full",
+        "drive_id": "1aUwsvAhse-5tfbVZ494y9Z3cGm5lhXPX",
+        "format": "tar.gz",
+        "source_page": "https://www.cs.cornell.edu/~arb/data/threads-stack-overflow/",
+        "url": "https://drive.usercontent.google.com/download?id=1aUwsvAhse-5tfbVZ494y9Z3cGm5lhXPX&export=download&confirm=t",
+        "bytes": 204730123,
+        "sha256": "0dbceb1a23681dbe3a7e38dde4ff51988d93adab25c31d12c4ea69b2c8846521",
+        "retrieved_at_utc": "2026-10-29T04:13:45.244241+00:00"
+      },
+      "raw": {
+        "vertices": 2675969,
+        "edges": 9705722,
+        "incidences": 23761836,
+        "max_edge_size": 67,
+        "max_vertex_id": 3455073,
+        "dense_vertex_ids": false,
+        "sha256": "ddd8b8435d0b5318e66d344fcc98ea0ad86df050cac51d3188ac186a2e68de70",
+        "bytes": 171700924
+      },
+      "processed": {
+        "vertices": 2321767,
+        "edges": 8589580,
+        "incidences": 22645694,
+        "max_edge_size": 67,
+        "max_vertex_id": 2675966,
+        "dense_vertex_ids": false,
+        "sha256": "b719a410c9eb07d08feaa7c3ff029692779f03b0f8c979148f92964559b65305",
+        "bytes": 180519742
+      },
+      "details": {
+        "temporal": {
+          "timestamped_simplices": 11305356,
+          "incidences_before_edge_dedup": 25578226,
+          "duplicate_members_removed": 0
+        },
+        "unique": {
+          "unique_vertices": 2675969,
+          "max_vertex_id": 3455073,
+          "min_vertex_id": 2,
+          "unique_edges": 9705722,
+          "incidences": 23761836,
+          "singleton_edges": 1116142,
+          "vertices_after_singleton_removal": 2321767,
+          "edges_after_singleton_removal": 8589580,
+          "max_edge_size": 67,
+          "upstream_array_nodes": 3455074,
+          "upstream_array_edges": 9705724
+        }
+      },
+      "preprocessing": "Deduplicate original ordered simplex lists, then author org and sortEV desc asc",
+      "commands": [
+        [
+          "${PROJECT_ROOT}/build/native/HypergraphKCore",
+          "${PROJECT_ROOT}/data/processed/extended-THS/author-input.hyp",
+          "org"
+        ],
+        [
+          "${PROJECT_ROOT}/build/native/HypergraphKCore",
+          "${PROJECT_ROOT}/data/processed/extended-THS/author-input.hyp",
+          "sortEV",
+          "desc",
+          "asc"
+        ]
+      ],
+      "paper_table4": {
+        "id": "THS",
+        "name": "Threads-stack-overflow",
+        "reported_n": 3849392,
+        "reported_m": 9515733,
+        "degree_mean": 6.2,
+        "edge_size_mean": 2.5,
+        "neighbors_mean": 11.9,
+        "raw_size_GB": 0.36
+      },
+      "paper_count_match": {
+        "raw_true_counts": false,
+        "raw_array_counts": false,
+        "processed_array_counts": false,
+        "processed_edges_array_match": false
+      }
+    },
+    "core_sha256_values": [
+      "3d009b3931867b7b635babb3303fef6bbecf0eb99353de1b596500e468ef82db"
+    ]
+  },
+  "TAS": {
+    "manifest": {
+      "dataset": "TAS",
+      "source": {
+        "name": "tags-stack-overflow",
+        "drive_id": "17XFOUNXR8Ecxhmt6YWMPt1uVr5yxiSz7",
+        "format": "tar.gz",
+        "source_page": "https://www.cs.cornell.edu/~arb/data/tags-stack-overflow/",
+        "url": "https://drive.usercontent.google.com/download?id=17XFOUNXR8Ecxhmt6YWMPt1uVr5yxiSz7&export=download&confirm=t",
+        "bytes": 168131276,
+        "sha256": "60057242c0917015ea513dbd38957e38469dd2e51cf0a958d89e1a489fe36b78",
+        "retrieved_at_utc": "2026-10-29T04:14:14.562308+00:00"
+      },
+      "raw": {
+        "vertices": 49998,
+        "edges": 5675497,
+        "incidences": 21887644,
+        "max_edge_size": 5,
+        "max_vertex_id": 49998,
+        "dense_vertex_ids": true,
+        "sha256": "bc6d70a1cf63e65e23aca5e5d35142bc7d3a7bc15175086b1159716911178aea",
+        "bytes": 99046407
+      },
+      "processed": {
+        "vertices": 49945,
+        "edges": 5654914,
+        "incidences": 21867061,
+        "max_edge_size": 5,
+        "max_vertex_id": 49998,
+        "dense_vertex_ids": false,
+        "sha256": "99807b30d2ea59f02042a3cd6beeae2aba21978623cefb6bf82e080067032ec3",
+        "bytes": 131168120
+      },
+      "details": {
+        "temporal": {
+          "timestamped_simplices": 14458875,
+          "incidences_before_edge_dedup": 42920549,
+          "duplicate_members_removed": 0
+        },
+        "unique": {
+          "unique_vertices": 49998,
+          "max_vertex_id": 49998,
+          "min_vertex_id": 1,
+          "unique_edges": 5675497,
+          "incidences": 21887644,
+          "singleton_edges": 20583,
+          "vertices_after_singleton_removal": 49945,
+          "edges_after_singleton_removal": 5654914,
+          "max_edge_size": 5,
+          "upstream_array_nodes": 49999,
+          "upstream_array_edges": 5675499
+        }
+      },
+      "preprocessing": "Deduplicate original ordered simplex lists, then author org and sortEV desc asc",
+      "commands": [
+        [
+          "${PROJECT_ROOT}/build/native/HypergraphKCore",
+          "${PROJECT_ROOT}/data/processed/extended-TAS/author-input.hyp",
+          "org"
+        ],
+        [
+          "${PROJECT_ROOT}/build/native/HypergraphKCore",
+          "${PROJECT_ROOT}/data/processed/extended-TAS/author-input.hyp",
+          "sortEV",
+          "desc",
+          "asc"
+        ]
+      ],
+      "paper_table4": {
+        "id": "TAS",
+        "name": "Tags-stack-overflow",
+        "reported_n": 94872,
+        "reported_m": 7838561,
+        "degree_mean": 303.9,
+        "edge_size_mean": 3.7,
+        "neighbors_mean": 187.5,
+        "raw_size_GB": 0.43
+      },
+      "paper_count_match": {
+        "raw_true_counts": false,
+        "raw_array_counts": false,
+        "processed_array_counts": false,
+        "processed_edges_array_match": false
+      }
+    },
+    "core_sha256_values": [
+      "d5a6425d22f5b7b5e4780ac15c98328df387606f39c91b08e96d226d235afa9b"
+    ]
+  },
+  "SOA": {
+    "manifest": {
+      "dataset": "SOA",
+      "source": {
+        "name": "stackoverflow-answers",
+        "drive_id": "1CQpYlCoENcTXflwvFiKE-PrDS9f0yFKO",
+        "format": "zip",
+        "source_page": "https://www.cs.cornell.edu/~arb/data/stackoverflow-answers/",
+        "url": "https://drive.usercontent.google.com/download?id=1CQpYlCoENcTXflwvFiKE-PrDS9f0yFKO&export=download&confirm=t",
+        "bytes": 346501510,
+        "sha256": "0cd105cfb88ad636a18908f8dd3ebc4fe12d6b235fec9c5729e3b7e7fc17f2ac",
+        "retrieved_at_utc": "2026-10-29T04:15:13.572238+00:00"
+      },
+      "raw": {
+        "vertices": 15211989,
+        "edges": 1103243,
+        "incidences": 26109177,
+        "max_edge_size": 61315,
+        "max_vertex_id": 15211989,
+        "dense_vertex_ids": true,
+        "sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c",
+        "bytes": 213566177
+      },
+      "processed": {
+        "vertices": 15211989,
+        "edges": 1103243,
+        "incidences": 26109177,
+        "max_edge_size": 61315,
+        "max_vertex_id": 15211989,
+        "dense_vertex_ids": true,
+        "sha256": "e2c1b6802962c1528f4a50c01d14c1acf32d9070079a7ac1eee2a8e36eabb04d",
+        "bytes": 219330812
+      },
+      "details": {
+        "zip_member": "stackoverflow-answers/hyperedges-stackoverflow-answers.txt"
+      },
+      "preprocessing": "Preserve original hyperedge records, then author org and sortEV desc asc",
+      "commands": [
+        [
+          "${PROJECT_ROOT}/build/native/HypergraphKCore",
+          "${PROJECT_ROOT}/data/processed/extended-SOA/author-input.hyp",
+          "org"
+        ],
+        [
+          "${PROJECT_ROOT}/build/native/HypergraphKCore",
+          "${PROJECT_ROOT}/data/processed/extended-SOA/author-input.hyp",
+          "sortEV",
+          "desc",
+          "asc"
+        ]
+      ],
+      "paper_table4": {
+        "id": "SOA",
+        "name": "Stack-overflow-answers",
+        "reported_n": 15721061,
+        "reported_m": 722119,
+        "degree_mean": 1.6,
+        "edge_size_mean": 34.9,
+        "neighbors_mean": 1864.1,
+        "raw_size_GB": 0.38
+      },
+      "paper_count_match": {
+        "raw_true_counts": false,
+        "raw_array_counts": false,
+        "processed_array_counts": false,
+        "processed_edges_array_match": false
+      }
+    },
+    "core_sha256_values": [
+      "483c2dc7017d4422b6b00988d80d799ece89cdbc6b5d00fe72ef8d985a3a1036"
+    ]
+  },
+  "AM": {
+    "manifest": {
+      "candidate_paper_id": "AM",
+      "source": {
+        "page": "https://github.com/toggled/vldbsubmission/tree/ea540958c176058b44830960753d854017719be2",
+        "archive_url": "https://drive.google.com/file/d/12cvz-XtfQUbmj-gqlT9z4DKGMuhqLGjs/view",
+        "member": "data/datasets/real/aminer.hyp"
+      },
+      "archive_sha256": "22f00bd5b80738e3ef05c9ff2ce512dbb51f0061b78edfb1fa5dcf893bf45ffe",
+      "raw": {
+        "vertices": 27850748,
+        "edges": 17120546,
+        "incidences": 64555978,
+        "max_edge_size": 611,
+        "max_vertex_id": 31797691,
+        "dense_vertex_ids": false,
+        "sha256": "42b117921fcacf9d51949d4d84e104e0ac9f8e5685750174ee979afe36a7a01e",
+        "bytes": 536376714
+      },
+      "raw_upstream_array_nodes": 31797692,
+      "raw_upstream_array_edges": 17120548,
+      "paper_table4": {
+        "id": "AM",
+        "name": "Aminer",
+        "reported_n": 31177865,
+        "reported_m": 17120548,
+        "degree_mean": 2.1,
+        "edge_size_mean": 3.8,
+        "neighbors_mean": 7.7,
+        "raw_size_GB": 0.97
+      },
+      "paper_count_match": {
+        "true_counts_match": false,
+        "upstream_array_counts_match": false
+      },
+      "commands": [
+        [
+          "${ORIGINAL_PROJECT_ROOT}/build/native/HypergraphKCore",
+          "${ORIGINAL_PROJECT_ROOT}/data/processed/author-AM/author-input.hyp",
+          "org"
+        ],
+        [
+          "${ORIGINAL_PROJECT_ROOT}/build/native/HypergraphKCore",
+          "${ORIGINAL_PROJECT_ROOT}/data/processed/author-AM/author-input.hyp",
+          "sortEV",
+          "desc",
+          "asc"
+        ]
+      ],
+      "preprocessing": "Preserve provided hyperedges; author org and sortEV desc asc; preserve ID gaps",
+      "processed": {
+        "vertices": 27850748,
+        "edges": 17120546,
+        "incidences": 64555978,
+        "max_edge_size": 611,
+        "max_vertex_id": 27850748,
+        "dense_vertex_ids": true,
+        "sha256": "9f6fdd4b0375c7907d9794f1a1a7206bc13c7abe1f8118533aaf02c14ffb7600",
+        "bytes": 568826468
+      }
+    },
+    "core_sha256_values": [
+      "4d1c25cdc23d55ec158532a942835b849956eaad5ddabb65c138a826caf61750"
+    ]
+  },
+  "AMZ": {
+    "manifest": {
+      "dataset": "AMZ",
+      "source": {
+        "name": "amazon-reviews",
+        "drive_id": "1dOeke9Rdh0vySIrsSqIZbGXIggVFqZwP",
+        "format": "zip",
+        "source_page": "https://www.cs.cornell.edu/~arb/data/amazon-reviews/",
+        "url": "https://drive.usercontent.google.com/download?id=1dOeke9Rdh0vySIrsSqIZbGXIggVFqZwP&export=download&confirm=t",
+        "bytes": 259512238,
+        "sha256": "2c01746a15e12238d03120f6833eda8d2e981fc908999b21e9f11aa1b34d2e89",
+        "retrieved_at_utc": "2026-10-29T04:15:29.777144+00:00"
+      },
+      "raw": {
+        "vertices": 2268231,
+        "edges": 4285363,
+        "incidences": 73141425,
+        "max_edge_size": 9350,
+        "max_vertex_id": 2268264,
+        "dense_vertex_ids": false,
+        "sha256": "d08fec0e3c6b5d847d9f7ecf8085f777d625d8af659dd601681ce69ea654190a",
+        "bytes": 549229940
+      },
+      "processed": {
+        "vertices": 2268231,
+        "edges": 4285363,
+        "incidences": 73141425,
+        "max_edge_size": 9350,
+        "max_vertex_id": 2268231,
+        "dense_vertex_ids": true,
+        "sha256": "051b06d2b20ba24f76d4f68eb4d9408e6b42ddb5251bf8a69075dfc92c8a08a7",
+        "bytes": 576273554
+      },
+      "details": {
+        "zip_member": "amazon-reviews/hyperedges-amazon-reviews.txt"
+      },
+      "preprocessing": "Preserve original hyperedge records, then author org and sortEV desc asc",
+      "commands": [
+        [
+          "${PROJECT_ROOT}/build/native/HypergraphKCore",
+          "${PROJECT_ROOT}/data/processed/extended-AMZ/author-input.hyp",
+          "org"
+        ],
+        [
+          "${PROJECT_ROOT}/build/native/HypergraphKCore",
+          "${PROJECT_ROOT}/data/processed/extended-AMZ/author-input.hyp",
+          "sortEV",
+          "desc",
+          "asc"
+        ]
+      ],
+      "paper_table4": {
+        "id": "AMZ",
+        "name": "Amazon",
+        "reported_n": 2887466,
+        "reported_m": 4242423,
+        "degree_mean": 25.2,
+        "edge_size_mean": 17.2,
+        "neighbors_mean": 2106.8,
+        "raw_size_GB": 1.1
+      },
+      "paper_count_match": {
+        "raw_true_counts": false,
+        "raw_array_counts": false,
+        "processed_array_counts": false,
+        "processed_edges_array_match": false
+      }
+    },
+    "core_sha256_values": [
+      "18055272c278d6a3f194e8673ef60921031618fb7896a1173e6b58ce0d03d5f6"
+    ]
+  },
+  "POW-S-approx": {
+    "manifest": {
+      "dataset": "POW-S-approx",
+      "paper_id": "POW-S",
+      "claim": "Same-scale approximation authorized by user; original paper inputs and seeds unavailable.",
+      "requested_parameters": {
+        "requested_nodes": 60000000,
+        "requested_edges": 60000000,
+        "paper_id": "POW-S",
+        "minimum_free_gib": 100
+      },
+      "seed": 5012,
+      "generator": "generateHypergraph_nbr_PowerLaw",
+      "generation_command": [
+        "${PROJECT_ROOT}/build/extended/generate_synthetic",
+        "${PROJECT_ROOT}/data/processed/synthetic-POW-S-approx/generated-raw.hyp",
+        "60000000",
+        "60000000",
+        "5012"
+      ],
+      "raw": {
+        "vertices": 59769610,
+        "edges": 45476589,
+        "incidences": 555634937,
+        "max_edge_size": 117,
+        "max_vertex_id": 59999999,
+        "dense_vertex_ids": false,
+        "strictly_sorted_members": true,
+        "sha256": "7fe59e8ac024cc21d06ad31189ff46e399bc8800fd9947d6e287fb4c36f8c49c",
+        "bytes": 4907904067
+      },
+      "processed": {
+        "vertices": 59769610,
+        "edges": 45476589,
+        "incidences": 555634937,
+        "max_edge_size": 117,
+        "max_vertex_id": 59769610,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "0191f9f37d68b3d21efc5be53f7980c0c236b2156646f9af0050a3b07871da24",
+        "bytes": 4989299069
+      },
+      "paper_table4": {
+        "id": "POW-S",
+        "name": "Synthetic power law",
+        "reported_n": 56785943,
+        "reported_m": 56898102,
+        "degree_mean": 10.4,
+        "edge_size_mean": 10.4,
+        "neighbors_mean": 157.2,
+        "raw_size_GB": 8.8
+      },
+      "generator_binary_sha256": "9816804b43b2698575b09b4d554451b6bbf8930c21fac186ce2d3c391af6a24f",
+      "preprocessing": "Author org; author sortEV desc asc; seeded author generator copy."
+    },
+    "core_sha256_values": [
+      "26efbb77e1ff57833977b7195046b7d41e63bd8785d57c0145eed89312af2894"
+    ]
+  },
+  "POW-L-approx": {
+    "manifest": {
+      "dataset": "POW-L-approx",
+      "paper_id": "POW-L",
+      "claim": "Same-scale approximation authorized by user; original paper inputs and seeds unavailable.",
+      "requested_parameters": {
+        "requested_nodes": 1100000000,
+        "requested_edges": 1100000000,
+        "paper_id": "POW-L",
+        "minimum_free_gib": 800
+      },
+      "seed": 5012,
+      "generator": "generateHypergraph_nbr_PowerLaw",
+      "generation_command": [
+        "${PROJECT_ROOT}/build/extended/generate_synthetic",
+        "${PROJECT_ROOT}/data/processed/synthetic-POW-L-approx/generated-raw.hyp",
+        "1100000000",
+        "1100000000",
+        "5012"
+      ],
+      "raw": {
+        "vertices": 1096436298,
+        "edges": 821411625,
+        "incidences": 11304925605,
+        "max_edge_size": 160,
+        "max_vertex_id": 1099999999,
+        "dense_vertex_ids": false,
+        "strictly_sorted_members": true,
+        "sha256": "eab8074d63a2e4848ebe546e1efd6c1c4a137a38b14d5e04867c6f2f2c0be750",
+        "bytes": 113018353747
+      },
+      "processed": {
+        "vertices": 1096436298,
+        "edges": 821411625,
+        "incidences": 11304925605,
+        "max_edge_size": 160,
+        "max_vertex_id": 1096436298,
+        "dense_vertex_ids": true,
+        "strictly_sorted_members": true,
+        "sha256": "cf059caa708a0b42f7b5d8e74a565de570b1bbbfdca0417aa2ac15771c25fabd",
+        "bytes": 121857265636
+      },
+      "paper_table4": {
+        "id": "POW-L",
+        "name": "Synthetic power law",
+        "reported_n": 1094321853,
+        "reported_m": 1054252694,
+        "degree_mean": 11.5,
+        "edge_size_mean": 11.9,
+        "neighbors_mean": 202.3,
+        "raw_size_GB": 187
+      },
+      "generator_binary_sha256": "9816804b43b2698575b09b4d554451b6bbf8930c21fac186ce2d3c391af6a24f",
+      "preprocessing": "Author org; author sortEV desc asc; seeded author generator copy."
+    },
+    "core_sha256_values": [
+      "aef80dc8122dbb7733d694e499dea12ee3f9f337fd0f26ec18e145752a24eca0"
+    ]
+  }
+}
