@@ -1,0 +1,52 @@
+{
+  "purpose": "Resolve review questions without replacing historical results",
+  "planned_formal_attempts": 141,
+  "timer_study": {
+    "datasets": [
+      "HI",
+      "CO",
+      "GE",
+      "DB",
+      "DF",
+      "THS",
+      "AM",
+      "TAS",
+      "AMZ",
+      "SOA",
+      "POW-S-approx"
+    ],
+    "variants": [
+      "plain",
+      "chrono",
+      "tsc_full",
+      "tsc_sample32"
+    ],
+    "repeats": 3,
+    "attempts": 132
+  },
+  "pows_ablation": {
+    "methods": [
+      "HyperCD*",
+      "HyperCD+ RUC",
+      "HyperCD+ LB"
+    ],
+    "repeats": 3,
+    "attempts": 9,
+    "order": "Random initial permutation with Latin rotation; seed 5012"
+  },
+  "input_checks": {
+    "historical": "Require exact processed SHA, vertices and edges",
+    "TAS": "Canonical-set deduplication candidate retained separately; external preprocessing script/hash still missing",
+    "SOA": "Recreate historical seed-5012 edge fractions; verify exact SHA; count initialization work, not new timed scaling experiments"
+  },
+  "limits": {
+    "process_timeout_seconds": 21600,
+    "virtual_memory_GiB": 500,
+    "cpu": 0,
+    "repeats": 3
+  },
+  "storage": "Only /data/taolei/DSAA5012-Repro-full via scripts/run_on_server.sh; no system changes",
+  "frozen_original": "405-record historical archive is unchanged",
+  "acceptance": "Keep all attempts, full core SHA must match historical reference; timer candidate requires all 3 correct/load-clean attempts, instrumented/plain execution ratio in [0.90,1.10], frequency spread <=0.5%, zero migration and at least 100 samples/region/run. Retain raw and empty-pair-adjusted values; acceptance does not prove zero perturbation.",
+  "status": "prepared; restore process active; formal queue not yet started"
+}
